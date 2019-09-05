@@ -1,5 +1,9 @@
-# TamaTownServerSideScripts
-Recreation's of the server-side code for TamaTown
+# TamaTown
+What is this?
+
+A set of tools for setting up your own TamaTown server, originally hosted by Bandai.
+
+--- Server Side Code ---
 
 NOTE: This is NOT bandai's original code. it wouldnt really be possible to get that unless someone had an exploit back in the day to get the files out, rather- this is my best attempts to re-create what the server side code did.
 
