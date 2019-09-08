@@ -21,6 +21,7 @@ Working so far:
 == V5 ==
 - saving pictures from game_rollercoaster.swf
 - survey/poll entries (request type 5)
+- login/logout 
 
 == V4 ==
 
