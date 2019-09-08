@@ -134,6 +134,10 @@ function get_poll_result(string $country)
 }
 switch($type)
 {
+	case 3: //login
+	$ResultCode="OK";
+	$DateTime = date('Ymd', time());
+	break;
 	case 5: //survey entry
 	$country = "";
 	$key = 0;
@@ -292,6 +296,10 @@ if(isset($EUAnswer))
 if(isset($AOAnswer))
 {
 	$output["AOAnswer"] = $AOAnswer;
+}
+if(isset($DateTime))
+{
+	$output["DateTime"] = $DateTime;
 }
 
 echo(urldecode(http_build_query($output)));
