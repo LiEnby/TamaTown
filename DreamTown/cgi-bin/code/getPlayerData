@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+print("Content-Type: application/json")
+print("")
+print("{'playerName':'Mametchi','characterName':'Mametchi','status':1}")

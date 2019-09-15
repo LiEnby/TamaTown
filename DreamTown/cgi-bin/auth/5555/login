@@ -1,0 +1,67 @@
+#!/usr/bin/python3
+from dreamtown_config import *
+import sys
+import binascii
+import os
+import json
+import sqlite3
+import hashlib
+
+print("Content-Type: application/json")
+print("")
+method = os.environ["REQUEST_METHOD"]
+if method != "POST":
+	print("Expected POST")
+	os._exit()
+	
+
+content_len = int(os.environ["CONTENT_LENGTH"])
+post = sys.stdin.read(content_len)
+jsonData = json.loads(post)
+result = {"status":SUCCESS}
+
+
+def xor(data, key):
+    l = len(key)
+    return bytearray((
+        (data[i] ^ key[i % l]) for i in range(0,len(data))
+    ))
+	
+def TryLogin():
+	username = jsonData['name']
+	password = jsonData['password']
+	authToken = jsonData['authToken']
+	
+	#Check User Exists
+	c = db.cursor()
+	cur = c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
+	rows = cur.fetchone()
+	count = rows[0]
+	
+	if count == 0:
+		result['status'] = USER_DOES_NOT_EXIST
+		return 0
+	#Check Password
+	cur = c.execute('SELECT PassHash,Salt from users WHERE Name= ?',(username,))
+	rows = cur.fetchone()
+	m = hashlib.sha512()
+	m.update(password.encode('utf-8'))
+	InputHash = m.digest()
+	
+	PassHash = rows[0]
+	Salt = rows[1]
+	SaltedHash = binascii.hexlify(xor(bytearray(InputHash),bytearray(binascii.unhexlify(Salt)))).decode('utf-8')
+	if SaltedHash != PassHash:
+		result['status'] = INVALID_PASSWORD
+		return 0
+	c.execute('UPDATE users SET LastSession=? WHERE Name=?',(authToken,username))
+	
+		
+db = sqlite3.connect(SQLLITE_DB_PATH)
+TryLogin()
+db.commit()
+db.close()
+print(json.dumps(result))
+		
+
+	

@@ -1,0 +1,91 @@
+#!/usr/bin/python3
+from dreamtown_config import *
+import sys
+import binascii
+import os
+import json
+import sqlite3
+import hashlib
+import time
+import math
+
+method = os.environ["REQUEST_METHOD"]
+if method != "POST":
+	print("Content-Type: application/json")
+	print("")
+	print("Expected POST")
+	os._exit()
+	
+
+content_len = int(os.environ["CONTENT_LENGTH"])
+post = sys.stdin.read(content_len)
+jsonData = json.loads(post)
+result = {"status":SUCCESS}
+
+
+def xor(data, key):
+    l = len(key)
+    return bytearray((
+        (data[i] ^ key[i % l]) for i in range(0,len(data))
+    ))
+	
+def CheckUserExists(username):
+	c = db.cursor()
+	cur = c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
+	rows = cur.fetchone()
+	count = rows[0]
+	return count
+
+def TryCreate():
+	username = jsonData['name']
+	password = jsonData['password']
+	authToken = jsonData['authToken']
+	securityAnswer = jsonData['answer']
+	questionType = jsonData['questionId']
+	
+	
+	#Check name not in use allredy
+		
+	if CheckUserExists(username):
+		result['status'] = NAME_ALREADY_USED
+		i = 1;
+		while True:
+			newName = username + str(i)
+			i += 1
+			if CheckUserExists(newName) == 0:
+				result['alternateName'] = newName
+				break
+			if i == 3000:
+				result['alternateName'] = ""
+				break
+		return 0
+	
+	#Generate password hash
+	Salt = binascii.hexlify(os.urandom(64)).decode('utf8')
+	
+	m = hashlib.sha512()
+	m.update(password.encode('utf-8'))
+	PasswordHash = m.digest()
+	
+	m = hashlib.sha512()
+	m.update(securityAnswer.encode('utf-8'))
+	AnswerHash = m.digest()
+	
+	PassHashSalted = binascii.hexlify(xor(bytearray(PasswordHash),bytearray(binascii.unhexlify(Salt)))).decode('utf-8')
+	AnswerHashSalted = binascii.hexlify(xor(bytearray(AnswerHash),bytearray(binascii.unhexlify(Salt)))).decode('utf-8')
+	
+	c = db.cursor()
+	c.execute('INSERT INTO users VAlUES (?,?,?,?,?)',(username,PassHashSalted,Salt,authToken,math.floor(time.time())))
+	c.execute('INSERT INTO securityQuestion VAlUES (?,?,?)',(username,questionType,AnswerHashSalted))
+
+
+db = sqlite3.connect(SQLLITE_DB_PATH)
+TryCreate()
+db.commit()
+db.close()
+
+json = json.dumps(result)
+print("Content-Type: application/json")
+print("Content-Length: "+str(len(json)))
+print("")
+print(json)

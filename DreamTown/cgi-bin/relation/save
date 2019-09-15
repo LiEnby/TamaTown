@@ -1,0 +1,57 @@
+#!/usr/bin/python3
+from dreamtown_config import *
+import sys
+import binascii
+import os
+import json
+import sqlite3
+import hashlib
+
+print("Content-Type: application/json")
+print("")
+method = os.environ["REQUEST_METHOD"]
+if method != "POST":
+	print("Expected POST")
+	os._exit()
+	
+
+content_len = int(os.environ["CONTENT_LENGTH"])
+post = sys.stdin.read(content_len)
+jsonData = json.loads(post)
+result = {"status":SUCCESS}
+	
+def TrySave():
+	Relations = jsonData['relations']
+	authToken = jsonData['authToken']
+	
+	c = db.cursor()
+	cur = c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
+	rows = cur.fetchone()
+	count = rows[0]
+	if count == 0:
+		result['status'] = USER_DOES_NOT_EXIST
+		return 0
+	
+	#Find Username
+	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
+	rows = cur.fetchone()
+	username = rows[0]
+	
+	for Relation in Relations:
+		characterId = Relation['characterId']
+		level = Relation['level']
+		progress = Relation['progress']
+		c.execute('DELETE from relationsList where Name=? and CharacterId=?',(username,characterId))
+		c.execute('INSERT INTO relationsList VAlUES (?,?,?,?)',(username,characterId,level,progress))
+
+
+try: 
+	db = sqlite3.connect(SQLLITE_DB_PATH)
+	TrySave()
+	db.commit()
+	db.close()
+except Exception as e:
+	print(e)
+	os._exit()
+
+print(json.dumps(result))

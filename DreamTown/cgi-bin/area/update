@@ -1,0 +1,58 @@
+#!/usr/bin/python3
+from dreamtown_config import *
+import sys
+import binascii
+import os
+import json
+import sqlite3
+import time
+import math
+import hashlib
+
+print("Content-Type: application/json")
+print("")
+method = os.environ["REQUEST_METHOD"]
+if method != "POST":
+	print("Expected POST")
+	os._exit()
+	
+
+content_len = int(os.environ["CONTENT_LENGTH"])
+post = sys.stdin.read(content_len)
+jsonData = json.loads(post)
+result = {"status":SUCCESS}
+	
+def TryUpdate():
+	areaId = jsonData['areaId']
+	nextRubishSpawnTime = jsonData['nextRubishSpawnTime']
+	authToken = jsonData['authToken']
+
+	
+	c = db.cursor()
+	cur = c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
+	rows = cur.fetchone()
+	count = rows[0]
+	if count == 0:
+		result['status'] = USER_DOES_NOT_EXIST
+		return 0
+	
+	#Find Username
+	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
+	rows = cur.fetchone()
+	username = rows[0]
+	if nextRubishSpawnTime == None:
+		nextRubishSpawnTime = math.floor(time.time()) + 600
+	c.execute('UPDATE areaList SET NextRubishSpawnTime=? WHERE Name=? and AreaId=?',(nextRubishSpawnTime,username,areaId))
+	c.execute('UPDATE areaList SET ActualAreaId=? WHERE Name=? and ActualAreaId IS NOT NULL',(areaId,username))
+
+
+try: 
+	db = sqlite3.connect(SQLLITE_DB_PATH)
+	TryUpdate()
+	db.commit()
+	db.close()
+except Exception as e:
+	print(e)
+	os._exit()
+
+print(json.dumps(result))
