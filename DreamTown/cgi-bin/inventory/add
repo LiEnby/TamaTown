@@ -41,7 +41,7 @@ def TryAdd():
 	cur = c.execute('SELECT COUNT(1) from itemList WHERE Name=? and ItemId=?',(username,ItemId))
 	rows = cur.fetchone()
 	count = rows[0]
-	if count == 0:
+	if count != 0:
 		c.execute('UPDATE itemList SET Quantity=Quantity+? WHERE Name=? and ItemId=?',(Quantity,username,ItemId))
 		return 0
 	else:
