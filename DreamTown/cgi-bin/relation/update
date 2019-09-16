@@ -40,8 +40,13 @@ def TryUpdate():
 	rows = cur.fetchone()
 	username = rows[0]
 		
-
-	c.execute('UPDATE relationsList SET Level=?,Progress=? WHERE Name=? AND CharacterId=?',(Level,Progress,username,CharacterId))
+	cur = c.execute('SELECT COUNT(1) from relationsList WHERE Name=? AND CharacterId=?',(username,CharacterId))
+	rows = cur.fetchone()
+	count = rows[0]
+	if count == 0:
+		c.execute('INSERT INTO relationsList VALUES(?,?,?,?)',(username,CharacterId,Level,Progress))
+	else:
+		c.execute('UPDATE relationsList SET Level=?,Progress=? WHERE Name=? AND CharacterId=?',(Level,Progress,username,CharacterId))
 
 
 try: 

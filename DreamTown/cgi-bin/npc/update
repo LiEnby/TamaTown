@@ -42,7 +42,14 @@ def TryUpdate():
 	username = rows[0]
 		
 
-	c.execute('UPDATE npcList SET RequestLevel=?,Pool=?, NextTimestamp=? WHERE Name=? AND CharacterId=?',(RequestLevel,Pool,NextTimestamp,username,CharacterId))
+
+	cur = c.execute('SELECT COUNT(1) from npcList WHERE Name=? AND CharacterId=?',(username,CharacterId))
+	rows = cur.fetchone()
+	count = rows[0]
+	if count == 0:
+		c.execute('INSERT INTO npcList VALUES(?,?,?,?,?)',(username,CharacterId,NextTimestamp,Pool,RequestLevel))
+	else:
+		c.execute('UPDATE npcList SET RequestLevel=?,Pool=?, NextTimestamp=? WHERE Name=? AND CharacterId=?',(RequestLevel,Pool,NextTimestamp,username,CharacterId))
 
 
 try: 

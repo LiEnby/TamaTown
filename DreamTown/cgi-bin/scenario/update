@@ -39,8 +39,14 @@ def TryUpdate():
 	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
 	rows = cur.fetchone()
 	username = rows[0]
-		
-	c.execute('UPDATE scenario SET CustomData=?,StepId=? WHERE Name=? AND ScenarioId=?',(CustomData,StepId,username,ScenarioId))
+	
+	cur = c.execute('SELECT COUNT(1) from scenario WHERE Name=? AND ScenarioId=?',(username,ScenarioId))
+	rows = cur.fetchone()
+	count = rows[0]
+	if count == 0:
+		c.execute('INSERT INTO scenario VALUES(?,?,?,?,0)',(username,ScenarioId,CustomData,StepId))
+	else:
+		c.execute('UPDATE scenario SET CustomData=?,StepId=? WHERE Name=? AND ScenarioId=?',(CustomData,StepId,username,ScenarioId))
 
 
 try: 

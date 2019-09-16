@@ -40,10 +40,16 @@ def TryUpdate():
 	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
 	rows = cur.fetchone()
 	username = rows[0]
-	if nextRubishSpawnTime == None:
-		nextRubishSpawnTime = math.floor(time.time()) + 600
-	c.execute('UPDATE areaList SET NextRubishSpawnTime=? WHERE Name=? and AreaId=?',(nextRubishSpawnTime,username,areaId))
-	c.execute('UPDATE areaList SET ActualAreaId=? WHERE Name=? and ActualAreaId IS NOT NULL',(areaId,username))
+
+	cur = c.execute('SELECT COUNT(1) from areaList WHERE Name=? and AreaId=?',(username,areaId))
+	rows = cur.fetchone()
+	count = rows[0]
+	if count == 0:
+		c.execute('INSERT INTO areaList VALUES(?,NULL,?,?,NULL)',(username,areaId,nextRubishSpawnTime))
+		c.execute('UPDATE areaList SET ActualAreaId=? WHERE Name=? and ActualAreaId IS NOT NULL',(areaId,username))
+	else:
+		c.execute('UPDATE areaList SET NextRubishSpawnTime=? WHERE Name=? and AreaId=?',(nextRubishSpawnTime,username,areaId))
+		c.execute('UPDATE areaList SET ActualAreaId=? WHERE Name=? and ActualAreaId IS NOT NULL',(areaId,username))
 
 
 try: 

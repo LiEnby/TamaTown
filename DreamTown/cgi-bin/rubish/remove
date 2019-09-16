@@ -38,7 +38,7 @@ def TryRemove():
 	username = rows[0]
 		
 
-	c.execute('DELETE from rubishList WHERE Name=? and Id=?',(username,rubishId))
+	c.execute('DELETE from rubishList WHERE Name=? and Id=?',(username,Id))
 	return 0
 
 

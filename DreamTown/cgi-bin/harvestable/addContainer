@@ -41,7 +41,7 @@ def TryAdd():
 		
 	
 	c.execute('DELETE from harvestList where Name=? and AreaId=? and containerName=?',(username,AreaId,ContainerName))
-	c.execute('INSERT INTO harvestList VAlUES (?,?,NULL,?,NULL,?)',(username,harvestableTemplateId,containerName,AreaId))
+	c.execute('INSERT INTO harvestList VAlUES (?,?,NULL,?,NULL,?)',(username,HarvestableTemplateId,ContainerName,AreaId))
 
 
 try: 
