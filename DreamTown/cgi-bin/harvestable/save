@@ -46,8 +46,8 @@ def TrySave():
 		
 		harvestablesEncoded = json.dumps(harvestables)
 		
-		c.execute('DELETE from harvestList where Name=? and AreaId=? and containerName=?',(username,areaId,containerName))
-		c.execute('INSERT INTO harvestList VAlUES (?,?,?,?,?,?)',(username,harvestableTemplateId,lastHarvest,containerName,harvestablesEncoded,areaId))
+		c.execute('DELETE from containerList where Name=? and AreaId=? and containerName=?',(username,areaId,containerName))
+		c.execute('INSERT INTO containerList VAlUES (?,?,?,?,?,?)',(username,harvestableTemplateId,lastHarvest,containerName,harvestablesEncoded,areaId))
 
 
 try: 

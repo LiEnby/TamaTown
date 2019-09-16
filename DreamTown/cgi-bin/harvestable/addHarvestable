@@ -21,8 +21,11 @@ jsonData = json.loads(post)
 result = {"status":SUCCESS}
 	
 def TryAdd():
-	HarvestableTemplateId = jsonData['harvestableTemplateId']
 	ContainerName = jsonData['containerName']
+	ItemTemplateId = jsonData['itemTemplateId']
+	UpdateTime = jsonData['updateTime']
+	Index = jsonData['index']
+	HarvestableName = jsonData['harvestableName']
 	AreaId = jsonData['areaId']
 	authToken = jsonData['authToken']
 	
@@ -38,14 +41,9 @@ def TryAdd():
 	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
 	rows = cur.fetchone()
 	username = rows[0]
-		
-	cur = c.execute('SELECT COUNT(1) from containerList where Name=? and AreaId=? and containerName=?',(username,AreaId,ContainerName))
-	rows = cur.fetchone()
-	count = rows[0]
-	if count == 0:
-		c.execute('INSERT INTO containerList VAlUES (?,?,NULL,?,?)',(username,HarvestableTemplateId,ContainerName,AreaId))
-	else: 
-		c.execute('UPDATE containerList SET HarvestableTemplateId=? where Name=? and AreaId=? and ContainerName=?',(HarvestableTemplateId,username,AreaId,ContainerName))
+	
+	c.execute('DELETE from harvestablesList where Name=? and HarvestableName=? and AreaId=? and ParentContainerName=?',(username,HarvestableName,AreaId,ContainerName))
+	c.execute('INSERT INTO harvestablesList VAlUES (?,?,?,?,?,?,?)',(username,ItemTemplateId,UpdateTime,Index,HarvestableName,AreaId,ContainerName))
 
 
 try: 

@@ -5,6 +5,8 @@ import binascii
 import os
 import json
 import sqlite3
+import math
+import time
 import hashlib
 
 print("Content-Type: application/json")
@@ -21,8 +23,9 @@ jsonData = json.loads(post)
 result = {"status":SUCCESS}
 	
 def TryAdd():
-	HarvestableTemplateId = jsonData['harvestableTemplateId']
 	ContainerName = jsonData['containerName']
+	UpdateTime = jsonData['updateTime']
+	HarvestableName = jsonData['harvestableName']
 	AreaId = jsonData['areaId']
 	authToken = jsonData['authToken']
 	
@@ -38,16 +41,10 @@ def TryAdd():
 	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
 	rows = cur.fetchone()
 	username = rows[0]
-		
-	cur = c.execute('SELECT COUNT(1) from containerList where Name=? and AreaId=? and containerName=?',(username,AreaId,ContainerName))
-	rows = cur.fetchone()
-	count = rows[0]
-	if count == 0:
-		c.execute('INSERT INTO containerList VAlUES (?,?,NULL,?,?)',(username,HarvestableTemplateId,ContainerName,AreaId))
-	else: 
-		c.execute('UPDATE containerList SET HarvestableTemplateId=? where Name=? and AreaId=? and ContainerName=?',(HarvestableTemplateId,username,AreaId,ContainerName))
-
-
+	
+	c.execute('DELETE from harvestablesList where Name=? and HarvestableName=? and AreaId=? and ParentContainerName=?',(username,HarvestableName,AreaId,ContainerName))
+	c.execute('UPDATE containerList SET LastHarvest=? WHERE Name=? AND ContainerName=? AND AreaId=?',(math.floor(time.time()),username,ContainerName,AreaId))
+	
 try: 
 	db = sqlite3.connect(SQLLITE_DB_PATH)
 	TryAdd()

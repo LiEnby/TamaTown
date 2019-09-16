@@ -102,13 +102,26 @@ except:
 	pass
 try:
 	c.execute("""
-	CREATE TABLE harvestList(
+	CREATE TABLE containerList(
 	Name TEXT(12),
 	HarvestableTemplateId int,
 	LastHarvest int,
 	ContainerName TEXT(128),
-	Harvestables TEXT(8024),
 	AreaId int
+	);
+	""")
+except:
+	pass
+try:
+	c.execute("""
+	CREATE TABLE harvestablesList(
+	Name TEXT(12),
+	ItemTemplateId int,
+	UpdateTime int,
+	SlotIndex int,
+	HarvestableName TEXT(128),
+	AreaId int,
+	ParentContainerName TEXT(128)
 	);
 	""")
 except:

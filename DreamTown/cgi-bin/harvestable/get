@@ -37,14 +37,30 @@ def TryGet():
 	rows = cur.fetchone()
 	username = rows[0]
 	
-	cur = c.execute('SELECT HarvestableTemplateId,LastHarvest,ContainerName, Harvestables,AreaId from harvestList WHERE Name=?',(username,))
+	
+	cur = c.execute('SELECT HarvestableTemplateId,LastHarvest,ContainerName,AreaId from containerList WHERE Name=?',(username,))
 	rows = cur.fetchall()
-	harvestList = []
+	containerList = []
 
 	for row in rows:
-		containers = {'harvestableTemplateId':row[0], 'lastHarvest':row[1], 'containerName':row[2], 'harvestables':json.loads(row[3]), 'areaId':row[4]}
-		harvestList.append(containers)
-	result['containers'] = harvestList
+		harvestableTemplateId=row[0]
+		lastHarvest=row[1]
+		containerName=row[2]
+		areaId=row[3]
+		
+		cur = c.execute('SELECT ItemTemplateId,UpdateTime,SlotIndex,HarvestableName from harvestablesList WHERE Name=? AND ParentContainerName=? AND AreaId=?',(username,containerName,areaId))
+		rows2 = cur.fetchall()
+		harvestablesList = []
+		for row2 in rows2:
+			harvestable = {'itemTemplateId':row2[0],'updateTime':row2[1],'index':row2[2],'harvestableName':row2[3]}
+			harvestablesList.append(harvestable)
+		
+		
+		containers = {'harvestableTemplateId':harvestableTemplateId, 'lastHarvest':lastHarvest, 'containerName':containerName, 'harvestables':harvestablesList, 'areaId':areaId}
+		containerList.append(containers)
+	
+
+	result['containers'] = containerList
 	
 
 
