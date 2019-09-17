@@ -19,7 +19,8 @@ Working so far:
 - Removing items from inventory
 - Adding Quests
 - Updating Quest Progress
-- Adding Currencys
+- Adding Currency
+- Removing Currency
 - Password Reset
 - Adding Rubish
 - Removing Rubish
