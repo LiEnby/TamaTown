@@ -13,8 +13,8 @@ this is the same code used on my Familetchi server (http://famita.ml) - the "ORI
 Working so far: 
 
 == Dream Town ==
-- Register
-- Login
+- Account Register
+- Account Login
 - Adding items to inventory
 - Removing items from inventory
 - Adding Quests
