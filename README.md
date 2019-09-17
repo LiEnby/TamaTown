@@ -7,8 +7,8 @@ Code relating to Tamagotchi Town with the aim of making it possible to build a f
 cebd_decrypt - For decrypting and re-encrypting Dream Town binaries and Config files
 ``    usage: cebd_decrypt.exe <mode> <input file> <output file> ``
   modes:
-  ```   -d decrypt
-     -e encrypt```
+``     -d decrypt``
+``     -e encrypt``
 
 --- Server Side Code ---
 
