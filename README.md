@@ -1,8 +1,8 @@
 # TamaTown
 What is this?
-Code relating to Tamagotchi Town with the aim of making it possible to build a fully-functional custom tamagotchi town server
---- Tools ---
-
+Code relating to Tamagotchi Town with the aim of making it possible to build a fully-functional custom tamagotchi town server          
+--- Tools ---                    
+      
 == Dream Town ==       
 cebd_decrypt - For decrypting and re-encrypting Dream Town binaries and Config files              
 ``    usage: cebd_decrypt.exe <mode> <input file> <output file> ``           
