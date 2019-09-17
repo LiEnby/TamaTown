@@ -43,7 +43,7 @@ def TryAdd():
 	username = rows[0]
 	
 	c.execute('DELETE from harvestablesList where Name=? and HarvestableName=? and AreaId=? and ParentContainerName=?',(username,HarvestableName,AreaId,ContainerName))
-	c.execute('UPDATE containerList SET LastHarvest=? WHERE Name=? AND ContainerName=? AND AreaId=?',(math.floor(time.time()),username,ContainerName,AreaId))
+	c.execute('UPDATE containerList SET LastHarvest=? WHERE Name=? AND ContainerName=? AND AreaId=?',(math.floor(time.time()*1000),username,ContainerName,AreaId))
 	
 try: 
 	db = sqlite3.connect(SQLLITE_DB_PATH)

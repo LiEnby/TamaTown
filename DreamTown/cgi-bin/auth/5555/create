@@ -76,7 +76,7 @@ def TryCreate():
 	
 	c = db.cursor()
 	c.execute('UPDATE users SET LastSession=NULL WHERE LastSession=?',(authToken,))
-	c.execute('INSERT INTO users VAlUES (?,?,?,?,?)',(username,PassHashSalted,Salt,authToken,math.floor(time.time())))
+	c.execute('INSERT INTO users VAlUES (?,?,?,?,?)',(username,PassHashSalted,Salt,authToken,math.floor(time.time()*1000)))
 	c.execute('INSERT INTO securityQuestion VAlUES (?,?,?)',(username,questionType,AnswerHashSalted))
 
 

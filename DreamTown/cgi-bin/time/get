@@ -42,7 +42,7 @@ def TryGet():
 	rows = cur.fetchone()
 	CreationTime = rows[0]
 	
-	result['serverTime'] = math.floor(time.time())
+	result['serverTime'] = math.floor(time.time()*1000)
 	result['creationTime'] = CreationTime
 	
 
