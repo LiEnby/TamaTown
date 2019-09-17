@@ -17,6 +17,28 @@ Working so far:
 
 == V6 ==
 
+== Dream Town ==
+- Register
+- Login
+- Adding items to inventory
+- Removing items from inventory
+- Adding Quests
+- Updating Quest Progress
+- Adding Currencys
+- Password Reset
+- Adding Rubish
+- Removing Rubish
+- Relations Updates
+- Character Updates
+- Saving 'Tutorial Clear' Flags
+- Adding Harvestable Items
+- Removing Harvestable Items
+- Switching Areas
+- Updating Area Information
+- Unlocking New Areas
+- Unlocking New Characters
+- Switching Characters
+- Server Time
 
 == V5 ==
 - saving pictures from game_rollercoaster.swf
