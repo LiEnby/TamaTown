@@ -49,4 +49,6 @@ except Exception as e:
 	print(e)
 	os._exit()
 
-print(json.dumps(result))
+#print(json.dumps(result))
+#For some reason, on this request only responding '{"status":1}' or any JSON with a string as a key, Crashes paper mario (erh dream town)
+print("") #print nothing instead.. temporary fix (tho the client never uses the status code to check anything .. it still does assign it to a variable)
