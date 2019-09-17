@@ -7,7 +7,7 @@ A set of tools for setting up your own TamaTown server, originally hosted by Ban
 
 NOTE: This is NOT bandai's original code. it wouldnt really be possible to get that unless someone had an exploit back in the day to get the files out, rather- this is my best attempts to re-create what the server side code did.
 
-this is the same code used on my Familetchi server (http://famita.ml) - the "ORIGINAL" xD
+this is the same code used on my Familetchi & Friends server (http://famita.ml) - the "ORIGINAL" xD
 
 
 Working so far: 
@@ -42,10 +42,10 @@ Working so far:
 
 
 == V5 ==
-- saving pictures from game_rollercoaster.swf
-- survey/poll entries (request type 5)
-- login/logout (request type 1)
-- server time for suvioneirs (request type 2)
+- Saving Pictures from game_rollercoaster.swf
+- Survey/Poll entries (request type 5)
+- Login/Logout Passwords (request type 1)
+- Server Time for Suvioneirs (request type 2)
 
 == V4 ==
 
