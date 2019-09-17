@@ -37,7 +37,7 @@ def CheckUserExists(username):
 	return count
 
 def TryCreate():
-	username = jsonData['name']
+	username = jsonData['name'].lower()
 	password = jsonData['password']
 	authToken = jsonData['authToken']
 	securityAnswer = jsonData['answer']
@@ -75,6 +75,7 @@ def TryCreate():
 	AnswerHashSalted = binascii.hexlify(xor(bytearray(AnswerHash),bytearray(binascii.unhexlify(Salt)))).decode('utf-8')
 	
 	c = db.cursor()
+	c.execute('UPDATE users SET LastSession=NULL WHERE LastSession=?',(authToken,))
 	c.execute('INSERT INTO users VAlUES (?,?,?,?,?)',(username,PassHashSalted,Salt,authToken,math.floor(time.time())))
 	c.execute('INSERT INTO securityQuestion VAlUES (?,?,?)',(username,questionType,AnswerHashSalted))
 

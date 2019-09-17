@@ -20,16 +20,9 @@ post = sys.stdin.read(content_len)
 jsonData = json.loads(post)
 result = {"status":SUCCESS}
 
-
-def xor(data, key):
-    l = len(key)
-    return bytearray((
-        (data[i] ^ key[i % l]) for i in range(0,len(data))
-    ))
 	
-def TryLogin():
+def TryRetrive():
 	username = jsonData['name'].lower()
-	password = jsonData['password']
 	authToken = jsonData['authToken']
 	
 	#Check User Exists
@@ -41,25 +34,15 @@ def TryLogin():
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
-	#Check Password
-	cur = c.execute('SELECT PassHash,Salt from users WHERE Name= ?',(username,))
+	#Check QuestionType
+	cur = c.execute('SELECT QuestionType from securityQuestion WHERE Name=?',(username,))
 	rows = cur.fetchone()
-	m = hashlib.sha512()
-	m.update(password.encode('utf-8'))
-	InputHash = m.digest()
-	
-	PassHash = rows[0]
-	Salt = rows[1]
-	SaltedHash = binascii.hexlify(xor(bytearray(InputHash),bytearray(binascii.unhexlify(Salt)))).decode('utf-8')
-	if SaltedHash != PassHash:
-		result['status'] = INVALID_PASSWORD
-		return 0
-	c.execute('UPDATE users SET LastSession=NULL WHERE LastSession=?',(authToken,))
-	c.execute('UPDATE users SET LastSession=? WHERE Name=?',(authToken,username))
+	QuestionType = rows[0]
+	result['questionId'] = QuestionType 
 	
 		
 db = sqlite3.connect(SQLLITE_DB_PATH)
-TryLogin()
+TryRetrive()
 db.commit()
 db.close()
 print(json.dumps(result))
