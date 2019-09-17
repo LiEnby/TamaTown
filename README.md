@@ -12,11 +12,6 @@ this is the same code used on my Familetchi server (http://famita.ml) - the "ORI
 
 Working so far: 
 
-== V7 ==
-
-
-== V6 ==
-
 == Dream Town ==
 - Register
 - Login
@@ -39,6 +34,12 @@ Working so far:
 - Unlocking New Characters
 - Switching Characters
 - Server Time
+
+== V7 ==
+
+
+== V6 ==
+
 
 == V5 ==
 - saving pictures from game_rollercoaster.swf
