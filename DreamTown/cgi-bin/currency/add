@@ -21,7 +21,7 @@ post = sys.stdin.read(content_len)
 jsonData = json.loads(post)
 result = {"status":SUCCESS}
 	
-def TryRemove():
+def TryAdd():
 	CurrencyId = jsonData['currencyId']
 	Quantity = jsonData['quantity']
 	authToken = jsonData['authToken']
@@ -39,13 +39,20 @@ def TryRemove():
 	rows = cur.fetchone()
 	username = rows[0]
 	
-	c.execute('UPDATE currencyList SET Quantity=Quantity+? WHERE Name=? and CurrencyId=?',(Quantity,username,CurrencyId))
+	c = db.cursor()
+	cur = c.execute('SELECT COUNT(1) from currencyList WHERE Name=? and CurrencyId=?',(username,CurrencyId))
+	rows = cur.fetchone()
+	count = rows[0]
+	if count == 0:
+		c.execute('INSERT INTO currencyList VAlUES (?,?,?)',(username,CurrencyId,Quantity))
+	else:
+		c.execute('UPDATE currencyList SET Quantity=Quantity+? WHERE Name=? and CurrencyId=?',(Quantity,username,CurrencyId))
 	
 
 
 try: 
 	db = sqlite3.connect(SQLLITE_DB_PATH)
-	TryRemove()
+	TryAdd()
 	db.commit()
 	db.close()
 except Exception as e:
