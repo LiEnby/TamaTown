@@ -139,7 +139,7 @@ def CgiGetCode():
 			tamaIndex = GetTamaIndex(loginNo,type)
 			
 			iid = str(itemId)
-			while len(iid) != 3:
+			while len(iid) != 2:
 				iid = "0"+iid
 			ggp = str(gotchiPoints)
 			while len(ggp) != 2:
