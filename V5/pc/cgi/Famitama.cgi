@@ -145,7 +145,7 @@ def CgiGetCode():
 			while len(ggp) != 2:
 				ggp = "0"+ggp
 			
-			logoutNo = str(codeType)+str(region)+iid+str(tamaIndex[0])+ggp+str(tamaIndex[1])
+			logoutNo = str(codeType)+str(region)+str(iid)[0]+"0"+str(iid)[1]+str(tamaIndex[0])+ggp+str(tamaIndex[1])
 			logoutNo += str(CheckBit(logoutNo,False,9))
 			output['PasswordUp'] = logoutNo[:5]
 			output['PasswordDown'] = logoutNo[5:]
