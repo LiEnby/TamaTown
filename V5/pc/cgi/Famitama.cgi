@@ -57,7 +57,7 @@ def FindCheckLoc(code):
 def GetTamaIndex(code, type):
 	tamaIndex = []
 	if type == 0: 
-		tamaIndex.append(code[7])
+		tamaIndex.append(code[5])
 		tamaIndex.append(code[8])
 	elif type == 1: 
 		tamaIndex.append(code[5])
@@ -114,7 +114,7 @@ def CgiGetCode():
 		if gotchiPoints < 0 or gotchiPoints > 5:
 			output['ResultCode']="ERROR"
 			return
-		if itemId < 0 or itemId > 99:
+		if itemId < 0 or itemId > 999:
 			output['ResultCode']="ERROR"
 			return
 		if codeType < 0 or codeType > 4:
@@ -139,13 +139,13 @@ def CgiGetCode():
 			tamaIndex = GetTamaIndex(loginNo,type)
 			
 			iid = str(itemId)
-			while len(iid) != 2:
+			while len(iid) != 3:
 				iid = "0"+iid
 			ggp = str(gotchiPoints)
 			while len(ggp) != 2:
 				ggp = "0"+ggp
 			
-			logoutNo = str(codeType)+str(region)+iid[0]+"0"+iid[1]+str(tamaIndex[0])+ggp+str(tamaIndex[1])
+			logoutNo = str(codeType)+str(region)+iid+str(tamaIndex[0])+ggp+str(tamaIndex[1])
 			logoutNo += str(CheckBit(logoutNo,False,9))
 			output['PasswordUp'] = logoutNo[:5]
 			output['PasswordDown'] = logoutNo[5:]
