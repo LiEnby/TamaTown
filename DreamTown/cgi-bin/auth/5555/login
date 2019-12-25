@@ -21,12 +21,6 @@ jsonData = json.loads(post)
 result = {"status":SUCCESS}
 
 
-def xor(data, key):
-    l = len(key)
-    return bytearray((
-        (data[i] ^ key[i % l]) for i in range(0,len(data))
-    ))
-	
 def TryLogin():
 	username = jsonData['name'].lower()
 	password = jsonData['password']
@@ -43,14 +37,14 @@ def TryLogin():
 		return 0
 	#Check Password
 	cur = c.execute('SELECT PassHash,Salt from users WHERE Name= ?',(username,))
-	rows = cur.fetchone()
-	m = hashlib.sha512()
-	m.update(password.encode('utf-8'))
-	InputHash = m.digest()
 	
+	rows = cur.fetchone()
+
 	PassHash = rows[0]
 	Salt = rows[1]
-	SaltedHash = binascii.hexlify(xor(bytearray(InputHash),bytearray(binascii.unhexlify(Salt)))).decode('utf-8')
+	
+	SaltedHash = pass_salt_algo(password,Salt)
+	
 	if SaltedHash != PassHash:
 		result['status'] = INVALID_PASSWORD
 		return 0

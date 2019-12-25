@@ -1,7 +1,11 @@
+# Add <server_path>/friends/cgi-bin to $PYTHONPATH in /etc/enviroment and as a SetVar for your VirtualHost in apache2 
+
 import sqlite3
+import binascii
+import hashlib 
 
 #MAKE SURE THE DB IS *OUTSIDE* THE PUBLIC_HTML!!!
-SQLLITE_DB_PATH = "/home/silica/DreamTown.db"
+SQLLITE_DB_PATH = "/home/web/DreamTown.db"
 
 SUCCESS = 1
 USER_DOES_NOT_EXIST = 2
@@ -11,6 +15,28 @@ ANSWER_INCORRECT = 5
 	
 	
 db = sqlite3.connect(SQLLITE_DB_PATH)	
+
+
+def xor(data, key):
+    l = len(key)
+    return bytearray((
+        (data[i] ^ key[i % l]) for i in range(0,len(data))
+    ))
+	
+
+def pass_salt_algo(passwd, Salt):
+	m = hashlib.sha512()
+	m.update(passwd.encode('utf-8'))
+	passHash = m.digest()
+	
+	salt = bytearray(binascii.unhexlify(Salt))
+	saltedHash = xor(passHash,salt);
+	
+	m = hashlib.sha512()
+	m.update(saltedHash)
+	outHash = m.digest();
+	
+	return binascii.hexlify(outHash).decode("utf-8")
 
 c = db.cursor()
 try:

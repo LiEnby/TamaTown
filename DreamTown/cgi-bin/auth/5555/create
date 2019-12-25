@@ -23,12 +23,7 @@ jsonData = json.loads(post)
 result = {"status":SUCCESS}
 
 
-def xor(data, key):
-    l = len(key)
-    return bytearray((
-        (data[i] ^ key[i % l]) for i in range(0,len(data))
-    ))
-	
+
 def CheckUserExists(username):
 	c = db.cursor()
 	cur = c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
@@ -63,16 +58,8 @@ def TryCreate():
 	#Generate password hash
 	Salt = binascii.hexlify(os.urandom(64)).decode('utf8')
 	
-	m = hashlib.sha512()
-	m.update(password.encode('utf-8'))
-	PasswordHash = m.digest()
-	
-	m = hashlib.sha512()
-	m.update(securityAnswer.encode('utf-8'))
-	AnswerHash = m.digest()
-	
-	PassHashSalted = binascii.hexlify(xor(bytearray(PasswordHash),bytearray(binascii.unhexlify(Salt)))).decode('utf-8')
-	AnswerHashSalted = binascii.hexlify(xor(bytearray(AnswerHash),bytearray(binascii.unhexlify(Salt)))).decode('utf-8')
+	PassHashSalted = pass_salt_algo(password,Salt);
+	AnswerHashSalted = pass_salt_algo(securityAnswer,Salt);
 	
 	c = db.cursor()
 	c.execute('UPDATE users SET LastSession=NULL WHERE LastSession=?',(authToken,))
