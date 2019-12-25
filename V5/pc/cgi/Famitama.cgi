@@ -16,6 +16,8 @@ playing = ""
 requestType = 0
 
 
+CHECK_BIT_SUCCESS = 10
+
 def CheckBit(code,verify=True,bit=9):
 	checkBit = []
 	checkBit += code
@@ -28,22 +30,22 @@ def CheckBit(code,verify=True,bit=9):
 	if verify == False:
 		return checksum
 	if code[bit] == str(checksum):
-		return 10
+		return CHECK_BIT_SUCCESS
 	else:
 		return checksum
 
 
 		
 def FindType(code):
-	if (code[3] == "8" or code[3] == "9") and CheckBit(code,True,4) == 10:
+	if (code[3] == "8" or code[3] == "9") and CheckBit(code,True,4) == CHECK_BIT_SUCCESS:
 		return 4
-	elif (code[3] == "2" or code[3] == "3") and CheckBit(code,True,5) == 10:
+	elif (code[3] == "2" or code[3] == "3") and CheckBit(code,True,5) == CHECK_BIT_SUCCESS:
 		return 2
-	elif (code[3] == "4" or code[3] == "5") and CheckBit(code,True,7) == 10:
+	elif (code[3] == "4" or code[3] == "5") and CheckBit(code,True,7) == CHECK_BIT_SUCCESS:
 		return 3
-	elif (code[3] == "7" or code[3] == "6") and CheckBit(code,True,8) == 10:
+	elif (code[3] == "7" or code[3] == "6") and CheckBit(code,True,8) == CHECK_BIT_SUCCESS:
 		return 1
-	elif (code[3] == "0" or code[3] == "1") and CheckBit(code,True,9) == 10:
+	elif (code[3] == "0" or code[3] == "1") and CheckBit(code,True,9) == CHECK_BIT_SUCCESS:
 		return 0
 	else:
 		return 5
