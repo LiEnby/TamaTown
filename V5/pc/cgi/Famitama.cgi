@@ -4,6 +4,7 @@ import cgi
 import cgitb;
 import urllib
 import urllib.parse
+import random
 
 print("Content-Type: text/plain")
 print("")
@@ -17,6 +18,7 @@ requestType = 0
 
 
 CHECK_BIT_SUCCESS = 10
+INVALID_TYPE = 5
 
 def CheckBit(code,verify=True,bit=9):
 	checkBit = []
@@ -48,7 +50,7 @@ def FindType(code):
 	elif (code[3] == "0" or code[3] == "1") and CheckBit(code,True,9) == CHECK_BIT_SUCCESS:
 		return 0
 	else:
-		return 5
+		return INVALID_TYPE
 
 def FindCheckLoc(code):
 	i = 0
@@ -126,7 +128,7 @@ def CgiGetCode():
 	if requestType == 1:
 		if codeType == 0: ## login
 			type = FindType(loginNo)
-			if type == 5:
+			if type == INVALID_TYPE:
 				output['ResultCode']="ERROR"
 				return
 			else: 
@@ -135,20 +137,40 @@ def CgiGetCode():
 				output['CharacterCode']=str(CharCode[0])+str(CharCode[1])
 				output['VER']=str(GetTamaRegion(loginNo,type))
 				return
-		elif codeType != 0:
+		elif codeType != 0: ## logout
+			# Login parameters
 			type = FindType(loginNo)
 			region = GetTamaRegion(loginNo,type)
 			tamaIndex = GetTamaIndex(loginNo,type)
 			
+			# Input validation
+			if type == INVALID_TYPE:
+				output['ResultCode']="ERROR"
+				return
+			
+			#Logout parameters
+			logoutType = 0 
+			obfuscationBit = random.randint(0,1)
+			
+			
 			iid = str(itemId)
 			while len(iid) != 3:
 				iid = "0"+iid
-			ggp = str(gotchiPoints)
-			while len(ggp) != 2:
-				ggp = "0"+ggp
-			
-			logoutNo = str(codeType)+str(region)+iid[1]+iid[0]+iid[2]+str(tamaIndex[0])+ggp+str(tamaIndex[1])
-			logoutNo += str(CheckBit(logoutNo,False,9))
+
+			if logoutType == 0:
+				logoutNo = str(codeType)
+				logoutNo += str(region)
+				logoutNo += iid[1]
+				logoutNo += str(obfuscationBit)
+				logoutNo += iid[2]
+				logoutNo += str(tamaIndex[0])
+				logoutNo += str(logoutType)
+				if codeType == 2: # GP
+					logoutNo += str(gotchiPoints)
+				else:
+					logoutNo += iid[0]
+				logoutNo += str(tamaIndex[1])
+				logoutNo += str(CheckBit(logoutNo,False,9))
 			output['PasswordUp'] = logoutNo[:5]
 			output['PasswordDown'] = logoutNo[5:]
 			return
