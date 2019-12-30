@@ -149,28 +149,52 @@ def CgiGetCode():
 				return
 			
 			#Logout parameters
-			logoutType = 0 
-			obfuscationBit = random.randint(0,1)
+			unknownValue = 0 
+			logoutType = random.randint(0,3)
 			
+			if codeType == 2: #GP
+				itemId = random.randint(0,999)
 			
-			iid = str(itemId)
+			iid = str(itemId) 
 			while len(iid) != 3:
 				iid = "0"+iid
 
-			if logoutType == 0:
+			
+			if logoutType == 0 or logoutType == 1:
 				logoutNo = str(codeType)
 				logoutNo += str(region)
 				logoutNo += iid[1]
-				logoutNo += str(obfuscationBit)
+				logoutNo += str(logoutType)
 				logoutNo += iid[2]
 				logoutNo += str(tamaIndex[0])
-				logoutNo += str(logoutType)
+				logoutNo += str(unknownValue)
 				if codeType == 2: # GP
 					logoutNo += str(gotchiPoints)
 				else:
 					logoutNo += iid[0]
 				logoutNo += str(tamaIndex[1])
-				logoutNo += str(CheckBit(logoutNo,False,9))
+				logoutNo += "C"
+			elif logoutType == 2 or logoutType == 3:
+				logoutNo = iid[1]
+				logoutNo += region
+				logoutNo += tamaIndex[0]
+				logoutNo += str(logoutType)
+				logoutNo += tamaIndex[1]
+				logoutNo += "C"
+				if codeType == 2: # GP
+					logoutNo += str(gotchiPoints)
+				else:
+					logoutNo += iid[0]
+				logoutNo += iid[2]
+				logoutNo += str(unknownValue)
+				logoutNo += str(codeType)
+				
+				
+			# Calculate checksum
+			indx = logoutNo.index("C")
+			cbit = str(CheckBit(logoutNo,False,indx))
+			logoutNo = logoutNo.replace("C",cbit)
+			
 			output['PasswordUp'] = logoutNo[:5]
 			output['PasswordDown'] = logoutNo[5:]
 			return
