@@ -218,12 +218,12 @@ def TryGet():
     for i in range(0,3):
         logoutdata[i] ^= step3count_xor[step3count];
 
-    logoutPassword = '%X%X%X%X%X%X%X%X' % (
+    logoutPassword = '%X%X%X%X-%X%X%X%X' % (
     logoutdata[1] >> 4, logoutdata[1] & 0xF,
     logoutdata[0] >> 4, logoutdata[0] & 0xF,
     checksum          , logoutdata[3] & 0xF,
     logoutdata[2] >> 4, logoutdata[2] & 0xF)
-    
+        
     result["code"] = logoutPassword
 try: 
     db = sqlite3.connect(SQLLITE_DB_PATH)
