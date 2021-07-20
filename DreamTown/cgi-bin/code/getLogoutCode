@@ -6,6 +6,7 @@ import json
 import sqlite3
 import time
 import hashlib
+import random
 
 #
 #    Bassed off https://github.com/MrBlinky/Tamagotchi-friends-code-generator
@@ -33,7 +34,6 @@ import hashlib
 #    SOFTWARE.
 
 
-tamagotchi = ["", "Aokumotchi", "Pinkbotchi"]
 
 passwordchars1  = "0123456789ABCDEF" 
 passwordchars2  = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0"
@@ -90,6 +90,26 @@ def InputValidation(password):
     
     return True
 
+def GetItem(special):
+    #check item input
+    if not special:
+        itemType = random.randrange(0, 2)
+    else:
+        itemType = random.randrange(2, 6)
+    itemId = random.randrange(0, 30)
+    if itemType == 0:
+        pass
+    if itemType == 1:
+        itemId += 30;
+    else:
+        if itemId > 14:
+            itemId = 14;
+        itemId += (itemType-2) * 15;
+        itemType = 2;
+    return [itemId, itemType]
+    
+
+
 def GetName(password, stepCount):
     name = '';
     for i in range(0,8): #get user name
@@ -112,6 +132,7 @@ def TryGet():
 
     #validate
     loginPassword = jsonData["code"].upper()
+    ticketNumber = jsonData['ticketNumber']
     if not InputValidation(loginPassword):
         result['status'] = 2 # code invalid
         return 0        
@@ -149,8 +170,6 @@ def TryGet():
     logindata[0] ^= checksum_xor[checksum];
     logindata[1] ^= checksum_xor[checksum];
     
-    tama_id = logindata[0] & 0x3F
-    
     # Check checksum
     c = 0;
     for i in range(0, 17):
@@ -163,17 +182,56 @@ def TryGet():
         result['status'] = 2 # code invalid
         return 0        
     
-    result['playerName'] = name.strip()
-    result['characterName'] = GetTamaName(tama_id)
-
+    tama_id = logindata[0] & 0x3F
+    step7count = logindata[1] >> 4;
+    device_id  = (logindata[0] >> 6) | ((logindata[1] & 0xF) << 2);
     
+    special = False
+    if ticketNumber > 1:
+        special = True
+    
+    itemResult = GetItem(special)
+    itemId = itemResult[0]
+    itemType = itemResult[1]
+    
+    #create logout data                                               
+    logoutdata = [ 
+                logindata[0],                                    
+                logindata[1] | 0x80,                             
+                itemId,                           
+                (step3count << 3) | itemType
+                ]
+    checksum = (0 - (logoutdata[1] >> 4) - (logoutdata[1] & 0xF) -
+                     (logoutdata[0] >> 4) - (logoutdata[0] & 0xF) -
+                     (logoutdata[2] >> 4) - (logoutdata[2] & 0xF) -
+                     (logoutdata[3] & 0xF)) & 0XF;
+    
+    #xor checksum
+    for i in range(0,3):
+        logoutdata[i] ^= checksum_xor[checksum];
+        
+    #player name xoring    
+    logoutdata[0] ^= namechars_xor[namechars.find(name[1])];
+    logoutdata[1] ^= namechars_xor[namechars.find(name[3])];
+    logoutdata[2] ^= namechars_xor[namechars.find(name[5])];
+    #step 3 counter xoring    
+    for i in range(0,3):
+        logoutdata[i] ^= step3count_xor[step3count];
+
+    logoutPassword = '%X%X%X%X%X%X%X%X' % (
+    logoutdata[1] >> 4, logoutdata[1] & 0xF,
+    logoutdata[0] >> 4, logoutdata[0] & 0xF,
+    checksum          , logoutdata[3] & 0xF,
+    logoutdata[2] >> 4, logoutdata[2] & 0xF)
+    
+    result["code"] = logoutPassword
 try: 
-	db = sqlite3.connect(SQLLITE_DB_PATH)
-	TryGet()
-	db.commit()
-	db.close()
+    db = sqlite3.connect(SQLLITE_DB_PATH)
+    TryGet()
+    db.commit()
+    db.close()
 except Exception as e:
-	print(e)
-	os._exit()
+    print(e)
+    os._exit()
 
 print(json.dumps(result))
