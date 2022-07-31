@@ -17,7 +17,7 @@ ANSWER_INCORRECT = 5
 def DbConnect():
     return mariadb.connect(
             user="root",
-            password="ac63a6211f1f33656865d300bed172ec",
+            password="DB_CREDENTIALS",
             host="127.0.0.1",
             port=3306,
             database="dreamtown"
