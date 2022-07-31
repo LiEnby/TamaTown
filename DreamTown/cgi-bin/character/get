@@ -25,27 +25,27 @@ def TryGet():
 	authToken = jsonData['authToken']
 	
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	count = rows[0]
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
 	
 	#Find Username
-	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	username = rows[0]
 	
-	cur = c.execute('SELECT actualCharacterId from characterList WHERE Name=? AND ActualCharacterId NOT NULL',(username,))
-	rows = cur.fetchone()
+	c.execute('SELECT actualCharacterId from characterList WHERE Name=? AND actualCharacterId IS NOT NULL',(username,))
+	rows = c.fetchone()
 	actualCharacterId = rows[0]
-	
-	cur = c.execute('SELECT CharacterId from characterList WHERE Name=?',(username,))
-	rows = cur.fetchall()
+		
+	c.execute('SELECT CharacterId from characterList WHERE Name=?',(username,))
+	rows = c.fetchall()
 	characterIds = []
 	for row in rows:
-		if row[0] != None:
+		if row[0] != None and row[0] != "":
 			characterIds.append(row[0])
 	
 	result['actualCharacterId'] = actualCharacterId
@@ -54,7 +54,7 @@ def TryGet():
 
 
 try: 
-	db = sqlite3.connect(SQLLITE_DB_PATH)
+	db = DbConnect()
 	TryGet()
 	db.commit()
 	db.close()

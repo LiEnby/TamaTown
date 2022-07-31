@@ -1,11 +1,11 @@
 # Add <server_path>/friends/cgi-bin to $PYTHONPATH in /etc/enviroment and as a SetVar for your VirtualHost in apache2 
 
-import sqlite3
+import mariadb
 import binascii
 import hashlib 
 
 #MAKE SURE THE DB IS *OUTSIDE* THE PUBLIC_HTML!!!
-SQLLITE_DB_PATH = "/home/web/DreamTown.db"
+#SQLLITE_DB_PATH = "/home/web/DreamTown.db"
 
 SUCCESS = 1
 USER_DOES_NOT_EXIST = 2
@@ -13,9 +13,17 @@ INVALID_PASSWORD = 3
 NAME_ALREADY_USED = 4   
 ANSWER_INCORRECT = 5
 	
-	
-db = sqlite3.connect(SQLLITE_DB_PATH)	
 
+def DbConnect():
+    return mariadb.connect(
+            user="root",
+            password="MYSQL_PASSWORD",
+            host="127.0.0.1",
+            port=3306,
+            database="dreamtown"
+    )
+    
+db = DbConnect()
 
 def xor(data, key):
     l = len(key)
@@ -40,11 +48,6 @@ def pass_salt_algo(passwd, Salt):
 
 c = db.cursor()
 
-try:
-	c.execute("""PRAGMA journal_mode=WAL;""")
-except:
-	pass
-    
 try:
 	c.execute("""
 	CREATE TABLE users(

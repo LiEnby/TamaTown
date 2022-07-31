@@ -27,21 +27,21 @@ def TryRetrive():
 	
 	#Check User Exists
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
+	rows = c.fetchone()
 	count = rows[0]
 	
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
 	#Check QuestionType
-	cur = c.execute('SELECT QuestionType from securityQuestion WHERE Name=?',(username,))
-	rows = cur.fetchone()
+	c.execute('SELECT QuestionType from securityQuestion WHERE Name=?',(username,))
+	rows = c.fetchone()
 	QuestionType = rows[0]
 	result['questionId'] = QuestionType 
 	
 		
-db = sqlite3.connect(SQLLITE_DB_PATH)
+db = DbConnect()
 TryRetrive()
 db.commit()
 db.close()

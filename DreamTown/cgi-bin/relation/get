@@ -24,21 +24,21 @@ def TryGet():
 	authToken = jsonData['authToken']
 	
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	count = rows[0]
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
 	
 	#Find Username
-	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	username = rows[0]
 	
 
-	cur = c.execute('SELECT CharacterId,Level,Progress from relationsList WHERE Name=?',(username,))
-	rows = cur.fetchall()
+	c.execute('SELECT CharacterId,Level,Progress from relationsList WHERE Name=?',(username,))
+	rows = c.fetchall()
 	relations = []
 	for row in rows:
 		relation = {"characterId": row[0],"level": row[1],"progress": row[2]}
@@ -46,7 +46,7 @@ def TryGet():
 	result['relations'] = relations
 
 try: 
-	db = sqlite3.connect(SQLLITE_DB_PATH)
+	db = DbConnect()
 	TryGet()
 	db.commit()
 	db.close()

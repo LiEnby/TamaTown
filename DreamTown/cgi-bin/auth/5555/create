@@ -26,8 +26,8 @@ result = {"status":SUCCESS}
 
 def CheckUserExists(username):
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
+	rows = c.fetchone()
 	count = rows[0]
 	return count
 
@@ -67,7 +67,7 @@ def TryCreate():
 	c.execute('INSERT INTO securityQuestion VAlUES (?,?,?)',(username,questionType,AnswerHashSalted))
 
 
-db = sqlite3.connect(SQLLITE_DB_PATH)
+db = DbConnect()
 TryCreate()
 db.commit()
 db.close()

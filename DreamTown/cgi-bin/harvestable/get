@@ -25,21 +25,21 @@ def TryGet():
 	authToken = jsonData['authToken']
 	
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	count = rows[0]
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
 	
 	#Find Username
-	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	username = rows[0]
 	
 	
-	cur = c.execute('SELECT HarvestableTemplateId,LastHarvest,ContainerName,AreaId from containerList WHERE Name=?',(username,))
-	rows = cur.fetchall()
+	c.execute('SELECT HarvestableTemplateId,LastHarvest,ContainerName,AreaId from containerList WHERE Name=?',(username,))
+	rows = c.fetchall()
 	containerList = []
 
 	for row in rows:
@@ -48,8 +48,8 @@ def TryGet():
 		containerName=row[2]
 		areaId=row[3]
 		
-		cur = c.execute('SELECT ItemTemplateId,UpdateTime,SlotIndex,HarvestableName from harvestablesList WHERE Name=? AND ParentContainerName=? AND AreaId=?',(username,containerName,areaId))
-		rows2 = cur.fetchall()
+		c.execute('SELECT ItemTemplateId,UpdateTime,SlotIndex,HarvestableName from harvestablesList WHERE Name=? AND ParentContainerName=? AND AreaId=?',(username,containerName,areaId))
+		rows2 = c.fetchall()
 		harvestablesList = []
 		for row2 in rows2:
 			harvestable = {'itemTemplateId':row2[0],'updateTime':row2[1],'index':row2[2],'harvestableName':row2[3]}
@@ -65,7 +65,7 @@ def TryGet():
 
 
 try: 
-	db = sqlite3.connect(SQLLITE_DB_PATH)
+	db = DbConnect()
 	TryGet()
 	db.commit()
 	db.close()

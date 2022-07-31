@@ -25,20 +25,20 @@ def TryGet():
 	authToken = jsonData['authToken']
 	
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	count = rows[0]
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
 	
 	#Find Username
-	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	username = rows[0]
 	
-	cur = c.execute('SELECT CurrencyId,Quantity from currencyList WHERE Name=?',(username,))
-	rows = cur.fetchall()
+	c.execute('SELECT CurrencyId,Quantity from currencyList WHERE Name=?',(username,))
+	rows = c.fetchall()
 	currencyList = []
 	for row in rows:
 		currency = {'currencyId':row[0], 'quantity':row[1]}
@@ -48,7 +48,7 @@ def TryGet():
 
 
 try: 
-	db = sqlite3.connect(SQLLITE_DB_PATH)
+	db = DbConnect()
 	TryGet()
 	db.commit()
 	db.close()

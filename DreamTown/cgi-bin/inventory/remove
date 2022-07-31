@@ -26,20 +26,20 @@ def TryRemove():
 	authToken = jsonData['authToken']
 	
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	count = rows[0]
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
 	
 	#Find Username
-	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	username = rows[0]
 		
-	cur = c.execute('SELECT Quantity from itemList WHERE Name=? and ItemId=?',(username,ItemId))
-	rows = cur.fetchone()
+	c.execute('SELECT Quantity from itemList WHERE Name=? and ItemId=?',(username,ItemId))
+	rows = c.fetchone()
 	curQuantity = rows[0]
 	if curQuantity - Quantity > 0:
 		c.execute('UPDATE itemList SET Quantity=Quantity-? WHERE Name=? and ItemId=?',(Quantity,username,ItemId))
@@ -50,7 +50,7 @@ def TryRemove():
 
 
 try: 
-	db = sqlite3.connect(SQLLITE_DB_PATH)
+	db = DbConnect()
 	TryRemove()
 	db.commit()
 	db.close()

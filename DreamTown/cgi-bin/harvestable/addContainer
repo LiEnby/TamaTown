@@ -27,20 +27,20 @@ def TryAdd():
 	authToken = jsonData['authToken']
 	
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	count = rows[0]
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
 	
 	#Find Username
-	cur = c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
-	rows = cur.fetchone()
+	c.execute('SELECT Name from users WHERE LastSession=?',(authToken,))
+	rows = c.fetchone()
 	username = rows[0]
 		
-	cur = c.execute('SELECT COUNT(1) from containerList where Name=? and AreaId=? and containerName=?',(username,AreaId,ContainerName))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from containerList where Name=? and AreaId=? and containerName=?',(username,AreaId,ContainerName))
+	rows = c.fetchone()
 	count = rows[0]
 	if count == 0:
 		c.execute('INSERT INTO containerList VAlUES (?,?,NULL,?,?)',(username,HarvestableTemplateId,ContainerName,AreaId))
@@ -49,7 +49,7 @@ def TryAdd():
 
 
 try: 
-	db = sqlite3.connect(SQLLITE_DB_PATH)
+	db = DbConnect()
 	TryAdd()
 	db.commit()
 	db.close()

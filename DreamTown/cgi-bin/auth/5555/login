@@ -28,17 +28,17 @@ def TryLogin():
 	
 	#Check User Exists
 	c = db.cursor()
-	cur = c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
-	rows = cur.fetchone()
+	c.execute('SELECT COUNT(1) from users WHERE Name=?',(username,))
+	rows = c.fetchone()
 	count = rows[0]
 	
 	if count == 0:
 		result['status'] = USER_DOES_NOT_EXIST
 		return 0
 	#Check Password
-	cur = c.execute('SELECT PassHash,Salt from users WHERE Name= ?',(username,))
+	c.execute('SELECT PassHash,Salt from users WHERE Name= ?',(username,))
 	
-	rows = cur.fetchone()
+	rows = c.fetchone()
 
 	PassHash = rows[0]
 	Salt = rows[1]
@@ -52,7 +52,7 @@ def TryLogin():
 	c.execute('UPDATE users SET LastSession=? WHERE Name=?',(authToken,username))
 	
 		
-db = sqlite3.connect(SQLLITE_DB_PATH)
+db = DbConnect()
 TryLogin()
 db.commit()
 db.close()
