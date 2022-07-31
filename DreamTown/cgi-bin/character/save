@@ -22,7 +22,7 @@ result = {"status":SUCCESS}
 	
 def TrySave():
 	CharacterIds = jsonData['characterIds']
-	ActualCharacterId = jsonData['actualCharacterId']
+	ActualCharacterId = jsonData['ActualCharacterId']
 	authToken = jsonData['authToken']
 	
 	

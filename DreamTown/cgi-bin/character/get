@@ -37,9 +37,9 @@ def TryGet():
 	rows = c.fetchone()
 	username = rows[0]
 	
-	c.execute('SELECT actualCharacterId from characterList WHERE Name=? AND actualCharacterId IS NOT NULL',(username,))
+	c.execute('SELECT ActualCharacterId from characterList WHERE Name=? AND ActualCharacterId IS NOT NULL',(username,))
 	rows = c.fetchone()
-	actualCharacterId = rows[0]
+	ActualCharacterId = rows[0]
 		
 	c.execute('SELECT CharacterId from characterList WHERE Name=?',(username,))
 	rows = c.fetchall()
@@ -48,7 +48,7 @@ def TryGet():
 		if row[0] != None and row[0] != "":
 			characterIds.append(row[0])
 	
-	result['actualCharacterId'] = actualCharacterId
+	result['ActualCharacterId'] = ActualCharacterId
 	result['characterIds'] = characterIds
 	
 
