@@ -39,6 +39,12 @@ def pass_salt_algo(passwd, Salt):
 	return binascii.hexlify(outHash).decode("utf-8")
 
 c = db.cursor()
+
+try:
+	c.execute("""PRAGMA journal_mode=WAL;""")
+except:
+	pass
+    
 try:
 	c.execute("""
 	CREATE TABLE users(
