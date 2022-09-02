@@ -169,48 +169,46 @@ function CgiGetCode(){
 			while(strlen($iid) != 3){
 				$iid = "0".$iid;
 			}
-
 			
 			if($logoutType == 0 || $logoutType == 1){
 				$logoutNo = strval($codeType);
 				$logoutNo .= strval($region);
-				$logoutNo .= $iid[1];
+				$logoutNo .= strval($iid[1]);
 				$logoutNo .= strval($logoutType);
-				$logoutNo .= $iid[2];
+				$logoutNo .= strval($iid[2]);
 				$logoutNo .= strval($tamaIndex[0]);
 				$logoutNo .= strval($unknownValue);
 				if($codeType == 2){ # GP
 					$logoutNo .= strval($gotchiPoints);
 				}
 				else{
-					$logoutNo .= $iid[0];
+					$logoutNo .= strval($iid[0]);
 				}
 				$logoutNo .= strval($tamaIndex[1]);
 				$logoutNo .= "C";
 			}
-			else if($logoutType == 2 or $logoutType == 3){
-				$logoutNo = $iid[1];
+			else if($logoutType == 2 || $logoutType == 3){
+				$logoutNo = strval($iid[1]);
 				$logoutNo .= strval($region);
 				$logoutNo .= strval($tamaIndex[0]);
 				$logoutNo .= strval($logoutType);
 				$logoutNo .= strval($tamaIndex[1]);
 				$logoutNo .= "C";
 				if($codeType == 2){ # GP
-					$logoutNo += strval($gotchiPoints);
+					$logoutNo .= strval($gotchiPoints);
 				}
 				else{
-					$logoutNo += $iid[0];
+					$logoutNo .= strval($iid[0]);
 				}
-				$logoutNo += $iid[2];
-				$logoutNo += strval($unknownValue);
-				$logoutNo += strval($codeType);
+				$logoutNo .= strval($iid[2]);
+				$logoutNo .= strval($unknownValue);
+				$logoutNo .= strval($codeType);
 			}
 				
 			// Calculate checksum
 			$indx = strpos($logoutNo, "C");
 			$cbit = strval(CheckBit($logoutNo,false,$indx));
 			$logoutNo = str_replace("C", $cbit, $logoutNo);
-			
 			$output['PasswordUp'] = substr($logoutNo, 0, 5);
 			$output['PasswordDown'] = substr($logoutNo, 5, 10);
 			return true;
