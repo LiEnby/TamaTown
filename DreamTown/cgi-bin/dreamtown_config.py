@@ -111,7 +111,7 @@ try:
 	c.execute("""
 	CREATE TABLE areaList(
 	Name TEXT(12),
-	LastVisit int,
+	LastVisit bigint,
 	AreaId int,
 	NextRubishSpawnTime bigint,
 	ActualAreaId int

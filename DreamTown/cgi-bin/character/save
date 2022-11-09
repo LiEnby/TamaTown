@@ -22,7 +22,7 @@ result = {"status":SUCCESS}
 	
 def TrySave():
 	CharacterIds = jsonData['characterIds']
-	ActualCharacterId = jsonData['ActualCharacterId']
+	ActualCharacterId = jsonData['actualCharacterId']
 	authToken = jsonData['authToken']
 	
 	
@@ -43,7 +43,7 @@ def TrySave():
 	for CharacterId in CharacterIds:
 		c.execute('DELETE from characterList where Name=? AND CharacterId=?',(username,CharacterId))
 		c.execute('INSERT INTO characterList VAlUES (?,?,NULL)',(username,CharacterId))
-	c.execute('DELETE from characterList WHERE Name=? and ActualCharacterId IS NOT NULL',(username,))
+	c.execute('DELETE from characterList WHERE Name=? and actualCharacterId IS NOT NULL',(username,))
 	c.execute('INSERT INTO characterList VAlUES (?,NULL,?)',(username,ActualCharacterId))
 
 

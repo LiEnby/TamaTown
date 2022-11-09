@@ -44,10 +44,17 @@ def TrySave():
 		harvestables = Container['harvestables']
 		areaId = Container['areaId']
 		
-		harvestablesEncoded = json.dumps(harvestables)
-		
-		c.execute('DELETE from containerList where Name=? and AreaId=? and containerName=?',(username,areaId,containerName))
-		c.execute('INSERT INTO containerList VAlUES (?,?,?,?,?,?)',(username,harvestableTemplateId,lastHarvest,containerName,harvestablesEncoded,areaId))
+		for harvestable in harvestables:
+			itemTemplateId = harvestable['itemTemplateId']
+			updateTime = harvestable['updateTime']
+			index = harvestable['index']
+			harvestableName = harvestable['harvestableName']
+			
+			c.execute('DELETE from harvestablesList where Name=? and HarvestableName=? and AreaId=? and ParentContainerName=?',(username,harvestableName,areaId,containerName))
+			c.execute('INSERT INTO harvestablesList VAlUES (?,?,?,?,?,?,?)',(username,itemTemplateId,updateTime,Index,harvestableName,areaId,containerName))
+			
+		c.execute('DELETE from containerList where Name=? and AreaId=? and ContainerName=?',(username,areaId,containerName))
+		c.execute('INSERT INTO containerList VAlUES (?,?,?,?,?)',(username,harvestableTemplateId,lastHarvest,containerName,areaId))
 
 
 try: 
