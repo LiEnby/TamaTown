@@ -4,6 +4,7 @@ import mariadb
 import binascii
 import hashlib 
 
+
 #MAKE SURE THE DB IS *OUTSIDE* THE PUBLIC_HTML!!!
 #SQLLITE_DB_PATH = "/home/web/DreamTown.db"
 
@@ -24,6 +25,9 @@ def DbConnect():
     )
     
 db = DbConnect()
+
+def raise e:
+    print("".join(traceback.TracebackException.from_exception(e).format())
 
 def xor(data, key):
     l = len(key)
@@ -55,7 +59,7 @@ try:
 	PassHash TEXT(128),
 	Salt TEXT(128),
 	LastSession TEXT(128),
-	CreationDate int
+	CreationDate bigint
 	);
 	""")
 except:
@@ -140,7 +144,7 @@ try:
 	CREATE TABLE containerList(
 	Name TEXT(12),
 	HarvestableTemplateId int,
-	LastHarvest int,
+	LastHarvest bigint,
 	ContainerName TEXT(128),
 	AreaId int
 	);
