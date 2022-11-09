@@ -100,7 +100,7 @@ try:
 	CREATE TABLE npcList(
 	Name TEXT(12),
 	CharacterId int,
-	NextTimestamp int,
+	NextTimestamp bigint,
 	Pool TEXT(8024),
 	RequestLevel int
 	);
@@ -113,7 +113,7 @@ try:
 	Name TEXT(12),
 	LastVisit int,
 	AreaId int,
-	NextRubishSpawnTime int,
+	NextRubishSpawnTime bigint,
 	ActualAreaId int
 	);
 	""")
@@ -156,7 +156,7 @@ try:
 	CREATE TABLE harvestablesList(
 	Name TEXT(12),
 	ItemTemplateId int,
-	UpdateTime int,
+	UpdateTime bigint,
 	SlotIndex int,
 	HarvestableName TEXT(128),
 	AreaId int,
