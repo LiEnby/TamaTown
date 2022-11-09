@@ -13,7 +13,7 @@ print("")
 method = os.environ["REQUEST_METHOD"]
 if method != "POST":
 	print("Expected POST")
-	os._exit()
+	os._exit(1)
 	
 
 content_len = int(os.environ["CONTENT_LENGTH"])
@@ -54,6 +54,6 @@ try:
 	db.close()
 except Exception as e:
 	print(e)
-	os._exit()
+	os._exit(1)
 
 print(json.dumps(result))
