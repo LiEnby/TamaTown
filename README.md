@@ -6,7 +6,7 @@ Code relating to Tamagotchi Town with the aim of making it possible to build a f
 == Dream Town ==       
 cebd_decrypt - For decrypting and re-encrypting Dream Town binaries and Config files              
 ``    usage: cebd_decrypt.exe <mode> <input file> <output file> ``           
-  modes:           
+``  modes:``
 ``     -d decrypt``        
 ``     -e encrypt``           
 
@@ -14,7 +14,7 @@ cebd_decrypt - For decrypting and re-encrypting Dream Town binaries and Config f
 
 NOTE: This is NOT bandai's original code. it wouldnt really be possible to get that unless someone had an exploit back in the day to get the files out, rather- this is my best attempts to re-create what the server side code did.
 
-this is the same code used on my Familetchi & Friends server (http://famitama.com)
+this is the same code used on my "Tamatown Rewritten" site, https://famitama.xyz
 
 
 Working so far: 
