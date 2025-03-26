@@ -1,30 +1,33 @@
 # exclude assets
 
 # v5 / tama and earth expo
-pc/* # assets 
-pc/cgi/stats.ini # why isn't this part of a database?
+pc/* 
+# why isn't this part of a database?
+pc/cgi/stats.ini 
 !pc/cgi/*
 !pc/game_rollercoaster/game_rollercoaster.php
-!pc/flashless.html # ruffle embed
-!pc/index.html # regular adobe flash embed
-!pc/pw_gen.html # v5 password generator
+!pc/flashless.html 
+!pc/index.html
+# v5 password generator
+!pc/pw_gen.html
 
 # friends/dreamtown
-friends/* # assets
-!friends/crossdomain.xml # flash same-origin-policy file
-!friends/change_pw.html # change password page
-!friends/flashless.html # ruffle embed
-!friends/index.html # adobe flash embed
-!friends/cgi-bin/* # pythoncgi files for dreamtown.
+friends/* 
+!friends/crossdomain.xml 
+!friends/change_pw.html 
+!friends/flashless.html 
+!friends/index.html 
+!friends/cgi-bin/*
 friends/cgi-bin/__pycache__/*
 
 # japanese sites
-etg/pc/flash/* # e-tamago
-etg/urapc/flash/* # e-uratamago
-school/flash/* # tmgc school
+etg/pc/flash/* 
+etg/urapc/flash/*
+school/flash/* 
 
 !etg/pc/flash/foobar/*
-!etg/urapc/flash/foobar/* # this should probs symlink to the one in /pc/ ...
+# this should probs symlink to the one in /pc/ ...
+!etg/urapc/flash/foobar/* 
 
 !etg/pc/flash/index.html
 !etg/urapc/flash/index.html
