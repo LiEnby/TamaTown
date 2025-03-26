@@ -23,7 +23,7 @@ friends/cgi-bin/__pycache__/*
 # japanese sites
 etg/pc/flash/* 
 etg/urapc/flash/*
-school/flash/* 
+school/pc/flash/* 
 
 !etg/pc/flash/foobar/*
 # this should probs symlink to the one in /pc/ ...
@@ -47,10 +47,16 @@ cdrom/v5.5/*
 !cdrom/v4.5/index.html
 !cdrom/v4.5/flashless.html
 
-# WIP/missing assets;
-music_city/* # this doesn't even work, why is this here?
+# this doesn't even work, why is this here?
+music_city/* 
 
 # windows xp tour (i should move this to another site..)
 other/*
 !other/xp/index.html
 !other/xp/flashless.html
+
+# its just self hosted version of ruffle
+ruffle/*
+
+# google site console
+google*

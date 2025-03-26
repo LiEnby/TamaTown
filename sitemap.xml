@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>http://famita.ml/</loc>
+   <lastmod>2020-02-08T09:38:05+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>http://famita.ml/pc/index.html</loc>
+   <lastmod>2019-12-29T11:46:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://famita.ml/friends/index.html</loc>
+   <lastmod>2019-12-25T21:10:13+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://famita.ml/etg/pc/index.html</loc>
+   <lastmod>2019-12-30T13:14:20+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://famita.ml/pc/pw_gen.html</loc>
+   <lastmod>2019-12-30T13:19:04+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>http://famita.ml/etg/urapc/flash/uratama.html</loc>
+   <lastmod>2019-12-30T13:15:07+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>http://famita.ml/etg/urapc/flash/uratlogin.html</loc>
+   <lastmod>2019-12-30T13:15:08+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>http://famita.ml/etg/pc/flash/tamago.html</loc>
+   <lastmod>2019-12-30T13:14:45+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>http://famita.ml/etg/pc/flash/tlogin.html</loc>
+   <lastmod>2019-12-30T13:14:48+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>http://famita.ml/etg/pc/paysite.html</loc>
+   <lastmod>2019-12-30T13:14:19+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>http://famita.ml/etg/pc/inquiry.html</loc>
+   <lastmod>2019-12-30T13:14:18+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+</urlset>
