@@ -1,0 +1,59 @@
+# exclude assets
+
+pc/* # tmgc v5,
+friends/* # tmgc friends dreamtown
+
+# japanese sites
+etg/pc/flash/* # e-tamago
+etg/urapc/flash/* # e-uratamago
+school/flash/* # tmgc school
+
+
+# exclude CD-ROM releases
+cdrom/entama/*
+cdrom/v4.5/*
+cdrom/v5.5/*
+
+# v5 scripts
+!pc/cgi/*
+!pc/game_rollercoaster/game_rollercoaster.php
+!pc/flashless.html # ruffle embed
+!pc/index.html # regular adobe flash embed
+!pc/pw_gen.html # v5 password generator
+pc/cgi/stats.ini # why isn't this part of a database?
+
+# friends 
+!friends/crossdomain.xml # flash same-origin-policy file
+!friends/change_pw.html # change password page
+!friends/flashless.html # ruffle embed
+!friends/index.html # adobe flash embed
+!friends/cgi-bin # pythoncgi files for dreamtown.
+friends/cgi-bin/__pycache__/*
+
+# japanese site scripts
+!etg/pc/flash/foobar/*
+!etg/urapc/flash/foobar/* # this should probs symlink to the one in /pc/ ...
+
+!etg/pc/flash/index.html
+!etg/urapc/flash/index.html
+!school/pc/flash/tamasc.html
+
+# cdrom releases
+!cdrom/entama/index.html
+!cdrom/entama/flashless.html
+
+!cdrom/v5.5/index.html
+!cdrom/v5.5/flashless.html
+
+!cdrom/v4.5/index.html
+!cdrom/v4.5/flashless.html
+
+
+
+# WIP/missing assets;
+music_city/* # this doesn't even work, why is this here?
+
+# windows xp tour (i should move this to another site..)
+!others/xp/index.html
+!others/xp/flashless.html
+others/*
