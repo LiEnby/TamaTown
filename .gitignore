@@ -51,6 +51,6 @@ cdrom/v5.5/*
 music_city/* # this doesn't even work, why is this here?
 
 # windows xp tour (i should move this to another site..)
-others/*
-!others/xp/index.html
-!others/xp/flashless.html
+other/*
+!other/xp/index.html
+!other/xp/flashless.html
