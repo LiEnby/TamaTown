@@ -1,3 +1,6 @@
+# ... attempt to reverse-engineer DreamTown logout password system 
+
+
 LOGIN_CHARSET = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 LOGOUT_CHARSET = " ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 def decode_letter(letter):

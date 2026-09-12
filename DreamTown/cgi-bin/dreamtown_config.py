@@ -1,33 +1,32 @@
-# Add <server_path>/friends/cgi-bin to $PYTHONPATH in /etc/enviroment and as a SetVar for your VirtualHost in apache2 
+# DreamTown uses PythonCGI ...
+#
+# Add <server_path>/friends/cgi-bin to $PYTHONPATH in your server config
+# (its done using SetVar for your VirtualHost in apache2 and fastcgi_param in nginx)
+#
+# also define DT_DATABASE_USER, DT_DATABASE_PASSWORD, DT_DATABASE_HOST, DT_DATABASE_PORT and DT_DATABASE_NAME
+# ... see example config for more info 
 
 import mariadb
 import binascii
-import hashlib 
-
-
-#MAKE SURE THE DB IS *OUTSIDE* THE PUBLIC_HTML!!!
-#SQLLITE_DB_PATH = "/home/web/DreamTown.db"
+import hashlib
+import os
 
 SUCCESS = 1
 USER_DOES_NOT_EXIST = 2
 INVALID_PASSWORD = 3    
 NAME_ALREADY_USED = 4   
 ANSWER_INCORRECT = 5
-	
 
 def DbConnect():
     return mariadb.connect(
-            user="root",
-            password="DB_CREDENTIALS",
-            host="127.0.0.1",
-            port=3306,
-            database="dreamtown"
+            user=os.environ.get("DT_DATABASE_USER"), 
+            password=os.environ.get("DT_DATABASE_PASSWORD"), 
+            host=os.environ.get("DT_DATABASE_HOST"), 
+            port=int(os.environ.get("DT_DATABASE_PORT")), 
+            database=os.environ.get("DT_DATABASE_NAME") 
     )
     
 db = DbConnect()
-
-def raise e:
-    print("".join(traceback.TracebackException.from_exception(e).format())
 
 def xor(data, key):
     l = len(key)
@@ -111,7 +110,7 @@ try:
 	c.execute("""
 	CREATE TABLE areaList(
 	Name TEXT(12),
-	LastVisit bigint,
+	LastVisit int,
 	AreaId int,
 	NextRubishSpawnTime bigint,
 	ActualAreaId int

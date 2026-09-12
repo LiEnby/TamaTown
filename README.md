@@ -1,4 +1,7 @@
 # TamaTown
+
+NOTE: This does not work out of the box, it requires a bit of setup to get working, see SETUP.md
+
 What is this?
 Code relating to Tamagotchi Town with the aim of making it possible to build a fully-functional custom tamagotchi town server          
 --- Tools ---                    

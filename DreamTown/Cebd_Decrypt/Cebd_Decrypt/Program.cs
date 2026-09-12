@@ -2,11 +2,8 @@
 using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Parameters;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cebd_Decrypt
 {
@@ -20,9 +17,16 @@ namespace Cebd_Decrypt
             return BitConverter.ToInt32(int32spc, 0);
         }
 
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
+            if(args.Length < 3)
+            {
 
+                Console.WriteLine("usage: cebd_decrypt.exe <mode> <input file> <output file>");
+                Console.WriteLine("modes:    -d decrypt");
+                Console.WriteLine("          -e encrypt");
+                return -1;
+            }
 
             if (args[0] == "-d")
             {
@@ -65,6 +69,8 @@ namespace Cebd_Decrypt
                 fs.Write(EncryptedData,0,EncryptedData.Length);
                 fs.Close();
             }
+
+            return 0;
           
         }
     }
