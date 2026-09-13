@@ -4,14 +4,8 @@ NOTE: This does not work out of the box, it requires a bit of setup to get worki
 
 What is this?
 Code relating to Tamagotchi Town with the aim of making it possible to build a fully-functional custom tamagotchi town server          
---- Tools ---                    
-      
+
 == Dream Town ==       
-cebd_decrypt - For decrypting and re-encrypting Dream Town binaries and Config files              
-``    usage: cebd_decrypt.exe <mode> <input file> <output file> ``           
-``  modes:``
-``     -d decrypt``        
-``     -e encrypt``           
 
 --- Server Side Code ---
 

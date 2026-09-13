@@ -96,7 +96,7 @@ Tamagotchi friends had a way more in-depth
 DreamTown has an encrypted XML config
 "mmog.cebd" that tells it what server to look for;
 
-which is an encrypted XML file,  a decryptor is included in this repo, 
+which is an encrypted XML file, you need [cebd_decrypt](https://github.com/Reagotchi/cebd_decrypt) to decrypt/encrypt it
 you can decrypt and change the server_url feild,
 
 in all my testing, it appeared that this did not work with DNS
