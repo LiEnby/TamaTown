@@ -1,0 +1,16 @@
+[submodule "friends/cgi-bin"]
+	path = friends/cgi-bin
+	url = https://git.silica.codes/Reagotchi/DreamTown-CGI.git
+	branch = main
+[submodule "pc/cgi"]
+	path = pc/cgi
+	url = https://git.silica.codes/Reagotchi/Familetchi-CGI.git
+	branch = main
+[submodule "etg/pc/flash/foobar"]
+	path = etg/pc/flash/foobar
+	url = https://git.silica.codes/Reagotchi/ETamago-PHP.git
+	branch = main
+[submodule "etg/urapc/flash/foobar"]
+	path = etg/urapc/flash/foobar
+	url = https://git.silica.codes/Reagotchi/ETamago-PHP.git
+	branch = main
