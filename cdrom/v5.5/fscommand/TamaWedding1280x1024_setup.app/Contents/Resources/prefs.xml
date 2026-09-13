@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Install Swf</key>
+	<string>Screen Saver SWF</string>
+	<key>License</key>
+	<integer>0</integer>
+	<key>Name</key>
+	<string>TamaWedding1280x1024_setup</string>
+	<key>OpenSystemPrefs</key>
+	<integer>1</integer>
+	<key>Quiet</key>
+	<integer>0</integer>
+	<key>ReadMe</key>
+	<integer>0</integer>
+	<key>Welcome</key>
+	<integer>0</integer>
+</dict>
+</plist>

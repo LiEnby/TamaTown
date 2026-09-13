@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="generalinventory">
+		<Asset path="asset/inventory/generalinventory.png" isSpriteSheet="true" />
+	</AssetList>
+</data>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:982366f7d8fc51926179fa733fcd91eb:16c19fae530d0a15877516cd66e282e6:35c33cb594c65f33d9706bc98f861f5d$ -->
+<TextureAtlas imagePath="dreamhanten.png">
+    <SubTexture name="1877717155" x="2" y="193" width="78" height="61"/>
+    <SubTexture name="1933477836" x="180" y="65" width="19" height="12"/>
+    <SubTexture name="2170045496" x="76" y="65" width="73" height="61"/>
+    <SubTexture name="2196904878" x="83" y="2" width="79" height="61"/>
+    <SubTexture name="2281233457" x="164" y="2" width="78" height="61"/>
+    <SubTexture name="2721910614" x="82" y="192" width="74" height="61"/>
+    <SubTexture name="2763043254" x="75" y="129" width="74" height="61"/>
+    <SubTexture name="2897974415" x="158" y="77" width="17" height="18"/>
+    <SubTexture name="306394014" x="2" y="129" width="71" height="62"/>
+    <SubTexture name="3254821217" x="2" y="65" width="72" height="62"/>
+    <SubTexture name="3318571225" x="201" y="65" width="17" height="17"/>
+    <SubTexture name="485136996" x="2" y="2" width="79" height="61"/>
+    <SubTexture name="910145501" x="158" y="65" width="20" height="10"/>
+</TextureAtlas>

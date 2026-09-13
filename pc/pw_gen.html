@@ -1,0 +1,99 @@
+<title>Familetchi Logout Password Generator</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+<p><h1>Familetchi Logout Password Generator (for cheaters)</h1></p>
+<p>Input Login No:</p>
+	<input type="text" pattern="\d*" maxlength="5" id="codeUp"><br>
+	<input type="text" pattern="\d*" maxlength="5" id="codeDown">
+<p>Select Type: 
+	<select onchange="typeChange()" id="codeType">
+		<option value="2">Gotchi Points</option>
+		<option value="3">Gifted Item</option>
+		<option value="4">Purchased Item</option>
+	</select>
+</p>
+<div id="codeOpts">
+
+</div>
+
+<button onclick="generateCode()">Generate!</button>
+
+<div id="codeOutp">
+
+</div>
+<br>
+<a href="/pc/index.html">Back to Tama&Earth EXPO</a>
+<script>
+
+function typeChange()
+{	
+	if(codeType.value == "2")
+	{
+		codeOpts.innerHTML = `<p>Amount of GP
+				<select id="gpAmt">
+					<option value="0">30GP</option>
+					<option value="1">100GP</option>
+					<option value="2">300GP</option>
+					<option value="3">500GP</option>
+					<option value="4">700GP</option>
+					<option value="5">1000GP</option>
+				</select>
+			</p>
+		`;
+	}
+	else
+	{
+		codeOpts.innerHTML = `<p>Item ID:
+			<input type="text" pattern="\d*" maxlength="3" id="itmId" value="1">
+		</p>
+		`;
+	}
+	
+}
+
+function parseQuery(queryString) {
+    var query = {};
+    var pairs = (queryString[0] === '?' ? queryString.substr(1) : queryString).split('&');
+    for (var i = 0; i < pairs.length; i++) {
+        var pair = pairs[i].split('=');
+        query[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+    }
+    return query;
+}
+
+function generateCode()
+{
+	itemId = "0";
+	gp = "0";
+	type = codeType.value;
+	
+	up = codeUp.value;
+	down = codeDown.value;
+		
+	if(typeof itmId != "undefined")
+	{
+		itemId = itmId.value;
+	}
+	else if(typeof gpAmt != "undefined")
+	{
+		gp = gpAmt.value
+	}
+	
+	var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "cgi/Famitama.cgi?p=codegenerator&i="+itemId+"&g="+gp+"&m="+type+"&d="+down+"&u="+up+"&c=1", false ); 
+    xmlHttp.send( null );
+	
+	query = parseQuery(xmlHttp.responseText)
+
+	if(query.ResultCode == "OK")
+	{
+		codeOutp.innerHTML = "<b><p>Logout No: </p></b>"+query.PasswordUp+"<br>"+query.PasswordDown;
+	}
+	else if(query.ResultCode == "ERROR")
+	{
+		codeOutp.innerHTML = "<b><p>Login No is invalid!</p></b>";
+	}
+	
+}
+typeChange();
+</script>

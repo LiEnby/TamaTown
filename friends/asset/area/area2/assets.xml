@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f49b30525a6c455cde4c22a1b5b0f9ba:c8cf478cdc354a8dc59ac928209baaf5:57ef0b4f36012e2dacefebfa7d58e2d4$ -->
+<TextureAtlas imagePath="assets.png">
+    <SubTexture name="bldg_musiccafe" x="2" y="2" width="376" height="404"/>
+    <SubTexture name="bldg_ticketstand1" x="2" y="408" width="182" height="171"/>
+    <SubTexture name="deco_rope" x="186" y="408" width="152" height="38"/>
+    <SubTexture name="pancarte_craft" x="380" y="77" width="68" height="73"/>
+    <SubTexture name="pancarte_ticket" x="380" y="2" width="68" height="73"/>
+</TextureAtlas>

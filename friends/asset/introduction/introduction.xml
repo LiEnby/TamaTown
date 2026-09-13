@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:aef89316e843f99d1e96a079cf6e21ce:c3de05742acf9ddf48b204177ac4515c:fb5371c0637075d79061fc1bf20aba6b$ -->
+<TextureAtlas imagePath="introduction.png">
+    <SubTexture name="character_1" x="286" y="2" width="218" height="218" frameX="-1" frameY="-1" frameWidth="220" frameHeight="220"/>
+    <SubTexture name="character_2" x="222" y="286" width="218" height="218" frameX="-1" frameY="-1" frameWidth="220" frameHeight="220"/>
+    <SubTexture name="character_7" x="2" y="286" width="218" height="218" frameX="-1" frameY="-1" frameWidth="220" frameHeight="220"/>
+    <SubTexture name="porthole" x="2" y="2" width="282" height="282"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a32cd9cbd5c7db9569bfb5c53135e610:5b8f6d4037926ba413c0a6a4a85ae42f:4dd390354668579acc58054c6f02721e$ -->
+<TextureAtlas imagePath="openinghours.png">
+    <SubTexture name="opening_hours_afternoon" x="436" y="130" width="62" height="62"/>
+    <SubTexture name="opening_hours_morning" x="436" y="66" width="62" height="62"/>
+    <SubTexture name="opening_hours_night" x="436" y="2" width="62" height="62"/>
+    <SubTexture name="opening_hours_panel" x="2" y="2" width="432" height="512"/>
+    <SubTexture name="service_type_1" x="2" y="618" width="108" height="104"/>
+    <SubTexture name="service_type_2" x="132" y="516" width="114" height="104"/>
+    <SubTexture name="service_type_3" x="2" y="516" width="128" height="100"/>
+    <SubTexture name="service_type_4" x="248" y="516" width="102" height="114"/>
+</TextureAtlas>

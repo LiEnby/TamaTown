@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b49857d7b260b3245597bfa49e3b9dcd:063a76cac7913dd24988615b07929597:b50c484ae7c13500a61a59eaa82d263c$ -->
+<TextureAtlas imagePath="musiccafeoven.png">
+    <SubTexture name="2256037108" x="2" y="31" width="187" height="48"/>
+    <SubTexture name="2640018198" x="2" y="2" width="201" height="27"/>
+    <SubTexture name="284528478" x="2" y="152" width="182" height="66"/>
+    <SubTexture name="792417510" x="2" y="81" width="182" height="69"/>
+</TextureAtlas>

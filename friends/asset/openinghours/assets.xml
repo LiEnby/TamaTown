@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="openinghours">
+		<Asset path="asset/openinghours/openinghours.atf" isSpriteSheet="true" />
+	</AssetList>
+</data>

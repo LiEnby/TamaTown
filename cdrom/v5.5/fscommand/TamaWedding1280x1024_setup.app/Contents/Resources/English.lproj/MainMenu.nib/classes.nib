@@ -1,0 +1,38 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            ACTIONS =             {
+                Cancel = id;
+                Install = id;
+                acceptLicense = id;
+                printIt = id;
+                quit = id;
+            };
+            CLASS = InstallController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                acceptLicense = id;
+                buttonsTabView = id;
+                continueLicense = id;
+                installerTextView = id;
+                installerWebView = id;
+                installerWindow = id;
+                previous = id;
+                progressSheet = id;
+                webRtfTabView = id;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = InstallerWebView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = WebView;
+        }
+    );
+    IBVersion = 1;
+}

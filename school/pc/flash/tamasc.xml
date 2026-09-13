@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tamasc_config version="1.0" name="master">
+    <absolutepath></absolutepath>
+    <cgiURL>/cgi/</cgiURL>
+    <scchar>character/</scchar>
+</tamasc_config>

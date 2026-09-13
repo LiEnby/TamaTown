@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:7439382a8146e52c167f3e2604f6a8f4$ -->
+<TextureAtlas imagePath="reward.png">
+    <SubTexture name="character_shadow" x="2" y="434" width="116" height="23"/>
+    <SubTexture name="frame_item" x="1186" y="2" width="590" height="330"/>
+    <SubTexture name="frame_unlock_blue" x="594" y="2" width="590" height="430"/>
+    <SubTexture name="frame_unlock_yellow" x="2" y="2" width="590" height="430"/>
+    <SubTexture name="item_background" x="1479" y="334" width="128" height="128"/>
+    <SubTexture name="item_background_single" x="1317" y="334" width="160" height="160"/>
+    <SubTexture name="lock" x="1186" y="334" width="129" height="174" frameX="-11" frameY="-13" frameWidth="151" frameHeight="198"/>
+</TextureAtlas>

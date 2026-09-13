@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:8a577543a9b4cf955634ba636b156916$ -->
+<TextureAtlas imagePath="hud.png">
+    <SubTexture name="button_close_modules_down" x="2" y="162" width="92" height="110"/>
+    <SubTexture name="button_close_modules_over" x="132" y="118" width="92" height="110"/>
+    <SubTexture name="button_close_modules_up" x="383" y="113" width="92" height="110"/>
+    <SubTexture name="button_module_inventory_down" x="2" y="376" width="65" height="77"/>
+    <SubTexture name="button_module_inventory_over" x="2" y="376" width="65" height="77"/>
+    <SubTexture name="button_module_inventory_up" x="2" y="376" width="65" height="77"/>
+    <SubTexture name="button_module_map_down" x="96" y="230" width="86" height="74"/>
+    <SubTexture name="button_module_map_over" x="96" y="230" width="86" height="74"/>
+    <SubTexture name="button_module_map_up" x="96" y="230" width="86" height="74"/>
+    <SubTexture name="button_module_register_down" x="69" y="376" width="64" height="73"/>
+    <SubTexture name="button_module_register_over" x="69" y="376" width="64" height="73"/>
+    <SubTexture name="button_module_register_up" x="69" y="376" width="64" height="73"/>
+    <SubTexture name="button_module_settings_down" x="2" y="274" width="84" height="71"/>
+    <SubTexture name="button_module_settings_over" x="2" y="274" width="84" height="71"/>
+    <SubTexture name="button_module_settings_up" x="2" y="274" width="84" height="71"/>
+    <SubTexture name="button_module_tamagotchis_down" x="375" y="225" width="84" height="70"/>
+    <SubTexture name="button_module_tamagotchis_over" x="375" y="225" width="84" height="70"/>
+    <SubTexture name="button_module_tamagotchis_up" x="375" y="225" width="84" height="70"/>
+    <SubTexture name="button_open_modules_down" x="403" y="2" width="101" height="109"/>
+    <SubTexture name="button_open_modules_over" x="403" y="2" width="101" height="109"/>
+    <SubTexture name="button_open_modules_up" x="403" y="2" width="101" height="109"/>
+    <SubTexture name="button_quest_down" x="140" y="2" width="131" height="114"/>
+    <SubTexture name="button_quest_over" x="140" y="2" width="131" height="114"/>
+    <SubTexture name="button_quest_up" x="140" y="2" width="131" height="114"/>
+    <SubTexture name="display_frame" x="319" y="192" width="54" height="54"/>
+    <SubTexture name="gotchi_point_icon" x="319" y="248" width="52" height="50"/>
+    <SubTexture name="module_background" x="226" y="192" width="91" height="111"/>
+    <SubTexture name="modules_background" x="373" y="297" width="81" height="77"/>
+    <SubTexture name="quest_log_background" x="273" y="82" width="108" height="108"/>
+    <SubTexture name="quest_log_icon_background" x="135" y="376" width="72" height="72"/>
+    <SubTexture name="quest_log_separator" x="477" y="113" width="21" height="92"/>
+    <SubTexture name="time_afternoon" x="2" y="2" width="136" height="78"/>
+    <SubTexture name="time_morning" x="273" y="2" width="128" height="78" frameX="-2" frameY="0" frameWidth="130" frameHeight="78"/>
+    <SubTexture name="time_night" x="2" y="82" width="128" height="78" frameX="-2" frameY="0" frameWidth="130" frameHeight="78"/>
+</TextureAtlas>

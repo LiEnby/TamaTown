@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="musiccafeoven">
+		<Asset path="asset/shop/musiccafeoven/musiccafeoven.png" isSpriteSheet="true" />
+		<Asset path="asset/shop/musiccafeoven/shop_background_top.png" isSpriteSheet="false" />
+		<Asset path="asset/shop/musiccafeoven/shop_background_bottom.png" isSpriteSheet="false" />
+	</AssetList>
+</data>

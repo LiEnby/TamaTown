@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:188d1f9580fe2980d59d0efcc02325a9:c22997e8ac6e08cee6ecadbea63cd8a6:1fd3cfb61d9d77b14c07500780136006$ -->
+<TextureAtlas imagePath="recyclebin.png">
+    <SubTexture name="1835217447" x="221" y="186" width="31" height="76" frameX="0" frameY="-6" frameWidth="33" frameHeight="82"/>
+    <SubTexture name="2687737404" x="2" y="268" width="52" height="51"/>
+    <SubTexture name="3230858419" x="94" y="176" width="34" height="74" frameX="-1" frameY="-7" frameWidth="38" frameHeight="82"/>
+    <SubTexture name="39916879" x="130" y="186" width="89" height="89"/>
+    <SubTexture name="bonus_item_frame" x="2" y="2" width="134" height="172" frameX="-4" frameY="0" frameWidth="140" frameHeight="172"/>
+    <SubTexture name="button_item_frame_down" x="2" y="176" width="90" height="90"/>
+    <SubTexture name="button_item_frame_over" x="138" y="94" width="90" height="90"/>
+    <SubTexture name="button_item_frame_up" x="138" y="2" width="90" height="90"/>
+</TextureAtlas>

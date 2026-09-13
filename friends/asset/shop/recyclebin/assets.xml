@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="recyclebin">
+		<Asset path="asset/shop/recyclebin/recyclebin.atf" isSpriteSheet="true" />
+		<Asset path="asset/shop/recyclebin/shop_background_top.atf" isSpriteSheet="false" />
+		<Asset path="asset/shop/recyclebin/shop_background_bottom.atf" isSpriteSheet="false" />
+	</AssetList>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3b87a59b1bf3ac41aae655d8c5eb091b:b8e5c8521caaeb6a0ad1140fc0ab8267:57ef0b4f36012e2dacefebfa7d58e2d4$ -->
+<TextureAtlas imagePath="assets.png">
+    <SubTexture name="area5_frt1" x="394" y="492" width="153" height="101"/>
+    <SubTexture name="area5_frt2" x="236" y="492" width="156" height="144"/>
+    <SubTexture name="bldg_kiraatamamori" x="565" y="376" width="418" height="355" frameX="-4" frameY="0" frameWidth="424" frameHeight="357"/>
+    <SubTexture name="bldg_kiraatamamorihide" x="565" y="2" width="447" height="372"/>
+    <SubTexture name="bldg_salondedream" x="2" y="2" width="561" height="488" frameX="-8" frameY="-12" frameWidth="577" frameHeight="500"/>
+    <SubTexture name="deco_lampost1" x="394" y="595" width="152" height="106" frameX="0" frameY="0" frameWidth="154" frameHeight="110"/>
+    <SubTexture name="deco_lampost2" x="201" y="682" width="114" height="296" frameX="0" frameY="-1" frameWidth="114" frameHeight="298"/>
+    <SubTexture name="deco_tree2" x="2" y="492" width="232" height="188"/>
+    <SubTexture name="deco_treecache" x="2" y="733" width="197" height="230"/>
+    <SubTexture name="pancarte_craft" x="387" y="703" width="68" height="73"/>
+    <SubTexture name="pancarte_shop" x="317" y="638" width="68" height="73"/>
+</TextureAtlas>

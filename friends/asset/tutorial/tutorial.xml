@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:79cd2f83fb6817c292511aa4a5904d9b:2ce4c390e473f488d2d4e0f1fb7e01d4:f512951393d8fdc9674730cd0e5276ed$ -->
+<TextureAtlas imagePath="tutorial.png">
+    <SubTexture name="message_arrow" x="50" y="204" width="33" height="46"/>
+    <SubTexture name="message_frame" x="2" y="204" width="46" height="46"/>
+    <SubTexture name="principal_omen" x="2" y="2" width="190" height="200" frameX="-1" frameY="0" frameWidth="192" frameHeight="202"/>
+</TextureAtlas>

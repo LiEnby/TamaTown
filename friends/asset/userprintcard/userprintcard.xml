@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c9545209e309705e31e229547b4b35ac:04b7a732ace248a3b8a640c52f813b58:2ea9a362cd3c83e8f41097e61a968ffc$ -->
+<TextureAtlas imagePath="userprintcard.png">
+    <SubTexture name="character_shadow" x="879" y="2" width="120" height="24"/>
+    <SubTexture name="frame" x="2" y="2" width="875" height="569"/>
+</TextureAtlas>

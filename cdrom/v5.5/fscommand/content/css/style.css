@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #FFFFFF;
+	margin: 0; padding:0;
+	background: #FFFFFF url('../images/html/background_strip3.jpg') repeat
+}
+
+#sun{
+position: absolute;
+left: 5px;
+top: 87%;
+width: 90;
+height: 91;
+background:  url('../images/html/sun.gif');
+z-index:0;
+}
+
+.content_text {
+	color: #ffffff;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	
+}
+.needJavascript {
+text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+
+color: #999999}
+
+
+#centerUI{
+	  position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 943px;
+      height: 600px;
+      margin-left: -452px; /* half of width */
+      margin-top:-330px;  /* half of height */
+     /* background-color:#000000;*/
+	  /*border-color: #FF0000;*/
+	  /*border-width: 3px;*/
+	  /*Turn the Flash Movie back on with Javascript*/
+	  /*visibility: hidden; */
+	
+}

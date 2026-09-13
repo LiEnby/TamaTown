@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:327bb1ad30eb755db8f5b0bd317352f2:bd97647605c2c941818e45777da1c0b6:7002f8dcf1f274cbaaf891e770729398$ -->
+<TextureAtlas imagePath="areashared.png">
+    <SubTexture name="area_name_frame" x="432" y="0" width="80" height="50"/>
+    <SubTexture name="transition_down_down" x="144" y="0" width="72" height="56"/>
+    <SubTexture name="transition_down_over" x="72" y="0" width="72" height="56"/>
+    <SubTexture name="transition_down_up" x="0" y="0" width="72" height="56"/>
+    <SubTexture name="transition_left_down" x="360" y="0" width="72" height="52"/>
+    <SubTexture name="transition_left_over" x="288" y="0" width="72" height="52"/>
+    <SubTexture name="transition_left_up" x="216" y="0" width="72" height="52"/>
+</TextureAtlas>

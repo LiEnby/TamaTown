@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f8a78d704362363ea429a664867d4c6b:f2fac49443c8adc5906faa12ef4bedf0:9603022c9995a51377ee7bcd0c72128f$ -->
+<TextureAtlas imagePath="userinventory.png">
+    <SubTexture name="gotchi_points_icon" x="85" y="2" width="40" height="40"/>
+    <SubTexture name="inventory_frame" x="2" y="2" width="81" height="160"/>
+</TextureAtlas>

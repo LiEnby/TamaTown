@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:ffcbba7fca51b5003a918bb84217124f:5dc24cbf2e547c633af3caa1647f2256:867aefb8cf2da306e62c5eec7d49f151$ -->
+<TextureAtlas imagePath="dialog.png">
+    <SubTexture name="1299864726" x="525" y="309" width="73" height="63"/>
+    <SubTexture name="3057749677" x="2" y="2" width="111" height="264" frameX="-4" frameY="-24" frameWidth="121" frameHeight="288"/>
+    <SubTexture name="3232026368" x="115" y="2" width="62" height="264" frameX="0" frameY="-28" frameWidth="66" frameHeight="292"/>
+    <SubTexture name="449832058" x="2" y="268" width="254" height="227"/>
+    <SubTexture name="background" x="493" y="261" width="46" height="46"/>
+    <SubTexture name="background_choice" x="258" y="408" width="81" height="85"/>
+    <SubTexture name="bullet" x="341" y="457" width="32" height="37"/>
+    <SubTexture name="choice_separator" x="2" y="497" width="515" height="6" frameX="-22" frameY="0" frameWidth="559" frameHeight="6"/>
+    <SubTexture name="choice_separator_vertical" x="493" y="195" width="48" height="64"/>
+    <SubTexture name="ground" x="179" y="2" width="377" height="191" frameX="0" frameY="0" frameWidth="381" frameHeight="191"/>
+    <SubTexture name="heart_border" x="541" y="435" width="86" height="50" frameX="-2" frameY="0" frameWidth="88" frameHeight="78"/>
+    <SubTexture name="heart_empty" x="265" y="309" width="86" height="74" frameX="0" frameY="-4" frameWidth="88" frameHeight="78"/>
+    <SubTexture name="heart_full" x="543" y="195" width="70" height="61"/>
+    <SubTexture name="icon_background" x="427" y="381" width="112" height="112"/>
+    <SubTexture name="icon_background_choice" x="379" y="195" width="112" height="112"/>
+    <SubTexture name="icon_background_unactivated" x="265" y="195" width="112" height="112"/>
+    <SubTexture name="icon_separator" x="258" y="267" width="5" height="139"/>
+    <SubTexture name="notification_1" x="439" y="309" width="84" height="70"/>
+    <SubTexture name="notification_2" x="353" y="309" width="84" height="70"/>
+    <SubTexture name="notification_3" x="341" y="385" width="84" height="70"/>
+    <SubTexture name="notification_4" x="179" y="195" width="84" height="70"/>
+    <SubTexture name="tail" x="541" y="374" width="52" height="59"/>
+</TextureAtlas>

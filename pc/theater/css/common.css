@@ -1,0 +1,87 @@
+/* -----------------------------------------------------------
+element
+------------------------------------------------------------*/
+html{
+	height:100%;
+	border:0;
+}
+
+body{
+	line-break:strict;
+	word-break:break-all;
+	font-family:'Hiragino Kaku Gothic Pro','ÉÅÉCÉäÉI','ÇlÇr ÇoÉSÉVÉbÉN';
+}
+
+img{
+	border:none;
+	vertical-align:bottom;
+}
+
+form{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	margin:0px;
+	padding:0px;
+}
+
+a,a:link,a:visited,a:active{
+	color:#7aac00;
+}
+
+a:hover{
+	color:#f37b11;
+}
+
+a.imgLink,a:link.imgLink,a:visited.imgLink,a:active.imgLink{
+	border:none;
+	background:none;
+}
+
+a:hover.imgLink{
+	text-decoration:none;
+	border:none;
+	background:none;
+}
+
+br{
+	letter-spacing:0;
+}
+
+
+/* -----------------------------------------------------------
+base
+------------------------------------------------------------*/
+
+#contents{
+	width:752px;
+	height:815px;
+	background-image:url(../img/bg.gif);
+}
+
+#contentsad{
+	width:752px;
+	height:815px;
+	background-image:url(../img/bg_ad.gif);
+}
+
+#spacer{
+	width:1px;
+	height:190px;
+}
+
+
+#videoBox{
+	text-align:center;
+	height:379px;
+}
+
+#btnBox{
+	padding:60px 0 0 60px;
+}
+
+#btnBox img {
+	margin-right:10px;
+}

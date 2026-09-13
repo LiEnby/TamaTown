@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:189e45587b53ec893f11526677dcfbb8:353d81d899a2f121635f54df58442e46:cdc72d66d16ef699e2b1082e4e84d2b9$ -->
+<TextureAtlas imagePath="shop.png">
+    <SubTexture name="1031562479" x="1" y="159" width="80" height="126"/>
+    <SubTexture name="2093633825" x="1" y="1" width="42" height="158"/>
+    <SubTexture name="2232537835" x="90" y="459" width="54" height="52"/>
+    <SubTexture name="3217043072" x="1" y="397" width="89" height="89"/>
+    <SubTexture name="3448380054" x="189" y="106" width="66" height="99"/>
+    <SubTexture name="craft_frame_missing" x="109" y="369" width="90" height="90"/>
+    <SubTexture name="craft_frame_owned" x="109" y="279" width="90" height="90"/>
+    <SubTexture name="decoration" x="151" y="1" width="88" height="105"/>
+    <SubTexture name="equal_sign" x="189" y="459" width="41" height="34"/>
+    <SubTexture name="price_tag" x="81" y="225" width="124" height="54"/>
+    <SubTexture name="quantity_background" x="239" y="1" width="6" height="64"/>
+    <SubTexture name="quantity_sign" x="144" y="459" width="45" height="44"/>
+    <SubTexture name="shop_exit_button_down" x="81" y="113" width="108" height="112"/>
+    <SubTexture name="shop_exit_button_over" x="1" y="285" width="108" height="112"/>
+    <SubTexture name="shop_exit_button_up" x="43" y="1" width="108" height="112"/>
+</TextureAtlas>

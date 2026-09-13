@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:bc1295634137c809388e4badf0476434:cd33ed35264f978f9a5bc391758beaac:93e031ca65b2814527bb2bfffbb01000$ -->
+<TextureAtlas imagePath="fireworks.png">
+    <SubTexture name="1205652131" x="461" y="221" width="49" height="28"/>
+    <SubTexture name="1546513839" x="330" y="242" width="41" height="24"/>
+    <SubTexture name="2023821603" x="284" y="2" width="190" height="161"/>
+    <SubTexture name="2625320798" x="284" y="165" width="124" height="75"/>
+    <SubTexture name="2877229048" x="476" y="18" width="16" height="12"/>
+    <SubTexture name="2886721612" x="284" y="242" width="44" height="26"/>
+    <SubTexture name="3046449329" x="476" y="2" width="20" height="14"/>
+    <SubTexture name="3287980974" x="410" y="221" width="49" height="28"/>
+    <SubTexture name="3937243581" x="410" y="165" width="93" height="54"/>
+    <SubTexture name="458788180" x="2" y="2" width="280" height="275"/>
+</TextureAtlas>

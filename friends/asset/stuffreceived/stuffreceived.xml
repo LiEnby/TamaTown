@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:fceb32a9b4effbfe061b866d7f46c0c5$ -->
+<TextureAtlas imagePath="stuffreceived.png">
+    <SubTexture name="background" x="2" y="2" width="311" height="310" frameX="-11" frameY="-12" frameWidth="335" frameHeight="336"/>
+    <SubTexture name="icon_background" x="315" y="2" width="180" height="180" frameX="-1" frameY="-1" frameWidth="186" frameHeight="186"/>
+</TextureAtlas>

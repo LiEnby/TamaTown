@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:619e689c97bc27d62295a7804730e934:148b95a008043191d1cd1e0f286951e3:b8cc08027d937d3d925125c78453561d$ -->
+<TextureAtlas imagePath="mainmenu.png">
+    <SubTexture name="character_background" x="364" y="2" width="126" height="132"/>
+    <SubTexture name="forgot_password_button_down" x="432" y="345" width="58" height="58"/>
+    <SubTexture name="forgot_password_button_over" x="432" y="285" width="58" height="58"/>
+    <SubTexture name="forgot_password_button_up" x="447" y="136" width="58" height="58"/>
+    <SubTexture name="game_title" x="2" y="250" width="428" height="189"/>
+    <SubTexture name="input_textfield_frame" x="432" y="223" width="72" height="60"/>
+    <SubTexture name="panel_frame" x="364" y="136" width="81" height="85"/>
+    <SubTexture name="panel_frame_separator" x="2" y="441" width="80" height="64"/>
+    <SubTexture name="remember_background" x="2" y="2" width="360" height="246"/>
+</TextureAtlas>

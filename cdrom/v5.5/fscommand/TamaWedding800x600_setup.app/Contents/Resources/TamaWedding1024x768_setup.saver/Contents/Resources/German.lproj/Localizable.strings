@@ -1,0 +1,7 @@
+﻿"Expires"	= "Läuft ab am:";
+"Expired" 	= "Abgelaufen";
+"HasExpired" = "Dieser Bildschirmschoner ist abgelaufen";
+"Warning" = "Warnung: Wollen Sie wirklich den Bildschirmschoner entfernen?!";
+"Delete" = "Löschen";
+"Cancel" = "Abbrechen";
+"DeleteMsg" = "Wenn Sie löschen wählen, wird der Screensaver gelöscht und die System Präferenzen werden automatisch beendet.";

@@ -1,0 +1,100 @@
+/**
+ * help.css
+ * This css file styles the 
+ * March 2007, JEC for DNA Digital Media Group; 
+ * Updated by CT.
+ */
+
+body {
+	margin-top: 0px;
+	background-color: #aae3ff;
+}
+
+	/* clear out the base div properties */
+div {
+	margin : 0;
+	border : 0;
+	padding : 0;
+
+}
+	/* the container holds the whole works and allows the margins to be set to center the content */
+#container {
+	width : 800px;
+	height : 3300px; /* we need to specify a height because the drop shadows need to grow along with the height */
+	margin-left : auto;
+	margin-right : auto;
+	background-color : #ffffcd;
+}
+
+
+	/* These divs just function to hold the drop shadows on either side of the container.
+	 * they should be empty in the HTML except for a non breaking space or something similiar 
+ 	 */
+#left {
+	float : left;
+	width : 20px;
+	height : 100%;
+	margin-left : -20px;
+	background : url(leftfade.jpg) repeat-y right top;
+}
+
+#right {
+	float : right;
+	width : 20px;
+	height : 100%;
+	margin-right : -20px;
+	background : url(rightfade.jpg) repeat-y left top;
+}
+	/* the index holds the menu items */
+#index {
+	float : left;
+	width : 185px;
+}
+
+#index ol,ul {
+	list-style : none;
+}
+
+	/* The content holds the content */
+#content {
+	margin-left : 190px;
+	padding-right : 0px;
+}
+
+
+#content h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #5eacce;
+}
+
+#content h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent: 12px;
+	color: #666666;
+	list-style-type: none;
+}
+
+#content p,li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	text-indent: 0px;
+	color: #666666;
+}
+
+img { 
+	border : 0;
+}
+
+p>a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+p>a:hover {
+	color: #333333;
+}

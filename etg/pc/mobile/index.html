@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<head>
+	<meta name="robots" content="no">
+	<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+	<meta http-equiv="Content-Style-Type" CONTENT="text/css"> 
+	<meta http-equiv="Content-Script-Type" CONTENT="text/javascript">
+	<title>超じんせーエンジョイ！たまごっちプラス</title>
+	<script language="JavaScript" type="text/javascript"><!--
+	
+		var flashVersion=false;
+		var nn=(navigator.appName.charAt(0)=="N" && navigator.userAgent.indexOf("Safari") == -1) || false;
+		var n6=(document.getElementById && nn) || false;
+		var ie=(document.all && !nn) || false;
+		var safari=(navigator.userAgent.indexOf("Safari")!=-1) || false;
+		var mac=(navigator.userAgent.indexOf("Mac")!=-1) || false;
+		var mac5=(mac && navigator.userAgent.indexOf("MSIE 5")!=-1) || false;
+		var ver=""+navigator.appVersion;
+		var fno=ver.indexOf(" ");
+		var macChecked=0;
+		ver=eval(ver.substring(0,fno));
+		
+		if (ie && !mac)
+		{
+            var flashVersion=new ActiveXObject("ShockwaveFlash.ShockwaveFlash").FlashVersion();
+        	flashVersion=Math.floor(flashVersion / 0x10000);
+		}
+		
+		if (!flashVersion)
+		{
+			if (nn && !document.plugins && !safari ) flashVersion=false;
+			else if ((nn || n6 || safari || mac5) && navigator.plugins) flashVersion=navigator.plugins["Shockwave Flash"].description.charAt(16);
+			else flashVersion=false;
+		}
+		
+		if (ie && mac && !mac5) window.onload=chkMac;
+
+		
+		function chkMac()
+		{
+			if (window["sample"]) flashVersion=((window["sample"].FlashVersion() & 0xffff0000) >> 16);
+			macChecked=1;
+			result();
+		}
+		function result( jumpurl )
+		{
+			if (mac && ie && !mac5 && macChecked==0) return;
+			if (!flashVersion) location.replace("noflash.html");
+			else if (flashVersion<=6) location.replace("minor.html");
+			
+			else location.replace( jumpurl );
+		}
+		
+	//--></script>
+
+<style type="text/css">
+<!--
+body {
+	background-color: #CCFFFF;
+}
+-->
+</style></head>
+<body>
+
+<script language="JavaScript"><!--
+
+	//IE&&MAC用FLASHオブジェクト書き出し
+	if (ie && mac)
+	{
+		document.write(''
+			+'<OBJECT style="visibility:hidden" width="0" height="0" CLASSID="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" CODEBASE="http://active.macromedia.com/flash/cabs/swflash.cab#version=3,0,0,0" WIDTH="290" HEIGHT="80" NAME="sample">'
+			+'<PARAM NAME="Movie" VALUE="sample.swf">'
+			+'<PARAM NAME="quality" VALUE="high">'
+			+'<PARAM NAME="Loop" VALUE="true">'
+			+'<PARAM NAME="play" VALUE="true">'
+			+'<EMBED style="visibility:hidden" SRC="sample.swf" NAME="sample" WIDTH="0" HEIGHT="0" SWLIVECONNECT="true">'
+			+'</OBJECT>'
+		);
+	}
+	
+//--></script>
+<table width="752" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><img src="img/top.gif" width="752" height="407" hspace="0" vspace="0"></td>
+  </tr>
+  <tr>
+    <td>
+<script language="JavaScript"><!--
+document.write('<a href="javascript:void(0)" onclick="result(' + "'" + './flash/tamago.html' + "'" + ');return false;" ><img src="start1.gif" alt=""  width="374"　height="100" border="0"></a>');
+//--></script>
+	</td>
+    <td>
+<script language="JavaScript"><!--
+document.write('<a href="javascript:void(0)" onclick="result(' + "'" + './flash/tlogin.html' + "'" + ');return false;" ><img src="start2.gif" alt=""  width="378"　height="100" border="0"></a>');
+//--></script>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <table width="752" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td colspan="2"><img src="img/top2.gif" width="752" height="14" hspace="0" vspace="0"></td>
+        </tr>
+        <tr>
+          <td><a href="http://link.channel.or.jp/tamago/index.php" target="_blank"><img src="img/circle_btn.gif" width="474" height="53" hspace="0" vspace="0" border="0"></a></td>
+          <td><a href="paysite.html"><img src="img/paysite_btn.gif" width="278" height="53" hspace="0" vspace="0" border="0"></a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+<noscript>
+<p>★JavaScriptが有効になっていない場合、このコンテンツを見ることができません★<br>
+★この表示が出た場合は、JavaScriptが無効になっている可能性が高いと思われます★</p>
+</noscript>
+
+<table width="752" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"><div align="left"></div>      <div align="left">
+        <p><img src="img/top3.gif" width="752" height="6" hspace="0" vspace="0"></p>
+      </div></td>
+  </tr>
+  <tr>
+    <td width="100"><a href="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash&Lang=Japanese" target="_blank"><img src="img/flash_btn.gif" width="615" height="34" hspace="0" vspace="0" border="0"></a></td>
+    <td><a href="inquiry.html"><img src="img/inqu_btn.gif" width="137" height="34" hspace="0" vspace="0" border="0"></a></td>
+  </tr>
+</table>
+<table width="752" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="img/top4.gif" width="752" height="32"></td>
+  </tr>
+</table>
+</body>
+</html>

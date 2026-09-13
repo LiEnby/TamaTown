@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a42744177b43a29a438bb180c7fef760:2b006297bfafd883233ca6d529ed0a92:23bacd7e3889eaf13b0b82c16b192e6d$ -->
+<TextureAtlas imagePath="salondedream.png">
+    <SubTexture name="1742422739" x="212" y="139" width="208" height="135"/>
+    <SubTexture name="3307574804" x="2" y="139" width="208" height="135"/>
+    <SubTexture name="3348665096" x="212" y="2" width="208" height="135"/>
+    <SubTexture name="887148775" x="2" y="2" width="208" height="135"/>
+</TextureAtlas>

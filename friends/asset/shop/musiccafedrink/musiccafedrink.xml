@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:51671041ae1bdc9758f65a4eff02bbcd:506dd43e402c4bf5cc1faed707736abd:2e1f2ba6ee110e4569283f4932de7460$ -->
+<TextureAtlas imagePath="musiccafedrink.png">
+    <SubTexture name="4252811756" x="2" y="2" width="264" height="262" frameX="-1" frameY="-3" frameWidth="268" frameHeight="272"/>
+</TextureAtlas>

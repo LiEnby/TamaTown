@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="characterswap">
+		<Asset path="asset/characterswap/characterswap.png" isSpriteSheet="true" />
+	</AssetList>
+</data>

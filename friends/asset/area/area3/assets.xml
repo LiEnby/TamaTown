@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9741b9646ed286508bedc833efd330ea:9a8ea30ced061ca13b1b68d30b71cf32:57ef0b4f36012e2dacefebfa7d58e2d4$ -->
+<TextureAtlas imagePath="assets.png">
+    <SubTexture name="bldg_dreamhanten" x="256" y="309" width="252" height="475"/>
+    <SubTexture name="bldg_dreamhanten_lock" x="2" y="309" width="252" height="475"/>
+    <SubTexture name="bldg_kiosk" x="261" y="2" width="153" height="240"/>
+    <SubTexture name="deco_tree4" x="2" y="2" width="257" height="305"/>
+    <SubTexture name="pancarte_craft" x="416" y="77" width="68" height="73"/>
+    <SubTexture name="pancarte_shop" x="416" y="2" width="68" height="73"/>
+</TextureAtlas>

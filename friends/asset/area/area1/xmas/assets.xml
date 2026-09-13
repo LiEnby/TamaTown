@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f45650bda58b081ac6ac60e98daff4c0:1b49e85b6aa9fe21586161aa7d6caaa6:57ef0b4f36012e2dacefebfa7d58e2d4$ -->
+<TextureAtlas imagePath="assets.png">
+    <SubTexture name="area1_frt" x="247" y="2" width="275" height="315"/>
+    <SubTexture name="bldg_gazebo" x="2" y="712" width="257" height="305"/>
+    <SubTexture name="bldg_recycleben" x="468" y="509" width="87" height="154"/>
+    <SubTexture name="deco_candles" x="524" y="2" width="109" height="149"/>
+    <SubTexture name="deco_christmastree" x="2" y="2" width="243" height="388"/>
+    <SubTexture name="deco_fountain1" x="271" y="566" width="72" height="99"/>
+    <SubTexture name="deco_tree1" x="271" y="319" width="195" height="245"/>
+    <SubTexture name="deco_tree2" x="468" y="319" width="232" height="188"/>
+    <SubTexture name="deco_tree3" x="261" y="712" width="233" height="284"/>
+    <SubTexture name="deco_tree4" x="2" y="392" width="267" height="318"/>
+</TextureAtlas>

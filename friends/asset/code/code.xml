@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:8afa7c1e31bbff3fb1d97eae96464a79:e5036270da75d479b8998061222f7df8:6ec56ec5736860c734daf8be696ca3c6$ -->
+<TextureAtlas imagePath="code.png">
+    <SubTexture name="code_in_icon" x="772" y="483" width="116" height="89"/>
+    <SubTexture name="code_out_icon" x="890" y="514" width="116" height="87"/>
+    <SubTexture name="code_tutorial_1" x="2" y="482" width="768" height="358"/>
+    <SubTexture name="code_tutorial_2" x="2" y="114" width="768" height="366"/>
+    <SubTexture name="code_tutorial_frame" x="929" y="2" width="81" height="160"/>
+    <SubTexture name="codes_help_button_down" x="854" y="685" width="80" height="80"/>
+    <SubTexture name="codes_help_button_over" x="772" y="645" width="80" height="80"/>
+    <SubTexture name="codes_help_button_up" x="874" y="603" width="80" height="80"/>
+    <SubTexture name="frame_glow" x="2" y="2" width="925" height="110"/>
+    <SubTexture name="icon_ticket" x="772" y="574" width="100" height="69"/>
+    <SubTexture name="input_frame" x="772" y="164" width="240" height="64"/>
+    <SubTexture name="main_ui_frame" x="940" y="427" width="81" height="85"/>
+    <SubTexture name="main_ui_frame_separator" x="772" y="727" width="80" height="64"/>
+    <SubTexture name="tickets_frame" x="772" y="427" width="166" height="54"/>
+    <SubTexture name="welcome_trumpet" x="772" y="230" width="175" height="195"/>
+</TextureAtlas>

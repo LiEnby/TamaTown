@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="userprintcard">
+		<Asset path="asset/userprintcard/userprintcard.png" isSpriteSheet="true" />
+	</AssetList>
+</data>

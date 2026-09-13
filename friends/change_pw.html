@@ -1,0 +1,35 @@
+<script>
+function change_password()
+{
+	var username = document.getElementById("name").value;
+	var oldpass = document.getElementById("old_password").value;
+	var newpass = document.getElementById("new_password").value;
+	xhr = new XMLHttpRequest();
+	xhr.open("POST","/friends/cgi-bin/auth/5555/changePassword",false);
+	var req = {"name":username,"old_password":oldpass,"new_password":newpass}
+	xhr.send(JSON.stringify(req));
+	resp = JSON.parse(xhr.responseText);
+	switch(resp.status)
+	{
+		case 3:
+			document.getElementById("finish").innerText = "Password is not correct.";
+			break;
+		case 2:
+			document.getElementById("finish").innerText = "User does not exist";
+			break
+		case 1:
+			document.getElementById("finish").innerText = "Password changed successfully.";
+			break;
+	}
+}
+</script>
+
+<p><h1>DreamTown user/pass change form</h1></p>
+<p>Username</p>
+	<input type="text" id="name"><br>
+<p>Old Password</p>
+	<input type="password" id="old_password"><br>
+<p>New Password</p>
+	<input type="password" id="new_password"><br>
+<button onclick="change_password()">Change password</button>
+<div id="finish"></div>

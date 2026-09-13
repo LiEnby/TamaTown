@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="introduction">
+		<Asset path="asset/introduction/introduction.atf" isSpriteSheet="true" />
+		<Asset path="asset/introduction/background_top.atf" isSpriteSheet="false" />
+		<Asset path="asset/introduction/background_bottom.atf" isSpriteSheet="false" />
+		<Asset path="asset/introduction/plane/plane.png" isSpriteSheet="true" />
+	</AssetList>
+</data>

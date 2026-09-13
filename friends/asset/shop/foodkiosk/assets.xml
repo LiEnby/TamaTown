@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="foodkiosk">
+		<Asset path="asset/shop/foodkiosk/foodkiosk.png" isSpriteSheet="true" />
+		<Asset path="asset/shop/foodkiosk/shop_background_top.png" isSpriteSheet="false" />
+		<Asset path="asset/shop/foodkiosk/shop_background_bottom.png" isSpriteSheet="false" />
+	</AssetList>
+</data>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7d818a04ebce2156a3949409eb47c434:d1f4779573a3eaea083d2a90ea2a4c6e:6afe9439db6959d2294224b18b62f261$ -->
+<TextureAtlas imagePath="cafeteria.png">
+    <SubTexture name="2565517706" x="284" y="2" width="139" height="58"/>
+    <SubTexture name="3080740225" x="143" y="62" width="139" height="58"/>
+    <SubTexture name="36016560" x="143" y="2" width="139" height="58"/>
+    <SubTexture name="4011060475" x="2" y="62" width="139" height="58"/>
+    <SubTexture name="776389872" x="2" y="2" width="139" height="58"/>
+</TextureAtlas>

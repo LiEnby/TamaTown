@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="code">
+		<Asset path="asset/code/code.png" isSpriteSheet="true" />
+		<Asset path="asset/code/code_help_top.atf" isSpriteSheet="false" />
+		<Asset path="asset/code/code_help_bottom.atf" isSpriteSheet="false" />
+	</AssetList>
+</data>

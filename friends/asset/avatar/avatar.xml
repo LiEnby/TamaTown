@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:24be4db08e86f9f51f240b9bbb9134dc:39d7460deafa62830d9a4ab8f0f6dfe7:63b28816fb59fc1a299afff8672ebb1c$ -->
+<TextureAtlas imagePath="avatar.png">
+    <SubTexture name="char1_icon" x="2" y="2" width="96" height="64" frameX="-2" frameY="-17" frameWidth="98" frameHeight="98"/>
+    <SubTexture name="char2_icon" x="90" y="72" width="80" height="64" frameX="-9" frameY="-15" frameWidth="98" frameHeight="98"/>
+    <SubTexture name="char3_icon" x="190" y="2" width="64" height="68" frameX="-17" frameY="-15" frameWidth="98" frameHeight="98"/>
+    <SubTexture name="char4_icon" x="2" y="68" width="86" height="78" frameX="-5" frameY="-10" frameWidth="98" frameHeight="98"/>
+    <SubTexture name="char5_icon" x="100" y="2" width="88" height="68" frameX="-5" frameY="-14" frameWidth="98" frameHeight="98"/>
+    <SubTexture name="char6_icon" x="2" y="148" width="72" height="84" frameX="-13" frameY="-7" frameWidth="98" frameHeight="98"/>
+    <SubTexture name="char7_icon" x="76" y="148" width="66" height="76" frameX="-16" frameY="-11" frameWidth="98" frameHeight="98"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a6e425e1a31a64f1f12442d00633c237:f4f843d7b3ea9756801549919b88a015:41d21c08c0f3d86c10e4f2c8e6942046$ -->
+<TextureAtlas imagePath="arrow.png">
+    <SubTexture name="2200596708" x="2" y="2" width="80" height="74"/>
+</TextureAtlas>

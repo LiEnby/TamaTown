@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:ca0680967547245f9078f5c1fe4d8c9a:96c82d9f22b15434e09844a5f46313e7:a86f1d5c6fe98bf49fa868ea67fbf4b0$ -->
+<TextureAtlas imagePath="mametchi.png">
+    <SubTexture name="1026106582" x="2" y="132" width="20" height="13"/>
+    <SubTexture name="1356246342" x="69" y="2" width="56" height="69"/>
+    <SubTexture name="178607328" x="115" y="110" width="8" height="6"/>
+    <SubTexture name="1879215318" x="46" y="139" width="13" height="16"/>
+    <SubTexture name="2104909532" x="105" y="123" width="7" height="9"/>
+    <SubTexture name="2379481053" x="24" y="113" width="20" height="17"/>
+    <SubTexture name="2409056996" x="2" y="113" width="20" height="17"/>
+    <SubTexture name="2628104988" x="27" y="84" width="23" height="27"/>
+    <SubTexture name="2674981137" x="38" y="144" width="6" height="2"/>
+    <SubTexture name="2746101463" x="62" y="110" width="20" height="13"/>
+    <SubTexture name="2797772006" x="2" y="2" width="65" height="40"/>
+    <SubTexture name="2888624499" x="65" y="73" width="61" height="35"/>
+    <SubTexture name="2915899591" x="62" y="137" width="13" height="16"/>
+    <SubTexture name="3044916987" x="46" y="120" width="14" height="17"/>
+    <SubTexture name="3060580329" x="52" y="100" width="8" height="18"/>
+    <SubTexture name="3112730469" x="2" y="84" width="23" height="27"/>
+    <SubTexture name="3336729512" x="62" y="125" width="17" height="10"/>
+    <SubTexture name="3461420937" x="24" y="140" width="13" height="2"/>
+    <SubTexture name="3746831840" x="105" y="110" width="8" height="11"/>
+    <SubTexture name="3778579046" x="24" y="132" width="20" height="6"/>
+    <SubTexture name="388235563" x="84" y="110" width="19" height="28"/>
+    <SubTexture name="4130344622" x="52" y="84" width="10" height="14"/>
+    <SubTexture name="429967518" x="2" y="147" width="12" height="14"/>
+    <SubTexture name="763264024" x="115" y="118" width="7" height="9"/>
+    <SubTexture name="823940777" x="2" y="44" width="61" height="38"/>
+    <SubTexture name="837931200" x="24" y="144" width="12" height="15"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="anim_julietchi">
+		<Asset path="asset/avatar/animation/julietchi/julietchi.png" isSpriteSheet="true" />
+	</AssetList>
+</data>

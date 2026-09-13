@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c963812cffe9303087657b8be9106fca:b4016b409efd51a40b26548a89c4f6b4:2f3946fdf0a2c24c8feea6f9b621b62f$ -->
+<TextureAtlas imagePath="generalinventory.png">
+    <SubTexture name="button_item_frame_down" x="157" y="186" width="90" height="90"/>
+    <SubTexture name="button_item_frame_over" x="164" y="94" width="90" height="90"/>
+    <SubTexture name="button_item_frame_up" x="164" y="2" width="90" height="90"/>
+    <SubTexture name="info_popup_frame" x="109" y="164" width="46" height="46"/>
+    <SubTexture name="info_popup_frame_spike" x="109" y="246" width="26" height="14"/>
+    <SubTexture name="inventory_item_circle" x="2" y="2" width="160" height="160"/>
+    <SubTexture name="pink_frame" x="109" y="212" width="32" height="32"/>
+    <SubTexture name="popup_decoration_upper_left" x="2" y="255" width="89" height="105"/>
+    <SubTexture name="popup_decoration_upper_right" x="2" y="164" width="105" height="89"/>
+</TextureAtlas>

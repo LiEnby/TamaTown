@@ -1,5 +1,14 @@
-*.obj
-*bin*
-*.vs*
-*obj*
-*.vs/*
+# random other flash games ..
+other/*
+
+# a few random mp3s
+music_city/*
+
+# downloads
+files/*
+
+# ruffle wasm
+ruffle/*
+
+# Google site console
+google*

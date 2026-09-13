@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="assets_area_1">
+		<Asset path="asset/area/area1/xmas/assets.atf" isSpriteSheet="true" />
+		<Asset path="asset/area/area1/background_top.png" isSpriteSheet="false" />
+		<Asset path="asset/area/area1/background_bottom.atf" isSpriteSheet="false" />
+	</AssetList>
+</data>

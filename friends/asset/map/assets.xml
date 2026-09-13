@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="map">
+		<Asset path="asset/map/map.png" isSpriteSheet="true" />
+		<Asset path="asset/map/background_top.png" isSpriteSheet="false" />
+		<Asset path="asset/map/background_bottom.png" isSpriteSheet="false" />
+	</AssetList>
+</data>

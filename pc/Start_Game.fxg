@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="564" viewWidth="752" ATE:version="1.0.0" flm:version="1.0.0" d:id="1" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library>
+    <Definition name="Symbol_206" flm:originalName="Symbol 206" flm:symbolType="1">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Group flm:isDrawingObject="false">
+          <Path data="M121.25 -107.8Q135.1 -101.9 145.8 -91.25 156.5 -80.55 162.35 -66.7 168.45 -52.35 168.45 -36.7 168.45 -26.85 165.95 -17.3L165.35 -14.95 167 -13.1Q186.45 8.85 186.45 38.1 186.45 50.35 182.7 61.9L181.45 65.75 185.1 67.5Q210.25 79.3 210.35 100.8
+ 196.4 84.25 174.4 83.25L172 83.1 170.55 85Q159.5 99.45 143.45 107.35 127.45 115.25 109.3 115.25L99.7 114.65 97.25 114.35 95.65 116.2Q84.6 128.95 69.35 136 54.05 143 37.25 143 8.25 143 -13.6 123.85L-15.95 121.8 -18.7 123.25Q-35.4 131.9 -54.2
+ 131.9 -72.25 131.9 -88.2 124.05 -104.2 116.2 -115.25 101.9L-116.95 99.75 -119.65 100.2Q-126.45 101.4 -133.2 101.4 -148.85 101.4 -163.2 95.35 -177.05 89.45 -187.75 78.8 -198.4 68.1 -204.3 54.25 -210.35 39.9 -210.35 24.25 -210.35 7.5 -203.4 -7.75
+ -196.4 -23.05 -183.7 -34.05L-182.35 -35.2 -182.15 -37Q-178.9 -66.3 -156.95 -85.95 -135 -105.55 -105.5 -105.55 -94.7 -105.55 -84.45 -102.65L-81.05 -101.7 -79.25 -104.75Q-68.9 -122.4 -51 -132.7 -33.1 -142.95 -12.65 -142.95 6.95 -142.95 24.1 -133.65
+ 41.3 -124.35 52 -107.9L54.2 -104.55 57.85 -106.25Q73.6 -113.85 91.25 -113.85 106.9 -113.85 121.25 -107.8Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+          <Path data="M121.25 -107.8Q106.9 -113.85 91.25 -113.85 73.6 -113.85 57.85 -106.25L54.2 -104.55 52 -107.9Q41.3 -124.35 24.1 -133.65 6.95 -142.95 -12.65 -142.95 -33.1 -142.95 -51 -132.7 -68.9 -122.4 -79.25 -104.75L-81.05 -101.7 -84.45 -102.65Q-94.7 -105.55
+ -105.5 -105.55 -135 -105.55 -156.95 -85.95 -178.9 -66.3 -182.15 -37L-182.35 -35.2 -183.7 -34.05Q-196.4 -23.05 -203.4 -7.75 -210.35 7.5 -210.35 24.25 -210.35 39.9 -204.3 54.25 -198.4 68.1 -187.75 78.8 -177.05 89.45 -163.2 95.35 -148.85 101.4
+ -133.2 101.4 -126.45 101.4 -119.65 100.2L-116.95 99.75 -115.25 101.9Q-104.2 116.2 -88.2 124.05 -72.25 131.9 -54.2 131.9 -35.4 131.9 -18.7 123.25L-15.95 121.8 -13.6 123.85Q8.25 143 37.25 143 54.05 143 69.35 136 84.6 128.95 95.65 116.2L97.25
+ 114.35 99.7 114.65 109.3 115.25Q127.45 115.25 143.45 107.35 159.5 99.45 170.55 85L172 83.1 174.4 83.25Q196.4 84.25 210.35 100.8 210.25 79.3 185.1 67.5L181.45 65.75 182.7 61.9Q186.45 50.35 186.45 38.1 186.45 8.85 167 -13.1L165.35 -14.95 165.95
+ -17.3Q168.45 -26.85 168.45 -36.7 168.45 -52.35 162.35 -66.7 156.5 -80.55 145.8 -91.25 135.1 -101.9 121.25 -107.8ZM91.25 -123.05Q108.8 -123.05 124.85 -116.25 140.35 -109.7 152.3 -97.7 164.25 -85.75 170.8 -70.25 177.6 -54.25 177.6 -36.7 177.6
+ -26.8 175.35 -17.3 195.6 6.85 195.6 38.1 195.6 49.4 192.5 60.95 204.05 67.3 210.9 76.1 219.5 87.25 219.5 101.05 219.5 107.6 217.6 114.2L214.6 124.9 209.2 115.15Q197.9 94.65 176.2 92.6 163.8 107.8 146.35 116.1 128.9 124.45 109.3 124.45L100.95
+ 124Q88.7 137.45 72.05 144.8 55.4 152.15 37.25 152.15 6.7 152.15 -17.2 132.7 -34.65 141.05 -54.2 141.05 -73.65 141.05 -91.05 132.85 -108.4 124.6 -120.8 109.6L-133.2 110.6Q-150.75 110.6 -166.75 103.8 -182.25 97.25 -194.2 85.3 -206.15 73.3 -212.7
+ 57.8 -219.5 41.8 -219.5 24.25 -219.5 5.9 -212.05 -10.8 -204.6 -27.55 -191 -39.8 -186.75 -71.95 -162.4 -93.35 -138.05 -114.75 -105.5 -114.75 -95.45 -114.75 -85.35 -112.3 -73.45 -130.8 -54.05 -141.45 -34.6 -152.15 -12.65 -152.15 8.3 -152.15 26.8
+ -142.6 45.25 -133.15 57.45 -116.15 73.7 -123.05 91.25 -123.05Z">
+            <fill>
+              <SolidColor color="#143362"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_207" flm:originalName="Symbol 207" flm:symbolType="1">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Path flm:isDrawingObject="false" data="M-17.3 -45.6Q1.55 -53.6 20.55 -45.9 39.55 -38.2 47.55 -19.35 55.55 -0.45 47.85 18.55 40.15 37.55 21.3 45.55 2.45 53.55 -16.6 45.85 -35.6 38.15 -43.6 19.25 -51.55 0.35 -43.85 -18.6 -36.2 -37.6 -17.3 -45.6Z">
+            <fill>
+              <SolidColor color="#F9B900"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <Path flm:isDrawingObject="false" data="M-17.3 -45.6Q1.55 -53.6 20.55 -45.9 39.55 -38.2 47.55 -19.35 55.55 -0.45 47.85 18.55 40.15 37.55 21.3 45.55 2.45 53.55 -16.6 45.85 -35.6 38.15 -43.6 19.25 -51.55 0.35 -43.85 -18.6 -36.2 -37.6 -17.3 -45.6Z">
+            <stroke>
+              <SolidColorStroke weight="5" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Group flm:isDrawingObject="false">
+            <Path data="M2.05 -4.75Q9 -1.5 11.9 5.6 15.4 15.65 10 24.15 4.55 32.6 -3.7 37.7 -8.8 40.15 -11.8 35.65 -14.15 30.65 -9.8 27.55 -6.05 24.55 -1.65 20.15 2.4 16.15 1.1 10.2 0.2 7.45 -2.4 6.2 -14.15 4.05 -24.45 10.05M-29 -0.75 -30.55 -0.1">
+              <stroke>
+                <SolidColorStroke weight="7" joints="miter" color="#143362"/>
+              </stroke>
+            </Path>
+            <Path data="M-24.45 10.05Q-30.25 11.7 -33.2 6.5 -35.3 1.95 -30.55 -0.1">
+              <stroke>
+                <SolidColorStroke weight="7" joints="miter" color="#143362"/>
+              </stroke>
+            </Path>
+            <Path data="M-24.45 10.05 -25.1 8.55M-30.55 -0.1Q-18.45 -8.55 -12.65 -22.2 -10.7 -25.85 -12.1 -29.7 -16 -34.25 -21.5 -33.75 -27 -33.3 -32.1 -31.25 -37 -29.15 -41.65 -26.35 -46.4 -24.8 -49.75 -28.35 -52.15 -33.3 -47.8 -36.45 -32.7 -45.9 -15.3 -44.05 -6.45
+ -41.85 -1.3 -34.25L-0.7 -32.75Q2.2 -25.05 -1.7 -17.8 -3.05 -11.2 -7.6 -6.1 -2.65 -6 2.05 -4.75">
+              <stroke>
+                <SolidColorStroke weight="7" caps="none" joints="miter" color="#143362"/>
+              </stroke>
+            </Path>
+          </Group>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3">
+          <Path flm:isDrawingObject="false" data="M-47.8 -36.45Q-32.7 -45.9 -15.3 -44.05 -6.45 -41.85 -1.3 -34.25L-0.7 -32.75Q2.2 -25.05 -1.7 -17.8 -3.05 -11.2 -7.6 -6.1 -2.65 -6 2.05 -4.75 9 -1.5 11.9 5.6 15.4 15.65 10 24.15 4.55 32.6 -3.7 37.7 -8.8 40.15 -11.8 35.65 -14.15 30.65 -9.8 27.55
+ -6.05 24.55 -1.65 20.15 2.4 16.15 1.1 10.2 0.2 7.45 -2.4 6.2 -14.15 4.05 -24.45 10.05 -30.25 11.7 -33.2 6.5 -35.3 1.95 -30.55 -0.1 -18.45 -8.55 -12.65 -22.2 -10.7 -25.85 -12.1 -29.7 -16 -34.25 -21.5 -33.75 -27 -33.3 -32.1 -31.25 -37 -29.15
+ -41.65 -26.35 -46.4 -24.8 -49.75 -28.35 -52.15 -33.3 -47.8 -36.45Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2">
+          <Path flm:isDrawingObject="false" data="M40.1 -27.15Q43.7 -27.15 43.7 -23.45 44.6 -16.15 42.35 -8.95L38.6 8Q37.8 11.85 33.7 11.6 30.2 10.4 30.1 6.7L33.85 -10.25Q36.25 -16.8 35.2 -23.55 35.95 -27.3 40.1 -27.15ZM32.45 16.4Q37 17.85 37.25 22.5 37.05 27.3 32.35 27.3 29.1 27.5 27.55 24.85
+ 25.7 21.25 27.6 17.55 29.8 16.2 32.45 16.4Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 1">
+          <Path flm:isDrawingObject="false" data="M40.1 -27.15Q43.7 -27.15 43.7 -23.45 44.6 -16.15 42.35 -8.95L38.6 8Q37.8 11.85 33.7 11.6 30.2 10.4 30.1 6.7L33.85 -10.25Q36.25 -16.8 35.2 -23.55 35.95 -27.3 40.1 -27.15ZM32.45 16.4Q37 17.85 37.25 22.5 37.05 27.3 32.35 27.3 29.1 27.5 27.55 24.85
+ 25.7 21.25 27.6 17.55 29.8 16.2 32.45 16.4Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_208" flm:originalName="Symbol 208" flm:symbolType="1">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 8">
+          <Path flm:isDrawingObject="false" data="M-17.3 -45.6Q1.55 -53.6 20.55 -45.9 39.55 -38.2 47.55 -19.35 55.55 -0.45 47.85 18.55 40.15 37.55 21.3 45.55 2.45 53.55 -16.6 45.85 -35.6 38.15 -43.6 19.25 -51.55 0.35 -43.85 -18.6 -36.2 -37.6 -17.3 -45.6Z">
+            <fill>
+              <SolidColor color="#F9B900"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 7">
+          <Path flm:isDrawingObject="false" data="M-17.3 -45.6Q1.55 -53.6 20.55 -45.9 39.55 -38.2 47.55 -19.35 55.55 -0.45 47.85 18.55 40.15 37.55 21.3 45.55 2.45 53.55 -16.6 45.85 -35.6 38.15 -43.6 19.25 -51.55 0.35 -43.85 -18.6 -36.2 -37.6 -17.3 -45.6Z">
+            <stroke>
+              <SolidColorStroke weight="5" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Group flm:isDrawingObject="false">
+            <Path data="M14.1 -7.75Q21.05 -4.5 23.95 2.6 27.45 12.65 22.05 21.15 16.6 29.6 8.35 34.7 3.25 37.15 0.25 32.65 -2.1 27.65 2.25 24.55 6 21.55 10.4 17.15 14.45 13.15 13.15 7.2 12.25 4.45 9.65 3.2 -2.1 1.05 -12.4 7.05M-16.95 -3.75 -18.5 -3.1">
+              <stroke>
+                <SolidColorStroke weight="7" joints="miter" color="#143362"/>
+              </stroke>
+            </Path>
+            <Path data="M-12.4 7.05Q-18.2 8.7 -21.15 3.5 -23.25 -1.05 -18.5 -3.1">
+              <stroke>
+                <SolidColorStroke weight="7" joints="miter" color="#143362"/>
+              </stroke>
+            </Path>
+            <Path data="M-18.5 -3.1Q-6.4 -11.55 -0.6 -25.2 1.35 -28.85 -0.05 -32.7 -3.95 -37.25 -9.45 -36.75 -14.95 -36.3 -20.05 -34.25 -24.95 -32.15 -29.6 -29.35 -34.35 -27.8 -37.7 -31.35 -40.1 -36.3 -35.75 -39.45 -20.65 -48.9 -3.25 -47.05 5.6 -44.85 10.75 -37.25
+L11.35 -35.75Q14.25 -28.05 10.35 -20.8 9 -14.2 4.45 -9.1 9.4 -9 14.1 -7.75M-12.4 7.05 -13.05 5.55">
+              <stroke>
+                <SolidColorStroke weight="7" caps="none" joints="miter" color="#143362"/>
+              </stroke>
+            </Path>
+          </Group>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <Path flm:isDrawingObject="false" data="M14.1 -7.75Q21.05 -4.5 23.95 2.6 27.45 12.65 22.05 21.15 16.6 29.6 8.35 34.7 3.25 37.15 0.25 32.65 -2.1 27.65 2.25 24.55 6 21.55 10.4 17.15 14.45 13.15 13.15 7.2 12.25 4.45 9.65 3.2 -2.1 1.05 -12.4 7.05 -18.2 8.7 -21.15 3.5 -23.25 -1.05 -18.5
+ -3.1 -6.4 -11.55 -0.6 -25.2 1.35 -28.85 -0.05 -32.7 -3.95 -37.25 -9.45 -36.75 -14.95 -36.3 -20.05 -34.25 -24.95 -32.15 -29.6 -29.35 -34.35 -27.8 -37.7 -31.35 -40.1 -36.3 -35.75 -39.45 -20.65 -48.9 -3.25 -47.05 5.6 -44.85 10.75 -37.25L11.35
+ -35.75Q14.25 -28.05 10.35 -20.8 9 -14.2 4.45 -9.1 9.4 -9 14.1 -7.75Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Path flm:isDrawingObject="false" data="M-36.1 -3.75Q-33.65 -0.5 -34.95 3.45 -36.9 5.15 -39.5 5.4 -44.25 4.7 -45.25 0.15 -45.85 -4.6 -41.2 -5.35 -38 -6.1 -36.1 -3.75ZM-35.8 45.25Q-35.9 49.05 -40 49.6 -43.55 50.15 -44.15 46.5 -46.25 39.45 -45.2 32L-44.25 14.65Q-44.1 10.7 -40 10.3 -36.35
+ 10.95 -35.65 14.55L-36.6 31.9Q-37.9 38.75 -35.8 45.25Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3">
+          <Path flm:isDrawingObject="false" data="M-36.1 -3.75Q-33.65 -0.5 -34.95 3.45 -36.9 5.15 -39.5 5.4 -44.25 4.7 -45.25 0.15 -45.85 -4.6 -41.2 -5.35 -38 -6.1 -36.1 -3.75ZM-35.8 45.25Q-35.9 49.05 -40 49.6 -43.55 50.15 -44.15 46.5 -46.25 39.45 -45.2 32L-44.25 14.65Q-44.1 10.7 -40 10.3 -36.35
+ 10.95 -35.65 14.55L-36.6 31.9Q-37.9 38.75 -35.8 45.25Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2">
+          <Path flm:isDrawingObject="false" data="M38.5 -40.2Q38.6 -44 42.7 -44.55 46.25 -45.1 46.85 -41.45 48.95 -34.4 47.9 -26.95L46.95 -9.6Q46.8 -5.65 42.7 -5.25 39.05 -5.9 38.35 -9.5L39.3 -26.85Q40.6 -33.7 38.5 -40.2ZM43.9 10.4Q40.7 11.15 38.8 8.8 36.35 5.55 37.65 1.6 39.6 -0.1 42.2 -0.35
+ 46.95 0.35 47.95 4.9 48.55 9.65 43.9 10.4Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 1">
+          <Path flm:isDrawingObject="false" data="M38.5 -40.2Q38.6 -44 42.7 -44.55 46.25 -45.1 46.85 -41.45 48.95 -34.4 47.9 -26.95L46.95 -9.6Q46.8 -5.65 42.7 -5.25 39.05 -5.9 38.35 -9.5L39.3 -26.85Q40.6 -33.7 38.5 -40.2ZM43.9 10.4Q40.7 11.15 38.8 8.8 36.35 5.55 37.65 1.6 39.6 -0.1 42.2 -0.35
+ 46.95 0.35 47.95 4.9 48.55 9.65 43.9 10.4Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_209" flm:originalName="Symbol 209">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Symbol_207 x="-0.5" y="0.05" flm:instanceType="graphic"/>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Script Layer"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Labels Layer"/>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_210" flm:originalName="Symbol 210" flm:symbolType="1">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Path flm:isDrawingObject="false" data="M-34.5 -35.05Q-20 -49.55 0.5 -49.55 21 -49.55 35.5 -35.05 50 -20.5 50 -0.05 50 20.45 35.5 35 21 49.5 0.5 49.5 -20 49.5 -34.5 35 -49 20.45 -49 -0.05 -49 -20.55 -34.5 -35.05Z">
+            <fill>
+              <SolidColor color="#8CD2F5"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <Path flm:isDrawingObject="false" data="M-34.5 -35.05Q-20 -49.55 0.5 -49.55 21 -49.55 35.5 -35.05 50 -20.5 50 -0.05 50 20.45 35.5 35 21 49.5 0.5 49.5 -20 49.5 -34.5 35 -49 20.45 -49 -0.05 -49 -20.55 -34.5 -35.05Z">
+            <stroke>
+              <SolidColorStroke weight="5" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Path flm:isDrawingObject="false" data="M7.7 -20.45Q5.55 -9.6 -2.15 -1.7 -9.75 6.05 -19.05 11.35 -6.9 13.8 6.05 13.1 11.1 13.1 11.1 18.1 11.25 23.85 6.05 24.8L-15.5 24.15Q-26.55 23.6 -35.8 18.1 -38.05 17.4 -37.45 14.75 -37.85 11.9 -35.8 9.7L-30.75 6.4Q-22.35 0.85 -14.7 -5.55 -6.85
+ -12.15 -4 -22.1 -5.8 -31.25 -14 -35.55 -24.4 -39.8 -32.5 -32.2 -36.75 -27.05 -40.85 -32.2 -43.4 -35.5 -40.85 -38.85 -27.55 -53.5 -9.05 -45.55 6.75 -39 7.7 -22.1Z">
+            <stroke>
+              <SolidColorStroke weight="7" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3">
+          <Path flm:isDrawingObject="false" data="M7.7 -20.45Q5.55 -9.6 -2.15 -1.7 -9.75 6.05 -19.05 11.35 -6.9 13.8 6.05 13.1 11.1 13.1 11.1 18.1 11.25 23.85 6.05 24.8L-15.5 24.15Q-26.55 23.6 -35.8 18.1 -38.05 17.4 -37.45 14.75 -37.85 11.9 -35.8 9.7L-30.75 6.4Q-22.35 0.85 -14.7 -5.55 -6.85
+ -12.15 -4 -22.1 -5.8 -31.25 -14 -35.55 -24.4 -39.8 -32.5 -32.2 -36.75 -27.05 -40.85 -32.2 -43.4 -35.5 -40.85 -38.85 -27.55 -53.5 -9.05 -45.55 6.75 -39 7.7 -22.1Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2">
+          <Path flm:isDrawingObject="false" data="M45.3 -6.95Q44.1 0.4 40 6.6L31.7 21.85Q29.8 25.35 26 24 22.95 21.85 23.85 18.3L32.2 3Q36.35 -2.65 37.15 -9.35 38.95 -12.8 42.85 -11.5 46.35 -10.45 45.3 -6.95ZM18.45 28 23.45 28.2Q27.45 30.9 26.4 35.45 24.8 40 20.35 38.7 17.1 37.95 16.35 35 15.6
+ 31 18.45 28Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 1">
+          <Path flm:isDrawingObject="false" data="M45.3 -6.95Q44.1 0.4 40 6.6L31.7 21.85Q29.8 25.35 26 24 22.95 21.85 23.85 18.3L32.2 3Q36.35 -2.65 37.15 -9.35 38.95 -12.8 42.85 -11.5 46.35 -10.45 45.3 -6.95ZM18.45 28 23.45 28.2Q27.45 30.9 26.4 35.45 24.8 40 20.35 38.7 17.1 37.95 16.35 35 15.6
+ 31 18.45 28Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_211" flm:originalName="Symbol 211" flm:symbolType="1">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 8">
+          <Path flm:isDrawingObject="false" data="M-34.5 -35.05Q-20 -49.55 0.5 -49.55 21 -49.55 35.5 -35.05 50 -20.5 50 -0.05 50 20.45 35.5 35 21 49.5 0.5 49.5 -20 49.5 -34.5 35 -49 20.45 -49 -0.05 -49 -20.55 -34.5 -35.05Z">
+            <fill>
+              <SolidColor color="#8CD2F5"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 7">
+          <Path flm:isDrawingObject="false" data="M-34.5 -35.05Q-20 -49.55 0.5 -49.55 21 -49.55 35.5 -35.05 50 -20.5 50 -0.05 50 20.45 35.5 35 21 49.5 0.5 49.5 -20 49.5 -34.5 35 -49 20.45 -49 -0.05 -49 -20.55 -34.5 -35.05Z">
+            <stroke>
+              <SolidColorStroke weight="5" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Path flm:isDrawingObject="false" data="M-34.9 -7.65Q-39.25 -9.5 -39 -14.2 -38.35 -18.95 -33.7 -18.45 -30.45 -18.35 -29.15 -15.6 -27.65 -11.8 -29.9 -8.3 -32.25 -7.2 -34.9 -7.65ZM-38.85 18.75Q-41.9 25 -41.55 31.8 -42.65 35.5 -46.8 34.9 -50.35 34.55 -49.95 30.85 -50.15 23.55 -47.25
+ 16.6L-41.8 0.1Q-40.65 -3.65 -36.55 -3 -33.2 -1.45 -33.5 2.2Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <Path flm:isDrawingObject="false" data="M-34.9 -7.65Q-39.25 -9.5 -39 -14.2 -38.35 -18.95 -33.7 -18.45 -30.45 -18.35 -29.15 -15.6 -27.65 -11.8 -29.9 -8.3 -32.25 -7.2 -34.9 -7.65ZM-38.85 18.75Q-41.9 25 -41.55 31.8 -42.65 35.5 -46.8 34.9 -50.35 34.55 -49.95 30.85 -50.15 23.55 -47.25
+ 16.6L-41.8 0.1Q-40.65 -3.65 -36.55 -3 -33.2 -1.45 -33.5 2.2Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Path flm:isDrawingObject="false" data="M55.45 -20.7Q55.65 -13.4 52.75 -6.45L47.3 10.05Q46.15 13.8 42.05 13.15 38.7 11.6 39 7.95L44.35 -8.6Q47.4 -14.85 47.05 -21.65 48.15 -25.35 52.3 -24.75 55.85 -24.4 55.45 -20.7ZM40.4 17.8Q44.75 19.65 44.5 24.35 43.85 29.1 39.2 28.6 35.95 28.5 34.65
+ 25.75 33.15 21.95 35.4 18.45 37.75 17.35 40.4 17.8Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3">
+          <Path flm:isDrawingObject="false" data="M55.45 -20.7Q55.65 -13.4 52.75 -6.45L47.3 10.05Q46.15 13.8 42.05 13.15 38.7 11.6 39 7.95L44.35 -8.6Q47.4 -14.85 47.05 -21.65 48.15 -25.35 52.3 -24.75 55.85 -24.4 55.45 -20.7ZM40.4 17.8Q44.75 19.65 44.5 24.35 43.85 29.1 39.2 28.6 35.95 28.5 34.65
+ 25.75 33.15 21.95 35.4 18.45 37.75 17.35 40.4 17.8Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2">
+          <Path flm:isDrawingObject="false" data="M23.7 -14.95Q21.55 -4.1 13.85 3.8 6.25 11.55 -3.05 16.85 9.1 19.3 22.05 18.6 27.1 18.6 27.1 23.6 27.25 29.35 22.05 30.3L0.5 29.65Q-10.55 29.1 -19.8 23.6 -22.05 22.9 -21.45 20.25 -21.85 17.4 -19.8 15.2L-14.75 11.9Q-6.35 6.35 1.3 -0.05 9.15 -6.65
+ 12 -16.6 10.2 -25.75 2 -30.05 -8.4 -34.3 -16.5 -26.7 -20.75 -21.55 -24.85 -26.7 -27.4 -30 -24.85 -33.35 -11.55 -48 6.95 -40.05 22.75 -33.5 23.7 -16.6Z">
+            <stroke>
+              <SolidColorStroke weight="7" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 1">
+          <Path flm:isDrawingObject="false" data="M23.7 -14.95Q21.55 -4.1 13.85 3.8 6.25 11.55 -3.05 16.85 9.1 19.3 22.05 18.6 27.1 18.6 27.1 23.6 27.25 29.35 22.05 30.3L0.5 29.65Q-10.55 29.1 -19.8 23.6 -22.05 22.9 -21.45 20.25 -21.85 17.4 -19.8 15.2L-14.75 11.9Q-6.35 6.35 1.3 -0.05 9.15 -6.65
+ 12 -16.6 10.2 -25.75 2 -30.05 -8.4 -34.3 -16.5 -26.7 -20.75 -21.55 -24.85 -26.7 -27.4 -30 -24.85 -33.35 -11.55 -48 6.95 -40.05 22.75 -33.5 23.7 -16.6Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_212" flm:originalName="Symbol 212">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Symbol_210 x="-0.5" y="0.05" flm:instanceType="graphic"/>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Script Layer"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Labels Layer"/>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_213" flm:originalName="Symbol 213" flm:symbolType="1">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Path flm:isDrawingObject="false" data="M-23.45 -42.85Q-5.5 -52.75 14.2 -47.1 33.95 -41.4 43.85 -23.45 53.75 -5.5 48.05 14.2 42.35 33.9 24.4 43.8 6.45 53.7 -13.25 48 -32.95 42.35 -42.8 24.4 -52.7 6.45 -47.05 -13.25 -41.4 -32.95 -23.45 -42.85Z">
+            <fill>
+              <SolidColor color="#E32188"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <Path flm:isDrawingObject="false" data="M-23.45 -42.85Q-5.5 -52.75 14.2 -47.1 33.95 -41.4 43.85 -23.45 53.75 -5.5 48.05 14.2 42.35 33.9 24.4 43.8 6.45 53.7 -13.25 48 -32.95 42.35 -42.8 24.4 -52.7 6.45 -47.05 -13.25 -41.4 -32.95 -23.45 -42.85Z">
+            <stroke>
+              <SolidColorStroke weight="5" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Path flm:isDrawingObject="false" data="M6.25 -41.85Q-4.85 -11.2 -14.7 18.4 -17.8 23.15 -22.95 23 -28.2 20 -25.95 15.15 -15.95 -14.75 -4.55 -46.65 -2.8 -50.8 1.65 -50.1 6.95 -47.65 6.25 -41.85Z">
+            <stroke>
+              <SolidColorStroke weight="7" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3">
+          <Path flm:isDrawingObject="false" data="M6.25 -41.85Q-4.85 -11.2 -14.7 18.4 -17.8 23.15 -22.95 23 -28.2 20 -25.95 15.15 -15.95 -14.75 -4.55 -46.65 -2.8 -50.8 1.65 -50.1 6.95 -47.65 6.25 -41.85Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2">
+          <Path flm:isDrawingObject="false" data="M41.95 -0.4Q38.55 6.1 32.65 10.8L19.95 22.65Q17.1 25.35 13.85 22.85 11.7 19.9 13.65 16.8L26.4 4.95Q32 0.95 35 -5.25 37.75 -7.9 41.05 -5.5 44.05 -3.4 41.95 -0.4ZM10.65 33.85Q7.75 37.7 3.9 35.05 1.05 33.35 1.3 30.3 1.75 26.25 5.45 24.3 8.05 24.4
+ 10.15 26.1 13.05 29.85 10.65 33.85Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 1">
+          <Path flm:isDrawingObject="false" data="M41.95 -0.4Q38.55 6.1 32.65 10.8L19.95 22.65Q17.1 25.35 13.85 22.85 11.7 19.9 13.65 16.8L26.4 4.95Q32 0.95 35 -5.25 37.75 -7.9 41.05 -5.5 44.05 -3.4 41.95 -0.4ZM10.65 33.85Q7.75 37.7 3.9 35.05 1.05 33.35 1.3 30.3 1.75 26.25 5.45 24.3 8.05 24.4
+ 10.15 26.1 13.05 29.85 10.65 33.85Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_214" flm:originalName="Symbol 214" flm:symbolType="1">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 8">
+          <Path flm:isDrawingObject="false" data="M-23.45 -42.85Q-5.5 -52.75 14.2 -47.1 33.95 -41.4 43.85 -23.45 53.75 -5.5 48.05 14.2 42.35 33.9 24.4 43.8 6.45 53.7 -13.25 48 -32.95 42.35 -42.8 24.4 -52.7 6.45 -47.05 -13.25 -41.4 -32.95 -23.45 -42.85Z">
+            <fill>
+              <SolidColor color="#E32188"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 7">
+          <Path flm:isDrawingObject="false" data="M-23.45 -42.85Q-5.5 -52.75 14.2 -47.1 33.95 -41.4 43.85 -23.45 53.75 -5.5 48.05 14.2 42.35 33.9 24.4 43.8 6.45 53.7 -13.25 48 -32.95 42.35 -42.8 24.4 -52.7 6.45 -47.05 -13.25 -41.4 -32.95 -23.45 -42.85Z">
+            <stroke>
+              <SolidColorStroke weight="5" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Path flm:isDrawingObject="false" data="M-29.55 -19.85Q-32.7 -23.4 -30.55 -27.5 -28 -31.55 -23.95 -29.2 -21.05 -27.7 -21.05 -24.65 -21.25 -20.6 -24.75 -18.4 -27.35 -18.3 -29.55 -19.85ZM-32.35 -10.3 -44.15 2.4Q-49.5 6.85 -52 13.2 -54.5 16.05 -58 13.85 -61.1 12.05 -59.25 8.85 -56.35
+ 2.1 -50.8 -3L-39.05 -15.7Q-36.4 -18.6 -33 -16.35 -30.6 -13.5 -32.35 -10.3Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <Path flm:isDrawingObject="false" data="M-29.55 -19.85Q-32.7 -23.4 -30.55 -27.5 -28 -31.55 -23.95 -29.2 -21.05 -27.7 -21.05 -24.65 -21.25 -20.6 -24.75 -18.4 -27.35 -18.3 -29.55 -19.85ZM-32.35 -10.3 -44.15 2.4Q-49.5 6.85 -52 13.2 -54.5 16.05 -58 13.85 -61.1 12.05 -59.25 8.85 -56.35
+ 2.1 -50.8 -3L-39.05 -15.7Q-36.4 -18.6 -33 -16.35 -30.6 -13.5 -32.35 -10.3Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Path flm:isDrawingObject="false" data="M51.95 -8.05Q49.05 -1.3 43.5 3.8L31.75 16.5Q29.1 19.4 25.7 17.15 23.3 14.3 25.05 11.1L36.85 -1.6Q42.2 -6.05 44.7 -12.4 47.2 -15.25 50.7 -13.05 53.8 -11.25 51.95 -8.05ZM22.25 20.65Q25.4 24.2 23.25 28.3 20.7 32.35 16.65 30 13.75 28.5 13.75 25.45
+ 13.95 21.4 17.45 19.2 20.05 19.1 22.25 20.65Z">
+            <stroke>
+              <SolidColorStroke weight="6" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3">
+          <Path flm:isDrawingObject="false" data="M51.95 -8.05Q49.05 -1.3 43.5 3.8L31.75 16.5Q29.1 19.4 25.7 17.15 23.3 14.3 25.05 11.1L36.85 -1.6Q42.2 -6.05 44.7 -12.4 47.2 -15.25 50.7 -13.05 53.8 -11.25 51.95 -8.05ZM22.25 20.65Q25.4 24.2 23.25 28.3 20.7 32.35 16.65 30 13.75 28.5 13.75 25.45
+ 13.95 21.4 17.45 19.2 20.05 19.1 22.25 20.65Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2">
+          <Path flm:isDrawingObject="false" data="M13.65 -49.05Q18.95 -46.6 18.25 -40.8 7.15 -10.15 -2.7 19.45 -5.8 24.2 -10.95 24.05 -16.2 21.05 -13.95 16.2 -3.95 -13.7 7.45 -45.6 9.2 -49.75 13.65 -49.05Z">
+            <stroke>
+              <SolidColorStroke weight="7" caps="none" joints="miter" color="#143362"/>
+            </stroke>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 1">
+          <Path flm:isDrawingObject="false" data="M13.65 -49.05Q18.95 -46.6 18.25 -40.8 7.15 -10.15 -2.7 19.45 -5.8 24.2 -10.95 24.05 -16.2 21.05 -13.95 16.2 -3.95 -13.7 7.45 -45.6 9.2 -49.75 13.65 -49.05Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_215" flm:originalName="Symbol 215">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Symbol_213 x="-0.5" y="0.05" flm:instanceType="graphic"/>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Script Layer"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Labels Layer"/>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_217" flm:originalName="Symbol 217" flm:symbolType="1">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 54">
+          <Path flm:isDrawingObject="false" data="M-162.35 -16.85Q-150.75 -14.95 -139.15 -14.9 -140.7 -20.9 -142.8 -26.7L-143.05 -30.05Q-142.95 -33.65 -140 -35.35 -135.05 -35.4 -132.95 -30.8 -130.55 -23.1 -128.8 -15.3L-115.15 -16.95Q-110.2 -17 -108.1 -12.35 -108.4 -7.85 -112.75 -6.95L-126.8
+ -5.25Q-125.9 0.2 -125.3 5.75 -124.45 10.25 -126.35 14.25 -124.55 15.4 -124.45 17.5 -122.05 22.25 -122.05 27.45 -121.15 44.3 -133.6 55.25 -137.6 58.35 -140.45 54L-140.55 52.35Q-141.15 49.5 -139.25 47.2 -135.15 44.75 -133.9 40.35 -132.7 36.2
+ -131.9 31.55 -135.95 35.75 -141.75 35.55 -157.25 35.35 -159.75 20 -159.05 5.2 -144 3.7 -139.6 3 -135.5 4.8 -136.05 -0.05 -136.9 -4.75 -150.95 -4.5 -165 -6.65 -170 -8.45 -168.75 -13.15 -167.3 -18.4 -162.35 -16.85ZM-136.35 16.65Q-138.8 13.3 -143.3
+ 13.8 -148.95 13.95 -149.65 19.3 -149.1 25.85 -142.45 25.55 -139.35 26 -137.55 23.5 -136.25 20.2 -136.35 16.65Z">
+            <fill>
+              <SolidColor/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 53">
+          <Path flm:isDrawingObject="false" data="M-83.45 -30.9Q-81.5 -35.35 -76.95 -34.75 -71.8 -34.45 -73.25 -29.95L-72.75 -23.25 -73.65 -16.9 -48.75 -18.25Q-44.3 -17.95 -43.35 -13.6 -42.9 -9.5 -46.35 -8.3 -59.8 -5.6 -73.45 -6.05L-74.95 -6.1Q-75.7 1.35 -76.05 8.85 -76.85 24.85 -73.3 40.8
+ -73.6 45.4 -77.95 46.2 -82.05 46.8 -83.25 43.2 -87.8 18.15 -85.4 -7 -93 -7.9 -100.4 -9.55 -102.7 -12.45 -102.55 -16.15 -99.1 -19.9 -94.3 -18.4L-84.1 -17.35 -82.95 -24.2ZM-38.2 13.05 -56.55 14.4Q-62.2 15.05 -63.65 9.8 -63.4 5.35 -58.95 4.4 -47.4
+ 2.4 -35.55 2.75 -31.85 4.75 -31.7 9.25 -34.1 12.7 -38.2 13.05ZM-36.25 39.9Q-48.25 41.1 -58.5 34.7 -63.5 33.35 -60.65 28.1 -58.2 24.4 -54.05 26.05 -46.1 30.8 -37 29.8 -33.15 30.85 -31.6 34.5 -31.9 39 -36.25 39.9Z">
+            <fill>
+              <SolidColor/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 52">
+          <Path flm:isDrawingObject="false" data="M34.3 -0.5Q34.9 5.2 29.75 6.55 20.55 9.65 10.65 10.1L-8.7 11 -18.8 11.7Q-24.7 11.25 -25.9 5.45 -25.25 0.25 -19.6 -0.05L-7.85 -0.9Q9.65 -0.8 27.35 -3.4 32.15 -5.15 34.3 -0.5Z">
+            <fill>
+              <SolidColor/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 51">
+          <Path flm:isDrawingObject="false" data="M61 -12.05Q71.15 -17.3 82.05 -19.1 87.55 -19.65 89 -14.55 89.4 -9.45 84.45 -9.15 76 -7.5 67.9 -4.2 59.7 -0.85 55.15 6.45 53.8 12 57.55 16.4 69.25 24.55 83.1 19.6 86.7 19.7 88.35 22.6 90.15 27.45 85.5 29.55 65.75 36.3 49.6 23.65 43.05 14.4 46.5
+ 3.7 48.1 -0.1 50.4 -3.15 43.9 -15.85 40.75 -29.6 39.4 -33.95 43.65 -36.55 48.6 -36.6 50.7 -32 53.6 -20.95 58.55 -10.65Z">
+            <fill>
+              <SolidColor/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 50">
+          <Path flm:isDrawingObject="false" data="M-160.3 -25.65 -160.85 -25.75 -159.75 -25.5ZM-176.45 -5Q-179 -9.65 -177.45 -15.45 -175.75 -21.9 -170.75 -24.6 -166.1 -27.2 -160.3 -25.65 -138.55 -22.1 -116.65 -25.8L-116 -25.95 -115.3 -25.95Q-104.45 -26.1 -99.9 -16.1L-98.95 -14 -99.1 -11.7Q-99.45
+ -6.45 -102.7 -2.8 -105.9 0.85 -111 1.85L-111.15 1.9 -111.3 1.9Q-139.05 6.45 -166.35 2.25L-167.25 2.1 -168.05 1.8Q-173.9 -0.3 -176.45 -5Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 49">
+          <Path flm:isDrawingObject="false" data="M-149.55 53 -149.5 53.5 -149.4 54.15ZM-136.3 14.2 -139 13.05Q-140.85 12.3 -142.6 12.6L-142.85 12.6 -143.1 12.65Q-147.1 13.05 -148.7 14.55 -150.35 16 -150.65 19.45 -149.85 23.3 -147.85 24.9 -145.85 26.5 -141.65 26.55L-141.35 26.55Q-139.6 26.6
+ -138.4 25.35L-133.65 20.3 -137.9 17.65ZM-124.75 -34.5 -124.5 -34 -124.35 -33.45Q-118.55 -15.05 -116.35 4.75L-116.4 4.2Q-116.05 6.15 -116.05 8.4 -116.05 10.65 -116.5 12.75 -116 13.95 -115.8 14.8 -113.15 20.7 -113.05 27L-113 29.8Q-113 49.15 -127.65
+ 62L-127.85 62.2 -128.1 62.35Q-133.25 66.3 -138.75 65.35 -144.35 64.45 -147.95 59L-149.25 57 -149.5 53.5 -149.7 51.05Q-149.7 47.25 -147.8 43.9 -165.5 40.55 -168.65 21.45L-168.8 20.55 -168.75 19.6Q-168.3 9.2 -162.4 2.8 -156.5 -3.6 -146.15 -5.05
+ -148.05 -14.6 -151.25 -23.7L-151.7 -24.85 -152.05 -29.8 -152.05 -30.15Q-151.95 -38.9 -144.5 -43.15L-142.5 -44.3 -140.15 -44.35Q-129.3 -44.5 -124.75 -34.5Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 48">
+          <Path flm:isDrawingObject="false" data="M-140.75 20.4 -140.7 18.7Q-141.05 17.5 -142.55 16.75 -144.1 17.2 -144.8 18.2L-144.85 18.25 -143.6 22 -142.65 22.55Q-141 21.8 -140.75 20.4ZM-129.1 11.35 -127.4 13.65 -127.35 16.5Q-127.2 21.7 -129.15 26.75L-129.55 27.85 -130.25 28.8Q-134.75 35.05
+ -142.45 34.55 -149.25 34.7 -153.65 30.75 -158.05 26.85 -158.65 20.05L-158.7 19.1 -158.6 18.2Q-157.85 12.3 -153.9 8.7 -149.95 5.1 -143.85 4.8 -134.5 3.95 -129.1 11.35Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 47">
+          <Path flm:isDrawingObject="false" data="M-102.4 -0.75 -105.45 -1.45 -107.45 -3.95Q-111.8 -9.35 -111.55 -16.4L-111.45 -19.75 -109.2 -22.2Q-102.6 -29.5 -93 -27.35 -71.45 -24.5 -49.85 -27.2L-48.95 -27.3 -48.05 -27.25Q-37 -26.4 -34.55 -15.55L-34.4 -14.65Q-33.8 -9.4 -36.2 -5.4 -38.65 -1.4
+ -43.45 0.2L-44 0.4 -44.55 0.5Q-59.2 3.45 -73.8 2.95 -88.25 2.45 -102.4 -0.75Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 46">
+          <Path flm:isDrawingObject="false" data="M-92 -24.6 -92.55 -32.5 -91.7 -34.5Q-89.5 -39.45 -85.35 -41.9 -81.4 -44.25 -76.45 -43.75L-76 -43.7Q-69.3 -43.15 -66 -38.45 -63.95 -35.45 -63.95 -31.65L-64.15 -29.35 -63.7 -22.85 -63.85 -21.8Q-66.3 -6.7 -67.05 9.3L-67.2 14.6Q-67.2 26.85 -64.5
+ 38.85L-64.2 40.15 -64.3 41.5Q-64.65 46.75 -67.9 50.4 -71.1 54 -76.2 55.05L-76.45 55.1 -76.7 55.1Q-81.95 55.85 -86.05 53.4 -90.15 50.95 -91.8 46.05L-92 45.45 -92.1 44.8Q-95.2 27.5 -95.2 10.3 -95.2 -6.9 -92 -24.6Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 45">
+          <Path flm:isDrawingObject="false" data="M-60.9 -4.4 -60.7 -4.4 -60.55 -4.45Q-48.1 -6.65 -35.25 -6.25L-33.15 -6.2 -31.3 -5.2Q-23 -0.75 -22.7 9L-22.6 11.9 -24.3 14.35Q-29.1 21.3 -37.35 22.05L-55.95 23.35Q-61.9 23.95 -66.25 21.05 -70.75 18.05 -72.35 12.15L-72.7 10.75 -72.65 9.3Q-72.35
+ 4.1 -69.2 0.4 -66.05 -3.25 -60.9 -4.4Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 44">
+          <Path flm:isDrawingObject="false" data="M-38 20.85 -36.3 20.65 -34.65 21.1Q-26.6 23.25 -23.35 30.9L-22.45 32.95 -22.6 35.15Q-23 40.4 -26.2 44.05 -29.4 47.7 -34.5 48.7L-35.35 48.85Q-49.7 50.3 -62.1 42.95 -67.6 41 -69.7 36.2 -70.7 33.95 -70.7 31.4 -70.7 27.8 -68.6 23.85L-68.4 23.45
+ -68.1 23.05Q-65.15 18.65 -60.5 17.15 -55.85 15.7 -50.85 17.6L-50.1 17.9 -49.4 18.3Q-44.2 21.55 -38 20.85Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 43">
+          <Path flm:isDrawingObject="false" data="M25.8 -12.25Q31.05 -13.7 35.5 -11.6 40 -9.5 42.45 -4.4L43.1 -3 43.25 -1.45 43.35 0.6Q43.35 6 40.4 9.9 37.45 13.8 32.15 15.25 21.7 18.6 11.05 19.05L-19.45 20.7Q-25.45 20.25 -29.5 16.65 -33.55 13.1 -34.7 7.2L-35 5.75 -34.85 4.3Q-34.1 -1.55 -30.15
+ -5.15 -26.2 -8.7 -20.1 -9.05L-20.25 -9.05 -8.15 -9.9 -7.85 -9.9Q8.9 -9.8 25.8 -12.25Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 42">
+          <Path flm:isDrawingObject="false" data="M32.1 -27.1Q30.65 -32 32.4 -36.6 34.2 -41.25 38.85 -44.2L41 -45.45 43.5 -45.5Q54.35 -45.65 58.9 -35.75L59.4 -34.3Q62.8 -21.5 68.95 -10.05L69.4 -9Q71.5 -3.6 69.6 1.35 67.7 6.25 62.4 9.1L62 9.35 61.55 9.5Q56.1 11.75 51.1 9.85 46.1 7.95 43.25 2.5
+ 35.7 -11.65 32.1 -27.1Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 41">
+          <Path flm:isDrawingObject="false" data="M56.85 -20.05Q68.35 -26 80.55 -28L80.9 -28.05 81.25 -28.05Q87.2 -28.55 91.6 -25.6 96 -22.65 97.65 -17.05L97.95 -16.15 98.05 -13.9Q98.05 -8.5 94.85 -4.75 91.5 -0.95 86.05 -0.3 78.2 1.25 71.3 4.15 66.75 5.95 63.9 9.7L63.9 9.8Q71.4 14.3 80 11.1
+L81.65 10.55 83.4 10.6Q91.9 10.85 96.1 18L96.55 18.75 96.85 19.55Q98.9 25.3 96.85 30.25 94.75 35.2 89.2 37.75L88.4 38.05Q64.05 46.4 44.05 30.75L43 29.9 42.25 28.85Q33.05 15.85 37.95 0.9L38.05 0.55 38.2 0.2Q43.85 -13.3 56.85 -20.05Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 40">
+          <Path flm:isDrawingObject="false" data="M-163.2 -11.95 -163.85 -12.1 -163.95 -11.85 -163.95 -11.65 -163.7 -11.5Q-138.9 -7.85 -114.1 -11.85L-114.85 -11.95Q-139.15 -7.9 -163.2 -11.95ZM-165.75 -1.7 -166.25 -1.75 -166.7 -1.95Q-171 -3.5 -172.85 -6.85 -174.7 -10.2 -173.6 -14.45 -172.3 -19.15
+ -168.8 -21.1 -165.55 -23 -161.2 -21.75 -138.9 -18.05 -116 -21.85L-115.6 -21.95 -115.25 -21.95Q-106.95 -22.05 -103.55 -14.45L-103 -13.3 -103.1 -12Q-103.75 -3.7 -111.8 -2.05L-111.95 -2.05Q-138.85 2.4 -165.75 -1.7Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 39">
+          <Path flm:isDrawingObject="false" data="M-145.55 52.7 -145.55 52.8 -145.45 53.35ZM-129.45 18.25 -132.75 16.05 -130.9 12.15 -137.45 9.4Q-140.3 8.15 -143.25 8.65L-143.5 8.65Q-154.05 9.7 -154.7 19.7 -152.75 30.4 -141.7 30.55L-141.55 30.55Q-138 30.7 -135.5 28.1L-128.55 20.75 -129.4 18.75Z
+M-138 -29.55 -137.85 -27.65Q-135.05 -19.85 -133.2 -11.6 -135.05 -20.7 -137.6 -28.9ZM-128.4 -32.85 -128.25 -32.6 -128.15 -32.3Q-122.4 -13.85 -120.3 5.2 -120.05 6.8 -120.05 8.4 -120.05 10.6 -120.7 13.05 -120 14.2 -119.65 16 -117.1 21.5 -117.05
+ 27.2L-117 29.75Q-117 47.35 -130.3 59L-130.4 59.1 -130.55 59.2Q-134.25 62.05 -138.1 61.4 -142.05 60.75 -144.6 56.8L-145.35 55.7 -145.55 52.8 -145.7 51Q-145.7 47.15 -143.1 44L-142.5 43.3 -141.75 42.85Q-140.15 41.9 -139.25 40.35L-141.8 40.55 -141.9
+ 40.55Q-151.35 40.4 -157.25 35.3 -163.15 30.2 -164.7 20.8L-164.75 19.8Q-164.35 10.6 -159.15 5.15 -153.95 -0.25 -144.65 -1.25L-141.4 -1.5Q-143.5 -13.9 -147.5 -25L-147.75 -25.65 -148.05 -29.9 -148.05 -30.1Q-147.95 -36.55 -142.5 -39.7L-141.4 -40.35
+ -140.1 -40.35Q-131.9 -40.5 -128.4 -32.85Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 38">
+          <Path flm:isDrawingObject="false" data="M-142.65 20.55 -141.9 20.55Q-141.55 19.65 -141.5 18.8L-142.75 18.75 -143.1 18.75 -144.45 19.05 -144.6 19.45 -144.3 20.35ZM-131.35 15 -131.35 16.55Q-131.25 21.1 -132.85 25.3L-133.1 25.9 -133.5 26.45Q-136.85 31 -142.45 30.55 -147.65 30.7 -150.95
+ 27.8 -154.2 24.9 -154.65 19.7L-154.7 19.2 -154.6 18.7Q-153.5 9.3 -143.6 8.8 -136.4 8.1 -132.3 13.7Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 37">
+          <Path flm:isDrawingObject="false" data="M-48.4 -13 -48.45 -13.15 -48.85 -13.25Q-71.6 -10.55 -94.25 -13.4 -83.75 -11.4 -73.3 -11.05 -61.05 -10.6 -48.4 -13ZM-101.5 -4.65 -103.2 -5.05 -104.3 -6.4Q-107.7 -10.6 -107.55 -16.3L-107.5 -18.15 -106.25 -19.5Q-101 -25.2 -93.55 -23.35 -71.4 -20.45
+ -49.35 -23.25L-48.85 -23.3 -48.35 -23.25Q-40.25 -22.6 -38.45 -14.65L-38.4 -14.4 -38.4 -14.15Q-37.45 -6.1 -44.75 -3.55L-45.05 -3.45 -45.35 -3.4Q-59.4 -0.5 -73.65 -1.05 -87.85 -1.6 -101.5 -4.65Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 36">
+          <Path flm:isDrawingObject="false" data="M-78.35 40.95 -79.3 36.05 -78.5 41.2 -78.4 41.15ZM-78.3 -29.8 -78.35 -29.75 -77.95 -23.9 -78.05 -23.3Q-81.2 -6.5 -81.2 10.3L-81.15 12.2 -81.05 8.6Q-80.3 -7.35 -77.8 -23.35L-78.2 -29.8ZM-88 -24.4 -88.5 -31.8 -88 -32.9Q-84.6 -40.7 -76.5 -39.75
+ -71.55 -39.35 -69.3 -36.15 -67.95 -34.3 -67.95 -31.7L-68.2 -29.6 -67.75 -23 -67.8 -22.45Q-70.3 -6.7 -71.05 9.1L-71.2 14.6Q-71.2 27.2 -68.4 39.7L-68.25 40.45 -68.3 41.2Q-68.95 49.55 -77 51.1L-77.1 51.15 -77.25 51.15Q-85.45 52.35 -88 44.8L-88.1
+ 44.45 -88.15 44.1Q-91.2 27.45 -91.2 10.3 -91.2 -6.9 -88 -24.4Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 35">
+          <Path flm:isDrawingObject="false" data="M-38.65 8.1 -37.4 7.7Q-47.75 7.55 -58 9.3L-58.3 9.4 -57.15 9.4ZM-60.05 -0.45 -59.95 -0.5 -59.85 -0.5Q-47.65 -2.6 -35.35 -2.25L-34.2 -2.2 -33.15 -1.65Q-26.95 1.7 -26.7 9.1L-26.65 10.75 -27.6 12.1Q-31.25 17.45 -37.8 18.05L-56.2 19.35 -55.95 19.35
+Q-65.95 20.55 -68.5 11.1L-68.7 10.35 -68.65 9.55Q-68.2 1.3 -60.05 -0.45Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 34">
+          <Path flm:isDrawingObject="false" data="M-37.55 24.8 -36.6 24.7 -35.7 24.95Q-29.5 26.65 -27 32.5L-26.5 33.6 -26.6 34.85Q-27.25 43.15 -35.3 44.8L-35.55 44.8 -35.75 44.85Q-49.25 46.2 -60.75 39.15 -64.7 37.75 -66.05 34.6 -66.7 33 -66.7 31.4 -66.7 28.8 -65.1 25.75L-64.8 25.3Q-60.2 18.4
+ -52.3 21.35L-51.85 21.5 -51.5 21.75Q-44.95 25.7 -37.55 24.8Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 33">
+          <Path flm:isDrawingObject="false" data="M28.6 1.45 28.05 1.55Q9.85 4.2 -7.7 4.1L-19.35 4.95 -20.7 5.2 -20.75 5.3Q-20.3 6.5 -18.65 6.7L10.45 5.1Q19.55 4.7 28.15 1.8L28.3 1.8 28.45 1.75 29.25 1.4 29.3 1.25 29.05 1.3ZM-27.4 -2.2Q-24.5 -4.8 -20 -5.05L-8.05 -5.9 -7.85 -5.9Q9.1 -5.8 26.45
+ -8.35 35 -10.8 38.8 -2.65L39.2 -1.9 39.35 0.55Q39.35 9.1 31.1 11.4 21.05 14.7 10.85 15.05L-19.15 16.7Q-28.9 16 -30.8 6.45L-30.95 5.6 -30.85 4.8Q-30.3 0.4 -27.4 -2.2Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 32">
+          <Path flm:isDrawingObject="false" data="M46.05 -30.1 45.6 -30.85 45.6 -30.7Q48.85 -16.65 55.6 -4.05L56 -3.4 56.45 -3.7 56.4 -3.85Q49.75 -16.3 46.05 -30.1ZM35.9 -28.45 35.95 -28.1Q33.5 -36.1 41 -40.8L42.15 -41.55 43.55 -41.55Q51.8 -41.7 55.25 -34.05L55.45 -33.7 55.55 -33.25Q59.05 -20.05
+ 65.4 -8.15L65.7 -7.6Q68.95 1 60.5 5.55L60.25 5.7 60 5.8 52.45 6.05Q48.9 4.65 46.75 0.65 39.3 -13.35 35.9 -28.45Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 31">
+          <Path flm:isDrawingObject="false" data="M85 -4.15 85.4 -4.25 84.8 -4.15ZM93.8 -15.95 93.95 -15.45 94 -14.9Q94.4 -10.3 91.8 -7.35 89.3 -4.5 85 -4.15 77.15 -2.55 69.75 0.4 63.7 2.9 59.9 8.4L59.8 9.25Q59.8 10.95 61.05 12.75 70.4 18.85 81.4 14.9L82.3 14.55 83.25 14.6Q89.6 14.75 92.7 20.05
+L93.1 20.9Q94.6 25.15 93.1 28.7 91.65 32.25 87.55 34.1L87.1 34.3Q64.9 41.9 46.5 27.6L45.95 27.15 45.5 26.55Q37.5 15.1 41.75 2.15L41.8 1.95 41.9 1.75Q46.95 -10.45 58.7 -16.5 69.5 -22.1 81.2 -24.05L81.4 -24.05 81.6 -24.1Q91.15 -24.9 93.8 -15.95Z
+M63.3 -7.65 62.25 -6.95Q64.2 -8.1 66 -8.85 74.6 -12.3 83.5 -14.05L83.65 -14.1 82.65 -14.15Q72.4 -12.35 63.3 -7.65Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 30">
+          <Path flm:isDrawingObject="false" data="M-162.45 -16.4 -162.5 -16.4 -166.15 -16.3Q-167.65 -15.45 -168.3 -13 -169.45 -8.7 -164.95 -7.15 -138.95 -3.15 -112.85 -7.45 -108.95 -8.25 -108.6 -12.3 -110.65 -16.5 -115.1 -16.45 -138.8 -12.4 -162.45 -16.4ZM-165.2 -6.15Q-170.6 -8.15 -169.25 -13.25
+ -168.5 -16.1 -166.65 -17.2L-162.2 -17.35 -162.3 -17.35Q-138.75 -13.4 -115.15 -17.45 -109.85 -17.5 -107.6 -12.6L-107.55 -12.45 -107.6 -12.35Q-107.9 -7.4 -112.7 -6.5 -138.85 -2.15 -165.2 -6.15Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 29">
+          <Path flm:isDrawingObject="false" data="M-140.05 -35.85Q-134.75 -35.9 -132.5 -31L-132.5 -30.95 -132.45 -30.95Q-126.8 -12.75 -124.8 5.65L-124.55 8.35Q-124.55 11.3 -125.8 14.1 -124.1 15.3 -123.95 17.35 -121.55 22.15 -121.55 27.45L-121.5 29.7Q-121.5 45.3 -133.3 55.6 -135.4 57.35 -137.35
+ 56.95 -139.35 56.65 -140.85 54.3L-140.95 54.2 -141.2 51.05Q-141.2 48.75 -139.6 46.85L-139.5 46.75Q-135.6 44.5 -134.4 40.25 -133.45 37.1 -132.65 32.9 -136.65 36.25 -141.75 36.05 -157.7 35.8 -160.25 20 -159.55 4.8 -144.1 3.2 -140.2 2.55 -136.1
+ 4.05 -137.9 -11.55 -143.25 -26.55L-143.3 -26.6 -143.55 -30.05Q-143.45 -33.9 -140.25 -35.8L-140.15 -35.85ZM-133.4 -30.6Q-135.35 -34.85 -139.85 -34.85 -142.45 -33.3 -142.55 -30.1L-142.3 -26.8Q-136.8 -11.45 -135 4.7L-134.9 5.55 -135.7 5.25Q-139.7
+ 3.5 -143.95 4.2 -158.65 5.7 -159.25 19.95 -156.8 34.85 -141.75 35.05 -136.1 35.3 -132.25 31.2L-131.15 30.05 -131.4 31.65Q-132.2 36.4 -133.4 40.5 -134.75 45.05 -138.85 47.55 -140.2 49.15 -140.2 51.05L-139.95 53.85Q-138.65 55.8 -137.2 56 -135.7
+ 56.25 -133.95 54.85 -122.5 44.85 -122.5 29.7L-122.55 27.45Q-122.55 22.4 -124.9 17.75L-124.95 17.65 -124.95 17.5Q-125 15.75 -126.65 14.7L-127 14.45 -126.8 14.05Q-125.55 11.25 -125.55 8.35L-125.8 5.8Q-127.85 -12.8 -133.4 -30.6Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 28">
+          <Path flm:isDrawingObject="false" data="M-136.85 17 -136.85 16.85Q-139.15 13.8 -143.3 14.3 -148.55 14.45 -149.15 19.25 -148.65 25.25 -142.5 25.05L-142.4 25.05Q-139.55 25.4 -138 23.25 -136.85 20.4 -136.85 17ZM-135.95 16.35 -135.85 16.5 -135.85 16.65Q-135.75 20.35 -137.05 23.7L-137.15
+ 23.8Q-139.1 26.5 -142.45 26.05 -149.55 26.35 -150.15 19.25 -149.45 13.55 -143.35 13.3 -138.6 12.7 -135.95 16.35Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 27">
+          <Path flm:isDrawingObject="false" data="M-103.05 -16.35 -102.95 -16.5Q-99.35 -20.4 -94.15 -18.9 -71.55 -15.95 -48.7 -18.75 -43.9 -18.35 -42.85 -13.65 -42.3 -9.15 -46.25 -7.8 -59.7 -5.1 -73.5 -5.55 -87.45 -6.1 -100.5 -9.05L-100.7 -9.1 -100.8 -9.25Q-103.2 -12.2 -103.05 -16.15ZM-102.05
+ -15.9 -102.05 -15.8Q-102.05 -12.45 -100.1 -10 -86.65 -7 -73.45 -6.55 -59.7 -6.1 -46.5 -8.8 -43.4 -9.85 -43.85 -13.5 -44.75 -17.4 -48.7 -17.8 -71.45 -14.95 -94.35 -17.9L-94.4 -17.95Q-98.9 -19.3 -102.05 -15.9Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 26">
+          <Path flm:isDrawingObject="false" data="M-82.95 -30.8 -82.45 -24.15 -82.45 -24.1Q-85.7 -6.8 -85.7 10.35 -85.7 26.65 -82.75 43.05 -81.7 46.25 -78.05 45.7 -74.1 44.95 -73.8 40.8 -76.7 27.65 -76.7 14.6L-76.55 8.85Q-75.8 -7.5 -73.25 -23.25L-73.75 -30 -73.7 -30.1 -73.45 -31.65Q-73.45 -32.5
+ -73.8 -33.05 -74.55 -34.1 -77 -34.25 -81.1 -34.85 -82.95 -30.8ZM-83.45 -24.2 -83.95 -31 -83.9 -31.1Q-81.8 -35.95 -76.9 -35.25 -74.05 -35.1 -73 -33.6 -72.45 -32.75 -72.45 -31.7 -72.45 -30.85 -72.75 -29.95L-72.25 -23.2 -72.25 -23.15Q-74.8 -7.4
+ -75.55 8.9L-75.7 14.6Q-75.7 27.9 -72.8 40.7L-72.8 40.85Q-73.1 45.7 -77.9 46.7 -82.4 47.3 -83.75 43.3 -86.7 26.75 -86.7 10.3 -86.7 -6.9 -83.45 -24.2Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 25">
+          <Path flm:isDrawingObject="false" data="M-35.5 2.25 -35.4 2.25 -35.3 2.3Q-31.35 4.4 -31.2 9.2L-31.2 9.4 -31.3 9.5Q-33.75 13.15 -38.15 13.55L-56.5 14.9Q-62.65 15.6 -64.15 9.95L-64.15 9.8Q-63.85 4.95 -59.05 3.9 -47.5 1.85 -35.5 2.25ZM-38.2 12.6Q-34.45 12.2 -32.2 9.1 -32.45 5 -35.7 3.25
+ -47.5 2.85 -58.85 4.9 -62.85 5.8 -63.15 9.75 -61.8 14.5 -56.6 13.9Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 24">
+          <Path flm:isDrawingObject="false" data="M-36.35 39.4Q-32.45 38.6 -32.1 34.55 -33.6 31.25 -37.05 30.3 -46.2 31.3 -54.25 26.5 -58.05 25.1 -60.25 28.35 -61.6 30.95 -61 32.4 -60.5 33.65 -58.4 34.2L-58.3 34.25 -58.25 34.25Q-48.1 40.6 -36.35 39.4ZM-37.05 29.3 -36.85 29.3Q-32.8 30.45 -31.15
+ 34.3L-31.1 34.4 -31.1 34.5Q-31.5 39.45 -36.2 40.35 -48.4 41.65 -58.7 35.15 -61.2 34.45 -61.9 32.8L-62.2 31.4Q-62.2 30 -61.1 27.8 -58.4 23.85 -53.9 25.55L-53.85 25.6 -53.8 25.6Q-45.95 30.25 -37.05 29.3Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 23">
+          <Path flm:isDrawingObject="false" data="M33.8 -0.35Q31.8 -4.5 27.4 -2.9 9.75 -0.3 -7.8 -0.4L-19.6 0.45Q-24.75 0.65 -25.4 5.45 -24.3 10.8 -18.85 11.2L10.65 9.6Q20.4 9.15 29.6 6.1 33.85 4.9 33.85 0.6ZM-19.65 -0.55 -7.85 -1.4Q9.55 -1.3 27.15 -3.85 32.4 -5.75 34.75 -0.75L34.8 -0.65 34.8
+ -0.55Q35.5 5.5 29.9 7.05 20.45 10.15 10.7 10.6L-18.85 12.2Q-25.1 11.75 -26.4 5.55L-26.4 5.4Q-25.65 -0.25 -19.65 -0.55Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 22">
+          <Path flm:isDrawingObject="false" data="M51.15 -32.2 51.2 -32.15 51.2 -32.1Q54.85 -18.35 61.5 -5.95 63.4 -1.05 58.3 1.65 53.45 3.65 50.75 -1.5 43.65 -14.7 40.25 -29.45 38.8 -34.15 43.35 -37L43.5 -37.05 43.65 -37.05Q48.95 -37.1 51.15 -32.2ZM43.8 -36.05Q40.95 -34.25 40.95 -31.55 40.95
+ -30.65 41.25 -29.7 44.55 -15.15 51.6 -1.95 53.9 2.3 57.9 0.75 61 -1 61 -3.5L60.6 -5.55Q53.95 -17.85 50.25 -31.8 48.3 -36.05 43.8 -36.05Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 21">
+          <Path flm:isDrawingObject="false" data="M88.55 -13.9 88.55 -14.45Q87.15 -19.05 82.1 -18.6 71.35 -16.8 61.2 -11.65 51.3 -6.45 46.95 3.85 45.8 7.55 45.8 10.85 45.8 17.35 49.95 23.3 65.95 35.75 85.3 29.1 88.35 27.7 88.35 25 88.35 24.05 87.95 22.85 86.45 20.25 83.15 20.1 69.1 25.1 57.25
+ 16.85L57.15 16.75Q54.3 13.3 54.3 9.25 54.3 7.75 54.65 6.35L54.65 6.25 54.7 6.2Q59.45 -1.35 67.7 -4.65 75.65 -7.95 84.4 -9.65 86.65 -9.8 87.65 -10.95 88.55 -12 88.55 -13.9ZM82 -19.6Q87.9 -20.15 89.5 -14.65L89.5 -14.55 89.55 -13.9Q89.55 -11.7
+ 88.4 -10.3 87.05 -8.8 84.55 -8.65 76.2 -7 68.1 -3.75 60.25 -0.55 55.6 6.65 55.3 8 55.3 9.3 55.3 12.9 57.85 16.05 69.35 24 82.9 19.1L83.1 19.1Q87 19.2 88.85 22.4 90.75 27.7 85.65 30 65.7 36.85 49.3 24.05L49.2 23.95Q42.45 14.4 46.05 3.5 50.5
+ -7.25 60.75 -12.5 70.95 -17.8 82 -19.6Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 20">
+          <Path flm:isDrawingObject="false" data="M-162.35 -16.85Q-150.75 -14.95 -139.15 -14.9 -140.7 -20.9 -142.8 -26.7L-143.05 -30.05Q-142.95 -33.65 -140 -35.35 -135.05 -35.4 -132.95 -30.8 -130.55 -23.1 -128.8 -15.3L-115.15 -16.95Q-110.2 -17 -108.1 -12.35 -108.4 -7.85 -112.75 -6.95L-126.8
+ -5.25Q-125.9 0.2 -125.3 5.75 -124.45 10.25 -126.35 14.25 -124.55 15.4 -124.45 17.5 -122.05 22.25 -122.05 27.45 -121.15 44.3 -133.6 55.25 -137.6 58.35 -140.45 54L-140.55 52.35Q-141.15 49.5 -139.25 47.2 -135.15 44.75 -133.9 40.35 -132.7 36.2
+ -131.9 31.55 -135.95 35.75 -141.75 35.55 -157.25 35.35 -159.75 20 -159.05 5.2 -144 3.7 -139.6 3 -135.5 4.8 -136.05 -0.05 -136.9 -4.75 -150.95 -4.5 -165 -6.65 -170 -8.45 -168.75 -13.15 -167.3 -18.4 -162.35 -16.85ZM-136.35 16.65Q-138.8 13.3 -143.3
+ 13.8 -148.95 13.95 -149.65 19.3 -149.1 25.85 -142.45 25.55 -139.35 26 -137.55 23.5 -136.25 20.2 -136.35 16.65Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 19">
+          <Path flm:isDrawingObject="false" data="M-83.45 -30.9Q-81.5 -35.35 -76.95 -34.75 -71.8 -34.45 -73.25 -29.95L-72.75 -23.25 -73.65 -16.9 -48.75 -18.25Q-44.3 -17.95 -43.35 -13.6 -42.9 -9.5 -46.35 -8.3 -59.8 -5.6 -73.45 -6.05L-74.95 -6.1Q-75.7 1.35 -76.05 8.85 -76.85 24.85 -73.3 40.8
+ -73.6 45.4 -77.95 46.2 -82.05 46.8 -83.25 43.2 -87.8 18.15 -85.4 -7 -93 -7.9 -100.4 -9.55 -102.7 -12.45 -102.55 -16.15 -99.1 -19.9 -94.3 -18.4L-84.1 -17.35 -82.95 -24.2ZM-38.2 13.05 -56.55 14.4Q-62.2 15.05 -63.65 9.8 -63.4 5.35 -58.95 4.4 -47.4
+ 2.4 -35.55 2.75 -31.85 4.75 -31.7 9.25 -34.1 12.7 -38.2 13.05ZM-36.25 39.9Q-48.25 41.1 -58.5 34.7 -63.5 33.35 -60.65 28.1 -58.2 24.4 -54.05 26.05 -46.1 30.8 -37 29.8 -33.15 30.85 -31.6 34.5 -31.9 39 -36.25 39.9Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 18">
+          <Path flm:isDrawingObject="false" data="M34.3 -0.5Q34.9 5.2 29.75 6.55 20.55 9.65 10.65 10.1L-8.7 11 -18.8 11.7Q-24.7 11.25 -25.9 5.45 -25.25 0.25 -19.6 -0.05L-7.85 -0.9Q9.65 -0.8 27.35 -3.4 32.15 -5.15 34.3 -0.5Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 17">
+          <Path flm:isDrawingObject="false" data="M61 -12.05Q71.15 -17.3 82.05 -19.1 87.55 -19.65 89 -14.55 89.4 -9.45 84.45 -9.15 76 -7.5 67.9 -4.2 59.7 -0.85 55.15 6.45 53.8 12 57.55 16.4 69.25 24.55 83.1 19.6 86.7 19.7 88.35 22.6 90.15 27.45 85.5 29.55 65.75 36.3 49.6 23.65 43.05 14.4 46.5
+ 3.7 48.1 -0.1 50.4 -3.15 43.9 -15.85 40.75 -29.6 39.4 -33.95 43.65 -36.55 48.6 -36.6 50.7 -32 53.6 -20.95 58.55 -10.65Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 16">
+          <Path flm:isDrawingObject="false" data="M140.65 -25.55Q139.45 -14.7 133.9 -5.2L122.85 17.95Q120.35 23.15 114.65 21.5 110.05 18.5 111.1 13.25L122.15 -9.85Q127.7 -18.5 128.45 -28.5 130.75 -33.65 136.65 -32.05 141.85 -30.8 140.65 -25.55ZM103.9 28Q107.55 26.7 111.3 27.95 117.35 31.55
+ 116.15 38.3 114.2 45.1 107.55 43.6 102.75 42.8 101.4 38.45 99.9 32.7 103.9 28Z">
+            <fill>
+              <SolidColor/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 15">
+          <Path flm:isDrawingObject="false" data="M156.6 -21.75Q159 -26.95 164.8 -25.3 170.05 -24 168.8 -18.85 167.6 -7.85 162.1 1.55L151.05 24.65Q148.55 29.9 142.8 28.2 138.2 25.25 139.25 20L150.3 -3.1Q155.85 -11.75 156.6 -21.75ZM139.45 34.65Q145.5 38.25 144.3 45.05 142.4 51.85 135.7 50.35
+ 130.9 49.45 129.55 45.2 128.05 39.45 132.05 34.75 135.7 33.45 139.45 34.65Z">
+            <fill>
+              <SolidColor/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 14">
+          <Path flm:isDrawingObject="false" data="M125 39.9 124.95 40.35 124.8 40.75Q122.9 47.55 117.7 50.7 112.55 53.85 105.8 52.4 95.75 50.6 92.8 41.1L92.7 40.7Q92 38 92 35.45 92 28.05 97.05 22.15L98.6 20.35 100.85 19.55Q107.25 17.2 114 19.35L115 19.65 115.85 20.2Q127.35 27 125 39.9Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 13">
+          <Path flm:isDrawingObject="false" data="M114.3 -14.25 114.6 -14.7Q118.9 -21.35 119.5 -29.15L119.6 -30.75 120.25 -32.25Q122.8 -37.8 127.8 -40.1 132.8 -42.35 138.9 -40.75 144.05 -39.5 147 -35.9 149.9 -32.35 149.9 -27.45 149.9 -26 149.5 -24.15 148.05 -11.65 141.8 -0.75L131 21.8Q128.35
+ 27.45 123.25 29.65 118.2 31.9 112.15 30.1L110.9 29.75 109.8 29.05Q100 22.8 102.3 11.5L102.5 10.4Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 12">
+          <Path flm:isDrawingObject="false" data="M153.2 46.6 152.95 47.5Q151.05 54.25 145.85 57.4 140.7 60.6 133.95 59.15L133.7 59.1Q123.8 57.15 120.95 47.85L120.85 47.45Q120.15 44.65 120.15 42.2 120.15 34.85 125.2 28.9L126.75 27.1 129 26.3Q135.45 23.95 142.2 26.1L143.15 26.4 144 26.9Q155.5
+ 33.75 153.2 46.6Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 11">
+          <Path flm:isDrawingObject="false" data="M142.45 -7.5 142.75 -8Q147.05 -14.7 147.65 -22.45L147.75 -24.05 148.45 -25.5Q151 -31.1 156 -33.35 160.95 -35.6 166.95 -34.05L167.1 -34Q173.2 -32.45 176.1 -27.75 178.05 -24.55 178.05 -20.7 178.05 -19.3 177.65 -17.45 176.25 -5.15 170.2 5.45L159.15
+ 28.5Q156.5 34.15 151.45 36.4 146.4 38.6 140.3 36.85L139.05 36.5 138 35.8Q128.15 29.6 130.45 18.25L130.65 17.15Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 10">
+          <Path flm:isDrawingObject="false" data="M109.25 32.6 106.95 32.45Q106 34.1 106 35.4L106.25 37.1Q106.6 38.35 108.4 38.65L108.5 38.7 108.6 38.7 110.3 38.8Q110.85 38.55 111.25 37.2L111.35 36.15Q111.35 34.05 109.25 32.6ZM113.35 23.35 113.8 23.65Q122.9 29 121.1 39.2L121.05 39.45 120.95
+ 39.65Q119.45 45 115.6 47.3 111.8 49.65 106.5 48.5 98.8 47.05 96.6 39.9L96.6 39.8 96.55 39.7Q96 37.4 96 35.4 96 29.6 100.1 24.75L100.95 23.75 102.2 23.3Q107.4 21.4 112.8 23.15Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 9">
+          <Path flm:isDrawingObject="false" data="M145.5 -24.4 145.55 -24.6 145.6 -25.05ZM117.8 -12.3 117.95 -12.55Q122.75 -20.1 123.45 -28.85L123.55 -29.75 123.9 -30.55Q127.95 -39.55 137.9 -36.9 145.85 -34.95 145.85 -27.4L145.55 -24.6Q144.2 -12.85 138.25 -2.7L127.4 20.05Q125.4 24.35 121.6
+ 26 117.85 27.65 113.25 26.3L112.55 26.1 111.95 25.7Q104.5 20.9 106.2 12.3L106.3 11.7Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 8">
+          <Path flm:isDrawingObject="false" data="M139.5 42.9Q139.5 40.8 137.45 39.35L135.1 39.2Q134.15 40.85 134.15 42.1L134.4 43.85Q134.85 45.15 136.55 45.4L136.65 45.45 136.8 45.45 138.5 45.55Q139 45.25 139.4 43.95ZM128.25 31.5 129.1 30.5Q129.75 30.3 130.35 30.05 135.55 28.15 140.95 29.9
+L142 30.35Q151.05 35.75 149.25 45.9L149.15 46.4Q147.6 51.7 143.8 54.05 139.95 56.35 134.65 55.2 127 53.8 124.8 46.65L124.7 46.45Q124.15 44.15 124.15 42.15 124.15 36.35 128.25 31.5Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 7">
+          <Path flm:isDrawingObject="false" data="M145.95 -5.55 146.1 -5.8Q150.95 -13.3 151.65 -22.15L151.7 -23 152.05 -23.85Q156.2 -32.75 166.05 -30.15 170.6 -29.05 172.7 -25.7 174.05 -23.45 174.05 -20.75L173.7 -17.9Q172.35 -6.3 166.6 3.7L155.55 26.8Q153.55 31.05 149.75 32.7 146 34.35 141.4
+ 33L140.75 32.8 140.15 32.45Q132.65 27.65 134.35 19L134.5 18.4ZM161.45 -20.15Q160.3 -9.75 154.8 -0.95L144.1 21.45 144.05 21.9Q144.05 22.75 145.05 23.6 145.95 23.75 146.5 22.55L157.75 -1Q162.8 -9.6 163.85 -19.35L163.85 -19.7 163.95 -20 164 -20.35
+ 163.5 -20.5Q161.85 -20.9 161.45 -20.15Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Path flm:isDrawingObject="false" data="M104.2 28.45Q101.5 31.7 101.5 35.4 101.5 36.95 101.9 38.3 103.1 42.3 107.65 43.1 113.85 44.5 115.65 38.2L115.85 36.15Q115.85 31.25 111.05 28.4 107.6 27.3 104.2 28.45ZM111.45 27.45 111.5 27.45 111.55 27.5Q117.9 31.3 116.65 38.45 114.55 45.7 107.45
+ 44.1 102.35 43.2 100.9 38.6 99.4 32.5 103.5 27.7L103.6 27.6 103.75 27.55Q107.5 26.2 111.45 27.45Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <Path flm:isDrawingObject="false" data="M136.55 -31.55Q131.1 -33.05 128.95 -28.3 128.1 -18.2 122.6 -9.65L111.6 13.4 111.4 15.15Q111.4 18.75 114.85 21 120.15 22.55 122.4 17.7L133.5 -5.45Q138.95 -14.75 140.15 -25.65L140.15 -25.7Q141.25 -30.45 136.55 -31.55ZM128 -28.7Q130.55 -34.2 136.8
+ -32.55 142.45 -31.15 141.1 -25.45L141.15 -25.5Q139.95 -14.5 134.35 -5L123.3 18.15Q120.65 23.75 114.5 21.95L114.45 21.95 114.4 21.9Q109.45 18.8 110.6 13.15L110.6 13.1 121.75 -10.1Q127.2 -18.65 127.95 -28.55L127.95 -28.6Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Path flm:isDrawingObject="false" data="M139.6 34.2 139.65 34.2 139.7 34.25Q146.1 38 144.8 45.15 142.75 52.45 135.6 50.85 130.45 49.95 129.1 45.3 127.5 39.25 131.7 34.4L131.75 34.3 131.9 34.25Q135.7 32.95 139.6 34.2ZM139.2 35.15Q135.65 34 132.35 35.2 129.65 38.45 129.65 42.1 129.65
+ 43.45 130.05 45.05 131.25 49.05 135.8 49.85 142 51.25 143.85 44.95L144 42.85Q144 37.95 139.2 35.15Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3">
+          <Path flm:isDrawingObject="false" data="M157.1 -21.6Q156.25 -11.4 150.75 -2.9L139.75 20.15 139.55 21.9Q139.55 25.5 143.05 27.75 148.3 29.25 150.6 24.45L161.65 1.3Q167.15 -8.15 168.3 -18.9L168.3 -18.95Q168.9 -21.35 168 -22.8 167.1 -24.25 164.7 -24.85 159.25 -26.25 157.1 -21.6ZM149.9
+ -3.4Q155.35 -11.85 156.1 -21.8L156.1 -21.9 156.15 -21.95Q158.7 -27.55 164.95 -25.8 167.7 -25.15 168.85 -23.35 170 -21.55 169.3 -18.7L169.3 -18.8Q168.1 -7.75 162.55 1.75L151.5 24.85Q148.8 30.5 142.7 28.7L142.6 28.7 142.55 28.65Q137.7 25.5 138.75
+ 19.9L138.8 19.85Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2">
+          <Path flm:isDrawingObject="false" data="M140.65 -25.55Q139.45 -14.7 133.9 -5.2L122.85 17.95Q120.35 23.15 114.65 21.5 110.05 18.5 111.1 13.25L122.15 -9.85Q127.7 -18.5 128.45 -28.5 130.75 -33.65 136.65 -32.05 141.85 -30.8 140.65 -25.55ZM103.9 28Q107.55 26.7 111.3 27.95 117.35 31.55
+ 116.15 38.3 114.2 45.1 107.55 43.6 102.75 42.8 101.4 38.45 99.9 32.7 103.9 28Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 1">
+          <Path flm:isDrawingObject="false" data="M156.6 -21.75Q159 -26.95 164.8 -25.3 170.05 -24 168.8 -18.85 167.6 -7.85 162.1 1.55L151.05 24.65Q148.55 29.9 142.8 28.2 138.2 25.25 139.25 20L150.3 -3.1Q155.85 -11.75 156.6 -21.75ZM139.45 34.65Q145.5 38.25 144.3 45.05 142.4 51.85 135.7 50.35
+ 130.9 49.45 129.55 45.2 128.05 39.45 132.05 34.75 135.7 33.45 139.45 34.65Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_225" flm:originalName="Symbol 225" flm:symbolType="1">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 20">
+          <Path flm:isDrawingObject="false" data="M87.9 52.2Q88 52.95 87.25 54.65L87.2 56.4 85.85 57.2Q84.65 57.9 83.05 59.45 81.35 61 80.8 62.75L78.8 69.1 74.8 76.75 69.05 94.6 65.7 102.15Q65.35 102.8 65.3 103.45L65.05 104.9 64.55 106.05 63.55 106.65Q60.75 107.15 59.4 106.1 58.2 105 57.05
+ 102.1L52.35 90.55 52 88.6 47.9 80.9 44.45 70.55Q43.5 68.1 42.25 66.4 40.85 64.45 38.45 64.9L32.8 65.9 31.15 65.15 29.9 62.9Q29.8 62.2 30.9 60.4L31.6 59.1 34.7 58.45 42.3 55.75 45.55 55.1Q47.25 54 48 53.85 48.6 53.75 50.05 54.3L50.1 56.3 51.05
+ 58.5 50.5 60.55 47.95 62.2 49.4 65.55 50.35 71 55.7 82 56.4 84.7 57.4 87.5 58.9 89.95 60.5 91.8Q61.2 92.45 61.85 92.35 63 92.15 63.9 90.6L65.15 87.4 67.95 78.05Q68.45 76.45 69.7 74.45L72.2 69.8 74.25 64.95Q75.1 62.6 74.7 60.45L74.2 59.2Q73.8
+ 58.55 73 58.5L71.05 58.5 65.95 57.1 65.9 54.35 67.6 53.3 68.95 51.85 76.8 51.2 83.55 49.35 84.65 49.7Q85.65 50 86.65 50.6 87.7 51.25 87.9 52.2Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 19">
+          <Path flm:isDrawingObject="false" data="M93 46.95Q94.4 48.7 94.8 51 95.1 52.7 94.55 54.95L94.2 56.15 94.15 56.7Q94.05 60.05 91.3 62L89.35 63.3Q89.15 63.3 87.85 64.55L87.35 65.1 85.5 71.2 81.25 79.45 75.45 97.5 72.2 104.7 71.8 106.7Q71.4 108.35 70.5 109.7 69.7 111.2 68 112.3 66.6 113.25
+ 65.05 113.5L64.8 113.55 60.15 113.75Q57.15 113.35 55 111.45 53.3 110.05 52.25 108.25 51.45 107 50.55 104.7L45.85 93.1 45.45 91.75 45.3 90.85 41.7 84.15 41.3 83.15 37.55 72.15 34.05 72.8Q31.85 73.15 29.85 72.25L28.2 71.5Q26.35 70.6 25.35 69.05
+L24.1 67Q23.3 65.55 23 64.1 22.8 62.55 23.05 61.15L23.65 59.25 24.85 56.85 25.35 55.95Q26.9 52.95 30.15 52.25L32.8 51.7 39.95 49.15 42.95 48.45 44 47.95Q45.65 47.15 46.8 46.95L50.3 47.1Q51.25 47.25 52.4 47.7 54.45 48.4 55.65 50.2 56.95 51.9
+ 57.05 54.1L57.05 54.7 57.45 55.65Q58.55 58.05 57.8 60.5L57.2 62.5 56.3 64.4 57.1 68.8 61 76.95 61.25 76Q62 73.55 63.55 70.95L65.95 66.55 66.9 64.55 66.85 64.5 64.4 63.9Q62.05 63.4 60.55 61.55 59.05 59.75 58.95 57.35L58.85 54.6Q58.8 52.65 59.7
+ 50.85 60.7 49.2 62.4 48.25L63.15 47.8 63.65 47.25Q65.5 45.05 68.35 44.85L75.55 44.3 81.7 42.6 86.3 42.85 86.6 42.95Q88.35 43.5 90.2 44.55 91.75 45.55 93 46.95Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 18">
+          <Path flm:isDrawingObject="false" data="M110.3 39.25Q110.8 38.6 111.55 38.1 112.25 37.7 112.85 37.6L113.85 37.8 115 38.75 115.95 40 116.35 41 116.2 43.95 114.8 44.7Q113.65 46.1 113.05 46.2 112.3 46.35 111.35 45.25L109.8 43.15 109.05 41.9Q109 41.45 109.35 40.65 109.65 39.9 110.3 39.25Z
+M119.4 61 118.95 72.85 120.4 79.2 120.25 81.85Q119.8 83.9 119.9 84.45 120.1 85.4 120.4 85.95 120.65 86.55 121.45 87L126.05 90.1 127.25 91.2Q127.6 91.75 127.75 92.7 128.05 94.35 126.9 95.45 125.65 96.6 123.5 96.95L120.3 97.05 110 98.45 107.6
+ 97.55 107.3 95.95 106.5 94.55 107.75 92.25 112.25 90.6Q113.25 90.3 113.7 88.95 114.25 87.65 114.4 85.8 114.6 83.9 114.45 81.85L114 77.95 113.2 70.25 113.25 66.35Q113.35 64.95 112.4 63.95 111.45 62.95 110 62.9L104.65 62.95Q103.5 62.9 103 62.1
+ 102.5 61.3 102.3 60.2 102.05 59 102.5 58.35 102.9 57.7 103.65 57.2 104.45 56.8 105.55 56.5L117.7 54.2 118.4 54.9 119.45 55.3 119.95 56.75 119.1 59.5Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 17">
+          <Path flm:isDrawingObject="false" data="M123.15 44.85Q122.9 46.85 121.6 48.4L122.2 48.85Q125.2 50.15 126.15 53.25L126.6 54.7Q127.15 56.7 126.65 58.75L126.3 59.85 126.35 61.35 125.95 72.2 127.2 77.7 127.35 79.55 127.25 82.15 127.2 82.45 130.1 84.4Q131.9 85.7 132.85 87 134.2 88.95 134.65
+ 91.5 135.2 93.95 134.3 96.5 133.5 98.85 131.65 100.55 128.95 103.1 124.75 103.85L120.65 104.05 111 105.4 107.45 105.05 105.1 104.1Q103.35 103.4 102.2 102 101.05 100.55 100.75 98.75L100.7 98.4 100.45 98.1Q99.5 96.5 99.5 94.65 99.45 92.75 100.35
+ 91.15L101.6 88.85Q102.85 86.65 105.3 85.75L107.4 84.95 107.45 82.25 107.15 79.15 106.2 71.05 106.2 70.05 106.2 69.95 104.7 69.95 104.6 70Q102.2 69.95 100.3 68.9 98.3 67.8 97.05 65.8 95.85 63.95 95.4 61.4 94.65 57.85 96.45 54.8 97.85 52.35 100.35
+ 51.05 102.05 50.1 104.05 49.65L105.65 49.3Q104.4 47.9 103.7 46.5L103.25 45.8Q102.45 44.65 102.15 43.15 101.7 40.25 103.05 37.55 103.75 36.05 105.1 34.55 106.3 33.1 107.7 32.25 109.65 31.05 111.6 30.7 114.85 30.1 117.6 31.95L119.95 33.85Q121.3
+ 35.2 122.05 36.65 122.95 38.45 123.25 39.8L123.35 42.5Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 16">
+          <Path flm:isDrawingObject="false" data="M164.55 67.6Q163.9 66.95 162.2 65.85L160.15 68 155.9 70.05Q153.2 72.6 151.8 74.35 150.4 76 149.15 78.2 147.9 80.25 148.15 81.8 148.35 82.95 149.7 83.5L153.5 83.65Q155.4 83.3 157.7 81.1L161.7 76.55 165.95 70.2ZM166.5 58.95 168.2 60.15 174 69.75
+ 175.4 71.85 176.8 74 178.85 76.5 184.7 78.3 185.75 80.9 184.65 82.9 183.55 83.65 181 85Q179.3 85.8 177.9 86.05L175.65 86.45 173.3 86.55Q172.3 86.5 171.45 86.05 170.6 85.65 170.45 84.8 170.3 84 170.6 82.9L171.05 81.1 171.3 80.4 171.15 79.7Q171
+ 79 170.45 78.35 169.9 77.7 168.9 77.85 167.5 78.1 166.25 79.95L163.35 83.95 159.55 88.05Q157.35 90.05 154.1 90.65 152.15 91 150.1 90.7 147.8 90.35 146.35 89.5 144.75 88.8 143.45 87.35 142.25 86.1 141.9 84.35 141.7 83.05 141.95 81.6L142.75 78.4
+ 144.05 75.15 145.85 72.15 147 71 151.6 66.3 155.15 64.45 157.05 63.25Q158 62.45 157.85 61.65L157.4 60.5 156.65 59.3 156.3 58.65 152.4 59.35 151.5 59.05 149.5 58.6 147.45 58.5Q146.2 58.7 144.85 59.55L142.85 61 142.1 61.75 141.6 67.05Q141.7 67.8
+ 140.95 68.2 140.35 68.55 139.5 68.7L138.9 68.85 136.7 67 134.9 62.3 134.8 60 133.55 55.85 134.55 53.8 136.6 53.7 139.4 55.3 143.4 54.05 146.55 53 150.05 52.1Q153.8 51.45 156.7 52.1 159.6 52.85 161.45 53.85 163.4 55 165.25 56.95Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 15">
+          <Path flm:isDrawingObject="false" data="M186.75 71.6Q189.95 72.55 191.15 75.65L192.25 78.2Q193.5 81.25 191.95 84.1L190.8 86.2Q190 87.6 188.85 88.5L187.35 89.45Q185.8 90.5 183.95 91.35 181.55 92.5 179.1 92.95L176.6 93.3 172.95 93.5Q170.5 93.4 168.3 92.3L166.45 91.15 164.2 93.35Q160.5
+ 96.55 155.4 97.45L155.3 97.5 149.2 97.65Q145.85 97.15 143.2 95.8 140.3 94.35 138.3 92.15 135.65 89.3 135.05 85.6 134.65 83.15 135.05 80.5 135.4 78.6 136.1 76.25L136.4 75.35Q135.2 74.95 134.35 74.1L132.15 72.3Q130.75 71.05 130.15 69.5L128.35
+ 64.85Q127.95 63.75 127.95 62.65L127.85 61.2 126.85 57.8Q126.1 55.2 127.3 52.7L128.3 50.7Q129.15 48.95 130.8 47.95 132.4 46.85 134.35 46.85L136.35 46.75Q138.4 46.65 139.95 47.6L140.25 47.75 140.95 47.5Q142.9 46.7 144.6 46.3 146.9 45.55 148.85
+ 45.2 154.05 44.3 158.35 45.35 161.9 46.15 164.95 47.8 167.85 49.45 170.3 52.1L171.25 53.35 171.65 54 172.1 54.25Q173.4 55.05 174.3 56.6L181.55 68.5 182.4 69.65 182.95 70.45Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 14">
+          <Path flm:isDrawingObject="false" data="M203.7 21.45Q204.55 20.4 205.85 20.15 206.75 20 207.7 20.95 208.7 21.75 208.9 22.95L208.9 25.35 208.3 32.8 209.3 40.85 210 42.35 210 45.9 210.3 47.65 210.9 52.1 211.3 57.35Q211.4 60.25 211.1 61.85 210.75 63.9 209.7 64.1L207.25 63.85Q206.15 63.4
+ 205.45 62.5 204.7 61.6 204.45 60.5 204.2 59.45 204.2 58.25L205.05 51.55 204 45.45 204.05 38.75 203.35 35.5 203.7 27.3 203.1 23.8Q202.7 22.45 203.7 21.45ZM214.1 78.85Q214.5 81 213.65 83.1 212.8 85.15 210.75 85.5L207.6 85.25 205.4 84.75 204.75
+ 83.45Q203.25 81.7 203.05 80.6 202.65 78.15 204.25 76.4 205.9 74.6 208.35 74.15 210.45 73.8 212.1 75.2 213.7 76.7 214.1 78.85Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 13">
+          <Path flm:isDrawingObject="false" data="M209.4 13.75Q211 14.4 212.65 15.85 215.2 18.35 215.8 21.75L215.9 25.8 215.35 32.7 216.15 38.95 216.4 39.6Q216.95 40.95 217 42.3L217 45.2 217.2 46.4 217.85 51.35 218.3 57.1Q218.4 60.65 218 63.1 217.6 65.4 216.45 67.15L215.15 68.8 216.9 70.05
+Q220.15 73.1 220.95 77.65 221.65 81.75 220.15 85.7 219.1 88.4 216.95 90.05 214.95 91.85 212 92.4L211.95 92.4 208.95 92.5 206.3 92.15 203.6 91.5Q200.45 90.65 199.05 87.75L198.8 87.2Q196.7 84.6 196.15 81.8 195.7 79.05 196.4 76.45 197.2 73.7 199.05
+ 71.65 200.5 70.1 202.25 69 200.95 68.15 199.9 66.8 198.4 64.7 197.75 62.3L197.45 60.95Q197.25 59.75 197.2 58.25L197.2 57.3 197.95 51.65 196.95 45.4 197.1 39.4 196.55 36.9 196.4 35.3 196.7 27.75 196.25 25.2 196.1 24.8Q195.75 22.6 196.4 20.4
+ 196.95 18.5 198.45 16.75 201 13.9 204.65 13.25 207 12.85 209.4 13.75Z">
+            <fill>
+              <SolidColor color="#FFFFFF"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 12">
+          <Path flm:isDrawingObject="false" data="M87.9 52.2Q88 52.95 87.25 54.65L87.2 56.4 85.85 57.2Q84.65 57.9 83.05 59.45 81.35 61 80.8 62.75L78.8 69.1 74.8 76.75 69.05 94.6 65.7 102.15Q65.35 102.8 65.3 103.45L65.05 104.9 64.55 106.05 63.55 106.65Q60.75 107.15 59.4 106.1 58.2 105 57.05
+ 102.1L52.35 90.55 52 88.6 47.9 80.9 44.45 70.55Q43.5 68.1 42.25 66.4 40.85 64.45 38.45 64.9L32.8 65.9 31.15 65.15 29.9 62.9Q29.8 62.2 30.9 60.4L31.6 59.1 34.7 58.45 42.3 55.75 45.55 55.1Q47.25 54 48 53.85 48.6 53.75 50.05 54.3L50.1 56.3 51.05
+ 58.5 50.5 60.55 47.95 62.2 49.4 65.55 50.35 71 55.7 82 56.4 84.7 57.4 87.5 58.9 89.95 60.5 91.8Q61.2 92.45 61.85 92.35 63 92.15 63.9 90.6L65.15 87.4 67.95 78.05Q68.45 76.45 69.7 74.45L72.2 69.8 74.25 64.95Q75.1 62.6 74.7 60.45L74.2 59.2Q73.8
+ 58.55 73 58.5L71.05 58.5 65.95 57.1 65.9 54.35 67.6 53.3 68.95 51.85 76.8 51.2 83.55 49.35 84.65 49.7Q85.65 50 86.65 50.6 87.7 51.25 87.9 52.2Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 11">
+          <Path flm:isDrawingObject="false" data="M91.45 48.2Q92.55 49.6 92.8 51.35 93.05 52.85 92.65 54.45L92.2 55.7 92.2 56.65Q92.1 59 90.15 60.4L88.35 61.55 86.45 63.05Q85.75 63.7 85.5 64.35L83.55 70.6 83.2 71.45 79.4 78.65 73.65 96.6 70.3 104.1 70.25 104.25 69.9 106.15 68.8 108.7Q68.2 109.8
+ 66.9 110.65 65.85 111.35 64.65 111.55L64.45 111.6 60.4 111.75Q58 111.35 56.2 109.95 54 108.05 52.35 104L47.7 92.45 47.2 90.2 43.15 82.5 39.7 72.2 38.65 69.95 33.7 70.85Q32.2 71.1 30.75 70.4L29 69.65Q27.85 69.2 26.95 67.95L25.85 66.1 24.95 63.75
+Q24.7 61.95 25.5 60L26.6 57.9 27.1 56.85Q28.2 54.75 30.55 54.2L33.35 53.6 40.65 51 43.7 50.35Q43.9 50.2 44.85 49.75L47.15 48.95 49.85 49 51.75 49.55Q53.2 50.05 54.05 51.35 55 52.6 55.05 54.1L55.1 55.15 55.65 56.45Q56.45 58.15 55.9 59.9L55.3
+ 61.95Q54.9 63.1 54.15 63.9L55.2 69.4 60.25 79.85 60.6 80.85 61.2 83.25 63.2 76.6Q63.75 74.65 65.3 71.95L67.75 67.5 69.55 63.3 69.5 63.3 64.8 62Q63.2 61.6 62.1 60.3 61 59 60.95 57.3L60.85 54.5Q60.8 53.1 61.5 51.9 62.2 50.65 63.4 49.9L64.45 49.4
+ 65.2 48.55Q66.45 46.95 68.55 46.85L75.9 46.25 82.25 44.55 85.6 44.75 86.05 44.9Q87.5 45.35 89.15 46.3 90.5 47 91.45 48.2ZM79.85 55.55 78.15 56.05 78.1 56.05 78.6 56.85 79.6 55.8ZM60.45 97.2 61.4 99.5 62.35 97.35Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 10">
+          <Path flm:isDrawingObject="false" data="M110.3 39.25Q110.8 38.6 111.55 38.1 112.25 37.7 112.85 37.6L113.85 37.8 115 38.75 115.95 40 116.35 41 116.2 43.95 114.8 44.7Q113.65 46.1 113.05 46.2 112.3 46.35 111.35 45.25L109.8 43.15 109.05 41.9Q109 41.45 109.35 40.65 109.65 39.9 110.3 39.25Z
+M119.4 61 118.95 72.85 120.4 79.2 120.25 81.85Q119.8 83.9 119.9 84.45 120.1 85.4 120.4 85.95 120.65 86.55 121.45 87L126.05 90.1 127.25 91.2Q127.6 91.75 127.75 92.7 128.05 94.35 126.9 95.45 125.65 96.6 123.5 96.95L120.3 97.05 110 98.45 107.6
+ 97.55 107.3 95.95 106.5 94.55 107.75 92.25 112.25 90.6Q113.25 90.3 113.7 88.95 114.25 87.65 114.4 85.8 114.6 83.9 114.45 81.85L114 77.95 113.2 70.25 113.25 66.35Q113.35 64.95 112.4 63.95 111.45 62.95 110 62.9L104.65 62.95Q103.5 62.9 103 62.1
+ 102.5 61.3 102.3 60.2 102.05 59 102.5 58.35 102.9 57.7 103.65 57.2 104.45 56.8 105.55 56.5L117.7 54.2 118.4 54.9 119.45 55.3 119.95 56.75 119.1 59.5Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 9">
+          <Path flm:isDrawingObject="false" data="M118.55 35.25Q119.65 36.35 120.25 37.6 121.05 39.05 121.25 40.15L121.3 42.4 121.2 44.6Q120.8 47.05 118.6 48.4L118.05 48.7 117.4 49.25Q119.45 49.15 121.1 50.55L121.2 50.6Q123.5 51.5 124.2 53.85L124.7 55.3Q125.1 56.8 124.7 58.25L124.2 59.7 124.3
+ 60.1 124.4 61.25 123.95 72.4 125.2 78.15 125.35 79.4 125.25 82.1 125 83.4 128.9 86 131.25 88.15Q132.35 89.75 132.7 91.85 133.2 93.9 132.45 95.8 131.9 97.65 130.3 99.1 128 101.25 124.4 101.9L120.55 102.05 110.7 103.45 108.2 103.1 105.8 102.25
+Q103.15 101.15 102.7 98.4L102.55 97.7 102.2 97.05Q101.5 95.95 101.45 94.6 101.4 93.25 102.1 92.1L103.35 89.85Q104.3 88.2 106 87.55L109.25 86.3 109.4 85.3 109.4 82.15 109.1 78.85 108.25 70.9 108.3 70.85 108.2 70.1 108.3 67.95 104.7 68 104.6 67.95
+Q102.8 68 101.3 67.1 99.65 66.3 98.75 64.7 97.75 63.05 97.4 61.05 96.85 58.1 98.15 55.85 99.2 53.95 101.3 52.8 102.9 52 104.5 51.65L110.15 50.6 109.8 50.4 107.6 48.55 105.45 45.6 104.9 44.7Q104.35 43.85 104.15 42.8 103.85 40.55 104.85 38.5 105.55
+ 37.1 106.55 35.85 107.55 34.8 108.8 33.95 110.3 32.95 111.95 32.65 114.25 32.25 116.5 33.65ZM120.05 92.1 118.35 90.95 117.55 92.4Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 8">
+          <Path flm:isDrawingObject="false" data="M164.55 67.6Q163.9 66.95 162.2 65.85L160.15 68 155.9 70.05Q153.2 72.6 151.8 74.35 150.4 76 149.15 78.2 147.9 80.25 148.15 81.8 148.35 82.95 149.7 83.5L153.5 83.65Q155.4 83.3 157.7 81.1L161.7 76.55 165.95 70.2ZM166.5 58.95 168.2 60.15 174 69.75
+ 175.4 71.85 176.8 74 178.85 76.5 184.7 78.3 185.75 80.9 184.65 82.9 183.55 83.65 181 85Q179.3 85.8 177.9 86.05L175.65 86.45 173.3 86.55Q172.3 86.5 171.45 86.05 170.6 85.65 170.45 84.8 170.3 84 170.6 82.9L171.05 81.1 171.3 80.4 171.15 79.7Q171
+ 79 170.45 78.35 169.9 77.7 168.9 77.85 167.5 78.1 166.25 79.95L163.35 83.95 159.55 88.05Q157.35 90.05 154.1 90.65 152.15 91 150.1 90.7 147.8 90.35 146.35 89.5 144.75 88.8 143.45 87.35 142.25 86.1 141.9 84.35 141.7 83.05 141.95 81.6L142.75 78.4
+ 144.05 75.15 145.85 72.15 147 71 151.6 66.3 155.15 64.45 157.05 63.25Q158 62.45 157.85 61.65L157.4 60.5 156.65 59.3 156.3 58.65 152.4 59.35 151.5 59.05 149.5 58.6 147.45 58.5Q146.2 58.7 144.85 59.55L142.85 61 142.1 61.75 141.6 67.05Q141.7 67.8
+ 140.95 68.2 140.35 68.55 139.5 68.7L138.9 68.85 136.7 67 134.9 62.3 134.8 60 133.55 55.85 134.55 53.8 136.6 53.7 139.4 55.3 143.4 54.05 146.55 53 150.05 52.1Q153.8 51.45 156.7 52.1 159.6 52.85 161.45 53.85 163.4 55 165.25 56.95Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 7">
+          <Path flm:isDrawingObject="false" data="M168.9 53.55 170.15 55.4 171 55.95Q171.95 56.55 172.55 57.6L179.75 69.45 180.8 70.9 181.75 72.2 186.2 73.55Q188.45 74.15 189.35 76.45L190.4 79Q191.25 81.1 190.2 83.25L189.05 85.25 187.65 86.9 186.3 87.85 183.1 89.5Q181 90.55 178.75 90.95L176.3
+ 91.3 173.05 91.45Q170.95 91.4 169.2 90.55 167.6 89.85 166.45 88.1L162.9 91.85Q159.55 94.7 155.05 95.5L154.95 95.55Q152.25 96 149.45 95.65 146.6 95.3 144.1 94 141.45 92.65 139.75 90.8 137.5 88.35 137 85.25 136.65 83.15 137.05 80.75 137.4 78.75
+ 138 76.8L139.2 73.85Q137.15 73.95 135.65 72.65L133.45 70.8Q132.45 69.85 132.05 68.75L130.25 64.1 129.95 62.55 129.85 60.85 128.8 57.25Q128.2 55.4 129.1 53.6L130.1 51.55Q130.7 50.35 131.85 49.6 133 48.85 134.4 48.8L136.45 48.75Q137.75 48.65
+ 139 49.35L140 49.85 140.65 49.7 140.8 49.65 141.6 49.4 145.2 48.25 149.2 47.2Q154 46.35 157.85 47.25 161.5 48.2 163.9 49.5 166.45 51 168.9 53.55ZM176.9 81.1 176.3 80.8 176.25 81.2Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Path flm:isDrawingObject="false" data="M203.7 21.45Q204.55 20.4 205.85 20.15 206.75 20 207.7 20.95 208.7 21.75 208.9 22.95L208.9 25.35 208.3 32.8 209.3 40.85 210 42.35 210 45.9 210.3 47.65 210.9 52.1 211.3 57.35Q211.4 60.25 211.1 61.85 210.75 63.9 209.7 64.1L207.25 63.85Q206.15 63.4
+ 205.45 62.5 204.7 61.6 204.45 60.5 204.2 59.45 204.2 58.25L205.05 51.55 204 45.45 204.05 38.75 203.35 35.5 203.7 27.3 203.1 23.8Q202.7 22.45 203.7 21.45ZM214.1 78.85Q214.5 81 213.65 83.1 212.8 85.15 210.75 85.5L207.6 85.25 205.4 84.75 204.75
+ 83.45Q203.25 81.7 203.05 80.6 202.65 78.15 204.25 76.4 205.9 74.6 208.35 74.15 210.45 73.8 212.1 75.2 213.7 76.7 214.1 78.85Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <Path flm:isDrawingObject="false" data="M208.6 15.6Q210 16.2 211.2 17.3 213.35 19.25 213.85 22.1 214.05 23.5 213.9 25.65L213.3 32.7 214.15 39.5 214.55 40.4 214.95 42.3 215 45.4 215.25 46.75 215.9 51.6 216.3 57.15Q216.45 60.2 216 62.75 215.55 64.85 214.8 66.1L213.1 67.9Q211.9 68.8
+ 210.55 69L209.85 69.05Q213.25 69.35 215.55 71.55 218.35 74.15 219 78 219.6 81.5 218.3 84.95 217.35 87.15 215.7 88.6 214 90 211.65 90.45L211.6 90.45 206.6 90.2 206.35 90.15 204.1 89.55Q201.8 88.95 200.85 86.9L200.5 86.1Q198.6 83.8 198.1 81.5
+ 197.75 79.35 198.35 76.95 199 74.6 200.55 73 203.3 69.85 207.5 69.2L208.05 69.1Q206.45 68.95 205.3 68.4 202.95 67.5 201.55 65.55 200.2 63.9 199.65 61.75L199.4 60.6 199.15 58.2 199.95 51.65 199.05 46.3 198.95 45.4 199.05 39.2 198.5 36.5 198.4
+ 35.35 198.65 27.6 198.2 24.8 198.1 24.45Q197.8 22.8 198.3 21.05 198.85 19.25 200 18.1 202.05 15.75 205 15.2 206.85 14.9 208.6 15.6ZM208.7 80.45 209.2 80.5 209.15 79.75 208.9 79.1Q208.45 79.25 208.05 79.6Z">
+            <fill>
+              <SolidColor color="#E23507"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4">
+          <Path flm:isDrawingObject="false" data="M87.9 52.2Q88 52.95 87.25 54.65L87.2 56.4 85.85 57.2Q84.65 57.9 83.05 59.45 81.35 61 80.8 62.75L78.8 69.1 74.8 76.75 69.05 94.6 65.7 102.15Q65.35 102.8 65.3 103.45L65.05 104.9 64.55 106.05 63.55 106.65Q60.75 107.15 59.4 106.1 58.2 105 57.05
+ 102.1L52.35 90.55 52 88.6 47.9 80.9 44.45 70.55Q43.5 68.1 42.25 66.4 40.85 64.45 38.45 64.9L32.8 65.9 31.15 65.15 29.9 62.9Q29.8 62.2 30.9 60.4L31.6 59.1 34.7 58.45 42.3 55.75 45.55 55.1Q47.25 54 48 53.85 48.6 53.75 50.05 54.3L50.1 56.3 51.05
+ 58.5 50.5 60.55 47.95 62.2 49.4 65.55 50.35 71 55.7 82 56.4 84.7 57.4 87.5 58.9 89.95 60.5 91.8Q61.2 92.45 61.85 92.35 63 92.15 63.9 90.6L65.15 87.4 67.95 78.05Q68.45 76.45 69.7 74.45L72.2 69.8 74.25 64.95Q75.1 62.6 74.7 60.45L74.2 59.2Q73.8
+ 58.55 73 58.5L71.05 58.5 65.95 57.1 65.9 54.35 67.6 53.3 68.95 51.85 76.8 51.2 83.55 49.35 84.65 49.7Q85.65 50 86.65 50.6 87.7 51.25 87.9 52.2Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3">
+          <Path flm:isDrawingObject="false" data="M110.3 39.25Q110.8 38.6 111.55 38.1 112.25 37.7 112.85 37.6L113.85 37.8 115 38.75 115.95 40 116.35 41 116.2 43.95 114.8 44.7Q113.65 46.1 113.05 46.2 112.3 46.35 111.35 45.25L109.8 43.15 109.05 41.9Q109 41.45 109.35 40.65 109.65 39.9 110.3 39.25Z
+M119.4 61 118.95 72.85 120.4 79.2 120.25 81.85Q119.8 83.9 119.9 84.45 120.1 85.4 120.4 85.95 120.65 86.55 121.45 87L126.05 90.1 127.25 91.2Q127.6 91.75 127.75 92.7 128.05 94.35 126.9 95.45 125.65 96.6 123.5 96.95L120.3 97.05 110 98.45 107.6
+ 97.55 107.3 95.95 106.5 94.55 107.75 92.25 112.25 90.6Q113.25 90.3 113.7 88.95 114.25 87.65 114.4 85.8 114.6 83.9 114.45 81.85L114 77.95 113.2 70.25 113.25 66.35Q113.35 64.95 112.4 63.95 111.45 62.95 110 62.9L104.65 62.95Q103.5 62.9 103 62.1
+ 102.5 61.3 102.3 60.2 102.05 59 102.5 58.35 102.9 57.7 103.65 57.2 104.45 56.8 105.55 56.5L117.7 54.2 118.4 54.9 119.45 55.3 119.95 56.75 119.1 59.5Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2">
+          <Path flm:isDrawingObject="false" data="M164.55 67.6Q163.9 66.95 162.2 65.85L160.15 68 155.9 70.05Q153.2 72.6 151.8 74.35 150.4 76 149.15 78.2 147.9 80.25 148.15 81.8 148.35 82.95 149.7 83.5L153.5 83.65Q155.4 83.3 157.7 81.1L161.7 76.55 165.95 70.2ZM166.5 58.95 168.2 60.15 174 69.75
+ 175.4 71.85 176.8 74 178.85 76.5 184.7 78.3 185.75 80.9 184.65 82.9 183.55 83.65 181 85Q179.3 85.8 177.9 86.05L175.65 86.45 173.3 86.55Q172.3 86.5 171.45 86.05 170.6 85.65 170.45 84.8 170.3 84 170.6 82.9L171.05 81.1 171.3 80.4 171.15 79.7Q171
+ 79 170.45 78.35 169.9 77.7 168.9 77.85 167.5 78.1 166.25 79.95L163.35 83.95 159.55 88.05Q157.35 90.05 154.1 90.65 152.15 91 150.1 90.7 147.8 90.35 146.35 89.5 144.75 88.8 143.45 87.35 142.25 86.1 141.9 84.35 141.7 83.05 141.95 81.6L142.75 78.4
+ 144.05 75.15 145.85 72.15 147 71 151.6 66.3 155.15 64.45 157.05 63.25Q158 62.45 157.85 61.65L157.4 60.5 156.65 59.3 156.3 58.65 152.4 59.35 151.5 59.05 149.5 58.6 147.45 58.5Q146.2 58.7 144.85 59.55L142.85 61 142.1 61.75 141.6 67.05Q141.7 67.8
+ 140.95 68.2 140.35 68.55 139.5 68.7L138.9 68.85 136.7 67 134.9 62.3 134.8 60 133.55 55.85 134.55 53.8 136.6 53.7 139.4 55.3 143.4 54.05 146.55 53 150.05 52.1Q153.8 51.45 156.7 52.1 159.6 52.85 161.45 53.85 163.4 55 165.25 56.95Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 1">
+          <Path flm:isDrawingObject="false" data="M203.7 21.45Q204.55 20.4 205.85 20.15 206.75 20 207.7 20.95 208.7 21.75 208.9 22.95L208.9 25.35 208.3 32.8 209.3 40.85 210 42.35 210 45.9 210.3 47.65 210.9 52.1 211.3 57.35Q211.4 60.25 211.1 61.85 210.75 63.9 209.7 64.1L207.25 63.85Q206.15 63.4
+ 205.45 62.5 204.7 61.6 204.45 60.5 204.2 59.45 204.2 58.25L205.05 51.55 204 45.45 204.05 38.75 203.35 35.5 203.7 27.3 203.1 23.8Q202.7 22.45 203.7 21.45ZM214.1 78.85Q214.5 81 213.65 83.1 212.8 85.15 210.75 85.5L207.6 85.25 205.4 84.75 204.75
+ 83.45Q203.25 81.7 203.05 80.6 202.65 78.15 204.25 76.4 205.9 74.6 208.35 74.15 210.45 73.8 212.1 75.2 213.7 76.7 214.1 78.85Z">
+            <fill>
+              <SolidColor color="#FFDD36"/>
+            </fill>
+          </Path>
+        </Group>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_226" flm:originalName="Symbol 226">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5">
+          <RichText x="-32.7" y="-0.8" paddingLeft="2" paddingRight="2" paddingTop="2" paddingBottom="2" fontFamily="Arial" whiteSpaceCollapse="preserve" locale="en_US" pd:antiAlias="advanced" pd:editPolicy="readOnly" pd:embedFonts="1" xmlns:pd="http://ns.adobe.com/xfl/2008/pd">
+            <content><p fontFamily="Arial"><span fontFamily="MS PGothic" fontSize="72" lineHeight="100.06944%" color="#FF6600" trackingRight="14.444444%">すたーと</span><span fontFamily="Arial" fontSize="72" lineHeight="111.73611%" color="#FF6600" trackingRight="-0.069444%">!!</span></p></content>
+          </RichText>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Script Layer"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Labels Layer"/>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_227" flm:originalName="Symbol 227">
+      <Group flm:addedGroup="true">
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 6">
+          <Symbol_206 x="3.35" y="1.95" flm:instanceType="graphic"/>
+        </Group>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 5"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 4"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 3"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Layer 2"/>
+        <Group blendMode="normal" d:type="layer" d:userLabel="Script Layer"/>
+      </Group>
+    </Definition>
+    <Definition name="Symbol_227_FLM_FRAME_0" flm:originalName="Symbol 227 FLM_FRAME_0">
+      <Group>
+        <Group flm:addedGroup="true">
+          <Group d:type="layer" d:userLabel="Layer 6">
+            <Symbol_206 x="3.35" y="1.95" flm:instanceType="graphic"/>
+          </Group>
+          <Group d:type="layer" d:userLabel="Layer 5"/>
+          <Group d:type="layer" d:userLabel="Layer 4"/>
+          <Group d:type="layer" d:userLabel="Layer 3"/>
+          <Group d:type="layer" d:userLabel="Layer 2"/>
+          <Group d:type="layer" d:userLabel="Script Layer"/>
+        </Group>
+      </Group>
+    </Definition>
+  </Library>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Selected Items">
+    <Symbol_227_FLM_FRAME_0 x="394.95" y="195.6"/>
+    <Group flm:isDrawingObject="false">
+      <Path data="M699.35 395Q691.5 376.5 677.3 362.3 663 348 644.6 340.15 625.45 332.1 604.55 332.1 583.7 332.1 564.55 340.15 546.15 348 531.95 362.3 517.7 376.5 509.85 395 501.8 414.1 501.8 435 501.8 477.6 531.9 507.7 562.05 537.85 604.55 537.9 647.15 537.85
+ 677.35 507.7 707.4 477.4 707.4 435 707.4 414.1 699.35 395ZM682.4 357.2Q697.55 372.4 705.95 392.15 714.6 412.7 714.6 435 714.6 480.55 682.4 512.8 650 545.1 604.55 545.1 582.55 545.05 562.45 536.7 542.35 528.35 526.75 512.8 494.6 480.5 494.6
+ 435 494.6 412.7 503.25 392.15 511.55 372.4 526.85 357.2 542.1 341.95 561.8 333.55 582.25 324.9 604.55 324.9 626.9 324.9 647.4 333.55 667.1 341.95 682.4 357.2Z">
+        <fill>
+          <SolidColor color="#143362"/>
+        </fill>
+      </Path>
+      <Path data="M699.35 395Q707.4 414.1 707.4 435 707.4 477.4 677.35 507.7 647.15 537.85 604.55 537.9 562.05 537.85 531.9 507.7 501.8 477.6 501.8 435 501.8 414.1 509.85 395 517.7 376.5 531.95 362.3 546.15 348 564.55 340.15 583.7 332.1 604.55 332.1 625.45 332.1
+ 644.6 340.15 663 348 677.3 362.3 691.5 376.5 699.35 395Z">
+        <fill>
+          <SolidColor color="#FFFFFF"/>
+        </fill>
+      </Path>
+    </Group>
+  </Group>
+  <Private>
+      <d:FontMap>
+        <d:Map fontFamily="Arial" fontStyle="normal" fontWeight="normal" postScriptName="ArialMT"/>
+        <d:Map fontFamily="MS PGothic" fontStyle="normal" fontWeight="normal" postScriptName="MS-PGothic"/>
+      </d:FontMap>
+      <xfl:PrivateElement d:ref="#1" xmlns:xfl="http://ns.adobe.com/xfl/2008/">
+        <xfl:publishSettings xfl:source=""/>
+        <xfl:mobileSettings xfl:source=""/>
+        <xfl:as3ExportItems/>
+      </xfl:PrivateElement>
+    </Private>
+  </Graphic>

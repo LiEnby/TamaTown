@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="dialog">
+		<Asset path="asset/dialog/dialog.png" isSpriteSheet="true" />
+	</AssetList>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c024fcba073dc1835131f374793e291b:97cf8f3a8bf5c18371acc45eb9cdfa78:94d1ba10b9dcffaf1f16d1c95b5c97f4$ -->
+<TextureAtlas imagePath="kiratamamori.png">
+    <SubTexture name="1854686676" x="2" y="197" width="157" height="54"/>
+    <SubTexture name="2501217865" x="161" y="141" width="157" height="44"/>
+    <SubTexture name="2594549967" x="2" y="72" width="153" height="67"/>
+    <SubTexture name="2760773999" x="2" y="141" width="157" height="54"/>
+    <SubTexture name="3080435449" x="307" y="85" width="157" height="54"/>
+    <SubTexture name="3458176176" x="156" y="69" width="1" height="1" frameX="0" frameY="0" frameWidth="179" frameHeight="83"/>
+    <SubTexture name="3490841831" x="310" y="29" width="157" height="54"/>
+    <SubTexture name="4115853992" x="156" y="2" width="152" height="65"/>
+    <SubTexture name="673767342" x="2" y="2" width="152" height="68"/>
+    <SubTexture name="756877922" x="159" y="69" width="146" height="26"/>
+    <SubTexture name="954852291" x="310" y="2" width="176" height="25"/>
+</TextureAtlas>

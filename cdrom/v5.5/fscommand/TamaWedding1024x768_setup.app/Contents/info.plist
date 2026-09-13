@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>InstallerStub</string>
+	<key>CFBundleIconFile</key>
+	<string>tamaIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.screentime.Installer.-1004361137</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>TamaWedding1280x1024_setup</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>StFi</string>
+	<key>CFBundleVersion</key>
+	<string>3.5.8</string>
+	<key>ENG_COPYRIGHT</key>
+	<string>Created with Screentime for Flash Copyright 1997-2007 Screentime Media</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

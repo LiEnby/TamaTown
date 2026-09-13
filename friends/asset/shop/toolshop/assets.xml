@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="toolshop">
+		<Asset path="asset/shop/toolshop/toolshop.png" isSpriteSheet="true" />
+		<Asset path="asset/shop/toolshop/shop_background_top.atf" isSpriteSheet="false" />
+		<Asset path="asset/shop/toolshop/shop_background_bottom.atf" isSpriteSheet="false" />
+	</AssetList>
+</data>

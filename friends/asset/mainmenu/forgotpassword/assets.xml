@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="forgotpassword">
+		<Asset path="asset/mainmenu/forgotpassword/forgotpassword.png" isSpriteSheet="true" />
+	</AssetList>
+</data>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:49e574ebb5f901177b6844449f2b52de:e641d9131f2e6d2bae1e157810bdfba5:9017cd74e31c822f4dd6b1bc9f143259$ -->
+<TextureAtlas imagePath="settings.png">
+    <SubTexture name="icon_idcard" x="84" y="171" width="80" height="80"/>
+    <SubTexture name="icon_logout" x="84" y="89" width="80" height="80"/>
+    <SubTexture name="icon_music" x="2" y="171" width="80" height="80"/>
+    <SubTexture name="icon_sfx" x="2" y="89" width="80" height="80"/>
+    <SubTexture name="panel_frame" x="2" y="2" width="81" height="85"/>
+    <SubTexture name="panel_frame_separator" x="166" y="2" width="80" height="64"/>
+    <SubTexture name="scroller_background" x="248" y="2" width="4" height="32"/>
+    <SubTexture name="scroller_button_disabled" x="166" y="116" width="28" height="46"/>
+    <SubTexture name="scroller_button_down" x="226" y="68" width="28" height="46"/>
+    <SubTexture name="scroller_button_over" x="196" y="68" width="28" height="46"/>
+    <SubTexture name="scroller_button_up" x="166" y="68" width="28" height="46"/>
+    <SubTexture name="scroller_fill" x="137" y="2" width="24" height="32"/>
+    <SubTexture name="scroller_frame" x="85" y="2" width="50" height="40"/>
+</TextureAtlas>

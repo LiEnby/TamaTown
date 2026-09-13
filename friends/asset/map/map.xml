@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b46b06414f8915aeb9488be198219fc1:094d91fee620b93f17851b689997e1b5:0dfc841d4bb3fefb3d57c7e7549398f6$ -->
+<TextureAtlas imagePath="map.png">
+    <SubTexture name="dream_hanten" x="352" y="462" width="104" height="180"/>
+    <SubTexture name="dream_school" x="2" y="2" width="250" height="292" frameX="-9" frameY="-5" frameWidth="266" frameHeight="306"/>
+    <SubTexture name="music_cafe" x="2" y="296" width="188" height="162" frameX="-1" frameY="-4" frameWidth="190" frameHeight="170"/>
+    <SubTexture name="park" x="182" y="462" width="168" height="154" frameX="-1" frameY="-3" frameWidth="170" frameHeight="160"/>
+    <SubTexture name="salon_de_dream" x="2" y="460" width="178" height="162" frameX="-1" frameY="-3" frameWidth="180" frameHeight="170"/>
+    <SubTexture name="service_type_1" x="192" y="296" width="60" height="48" frameX="0" frameY="-8" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="service_type_2" x="456" y="2" width="52" height="48" frameX="-6" frameY="-8" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="service_type_3" x="192" y="346" width="60" height="46" frameX="-2" frameY="-8" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="service_type_4" x="456" y="52" width="48" height="52" frameX="-8" frameY="-6" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="toolshop" x="254" y="2" width="200" height="156" frameX="0" frameY="-2" frameWidth="200" frameHeight="160"/>
+    <SubTexture name="yumex_tv" x="254" y="160" width="196" height="300" frameX="-2" frameY="0" frameWidth="200" frameHeight="300"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="mainmenu">
+		<Asset path="asset/mainmenu/mainmenu.png" isSpriteSheet="true" />
+		<Asset path="asset/mainmenu/mainmenu_background_top.atf" isSpriteSheet="false" />
+		<Asset path="asset/mainmenu/mainmenu_background_bottom.atf" isSpriteSheet="false" />
+	</AssetList>
+</data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:8d22a0217a4724f9c7489a1689473ab5:4cebff8e71f48a81e225b1d2464ba1fb:40ca90539cbdb12a25269d51a0e9cb44$ -->
+<TextureAtlas imagePath="fortunetent.png">
+    <SubTexture name="1144000048" x="2" y="2" width="115" height="17"/>
+    <SubTexture name="1499631961" x="2" y="36" width="115" height="7"/>
+    <SubTexture name="251130991" x="2" y="21" width="115" height="13"/>
+    <SubTexture name="3503538601" x="2" y="45" width="16" height="33"/>
+</TextureAtlas>

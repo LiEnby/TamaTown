@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9ca1b24a5fc6e7e08f45329a5f96caa0:a446b6bf0353f29e35e5a5884c7d7811:f3cf53d535ec13739e7f6fbaaf74406c$ -->
+<TextureAtlas imagePath="register.png">
+    <SubTexture name="button_cycle_disabled" x="198" y="170" width="44" height="54"/>
+    <SubTexture name="button_cycle_down" x="198" y="114" width="44" height="54"/>
+    <SubTexture name="button_cycle_over" x="198" y="58" width="44" height="54"/>
+    <SubTexture name="button_cycle_up" x="198" y="2" width="44" height="54"/>
+    <SubTexture name="input_textfield_frame" x="182" y="285" width="72" height="60"/>
+    <SubTexture name="register_frame" x="100" y="198" width="82" height="85"/>
+    <SubTexture name="register_frame_separator" x="100" y="285" width="80" height="64"/>
+    <SubTexture name="register_validation_bad" x="2" y="198" width="96" height="96"/>
+    <SubTexture name="register_validation_good" x="100" y="100" width="96" height="96"/>
+    <SubTexture name="register_validation_step_1" x="2" y="100" width="96" height="96"/>
+    <SubTexture name="register_validation_step_2" x="100" y="2" width="96" height="96"/>
+    <SubTexture name="register_validation_step_3" x="2" y="2" width="96" height="96"/>
+</TextureAtlas>

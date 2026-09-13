@@ -1,0 +1,15 @@
+#flashContent
+{
+	width: 800px;
+	height: 600px;
+}
+
+body
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	width: 800px;
+	height: 600px;
+}

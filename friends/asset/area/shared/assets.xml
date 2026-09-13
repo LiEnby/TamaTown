@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="areashared">
+		<Asset path="asset/area/shared/areashared.png" isSpriteSheet="true" />
+		<Asset path="asset/area/shared/sky_day.jpg" isSpriteSheet="false" />
+		<Asset path="asset/area/shared/sky_night.jpg" isSpriteSheet="false" />
+	</AssetList>
+</data>

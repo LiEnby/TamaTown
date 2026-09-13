@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<AssetList name="hud">
+		<Asset path="asset/hud/hud.png" isSpriteSheet="true" />
+	</AssetList>
+</data>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:24f358a78bfc1861ee385c93033c7dec:7389db1f5b9cb48891629823c59cde3e:67486d21e6d3112a4aedd1ed0b1f7b0d$ -->
+<TextureAtlas imagePath="kiraritchi.png">
+    <SubTexture name="1013627406" x="238" y="10" width="12" height="13"/>
+    <SubTexture name="1115164993" x="238" y="59" width="11" height="3"/>
+    <SubTexture name="1240672460" x="238" y="64" width="10" height="19"/>
+    <SubTexture name="1279682725" x="32" y="94" width="28" height="29"/>
+    <SubTexture name="141809571" x="150" y="70" width="7" height="15"/>
+    <SubTexture name="172529968" x="73" y="82" width="6" height="17"/>
+    <SubTexture name="1729181588" x="2" y="63" width="28" height="30"/>
+    <SubTexture name="1735060243" x="150" y="51" width="8" height="17"/>
+    <SubTexture name="1855488442" x="62" y="63" width="9" height="19"/>
+    <SubTexture name="1868237009" x="223" y="85" width="28" height="30"/>
+    <SubTexture name="1945375241" x="238" y="34" width="12" height="7"/>
+    <SubTexture name="2184160595" x="2" y="2" width="77" height="59"/>
+    <SubTexture name="2212701518" x="150" y="32" width="8" height="17"/>
+    <SubTexture name="2231449653" x="2" y="95" width="28" height="28"/>
+    <SubTexture name="2366232319" x="62" y="119" width="21" height="19"/>
+    <SubTexture name="2415423298" x="81" y="2" width="77" height="28"/>
+    <SubTexture name="2643722277" x="159" y="73" width="62" height="42"/>
+    <SubTexture name="2752292128" x="223" y="73" width="10" height="8"/>
+    <SubTexture name="2825355642" x="238" y="25" width="12" height="7"/>
+    <SubTexture name="2857074102" x="160" y="2" width="76" height="69"/>
+    <SubTexture name="2964974138" x="70" y="101" width="25" height="16"/>
+    <SubTexture name="2987464274" x="62" y="91" width="6" height="15"/>
+    <SubTexture name="3128672967" x="85" y="121" width="19" height="20"/>
+    <SubTexture name="3198941051" x="150" y="87" width="7" height="13"/>
+    <SubTexture name="3306374902" x="73" y="63" width="6" height="17"/>
+    <SubTexture name="3332041625" x="238" y="2" width="15" height="6"/>
+    <SubTexture name="3396152498" x="62" y="108" width="5" height="3"/>
+    <SubTexture name="3910247847" x="122" y="101" width="22" height="20"/>
+    <SubTexture name="3969571816" x="2" y="125" width="18" height="21"/>
+    <SubTexture name="4107801483" x="238" y="43" width="11" height="14"/>
+    <SubTexture name="4212676919" x="32" y="63" width="28" height="29"/>
+    <SubTexture name="46692687" x="81" y="32" width="67" height="67"/>
+    <SubTexture name="759719301" x="97" y="101" width="23" height="18"/>
+    <SubTexture name="784302648" x="62" y="84" width="7" height="5"/>
+</TextureAtlas>
