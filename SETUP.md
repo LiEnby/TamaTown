@@ -24,8 +24,8 @@ pip install mariadb
 
 a few things to note -
 
-- Tamagotchi Friends expects a plain IP address for the server to connect to;
-it will not work with a domain name, for whatever reason it just refuses to do DNS ...
+- Tamagotchi Friends hardcodes a URL to the api in mmog.cebd.
+the one in our server is modified to load from cgi-bin/ localhost
 
 - server configuration
 
@@ -84,7 +84,9 @@ as well as that ``crossdomain.xml`` but be present on the root of the default vh
 Tamagotchi V5 hard-codes a domain to connect to for the server as "famitama.com" .. 
 you will have to change this, to do this you need to use the [JPEXS Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) to patch the famitama_shell.swf;
 
-i have heard that it is possible to use a relative URL for this, but i have not personally tried it,
+i have heard that it is also possible to use a relative URL for this, 
+which i am currently doing now 
+
 
 - Tamagotchi Friends
 
