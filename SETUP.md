@@ -22,12 +22,8 @@ be sure to install its library with
 pip install mariadb
 ```
 
-a few things to note -
 
-- Tamagotchi Friends hardcodes a URL to the api in mmog.cebd.
-the one in our server is modified to load from cgi-bin/ localhost
-
-- server configuration
+## Server configuration
 
 ```
 server {
@@ -77,15 +73,18 @@ location ~ (cgi-bin|cgi)/ {
 }
 ```
 
+you might want to change "famitama.xyz" and other related things (file paths, etc) to whatever your server is,
+ - if you are using a webserver other than NGINX, i have no idea how to configure it for those, sorry.
+
+
 note that for dreamcast to work, this has to be set on the default vhost, 
 as well as that ``crossdomain.xml`` but be present on the root of the default vhost, as well as the actual one
 ## Tamagotchi V5
 
 Tamagotchi V5 hard-codes a domain to connect to for the server as "famitama.com" .. 
-you will have to change this, to do this you need to use the [JPEXS Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) to patch the famitama_shell.swf;
+to do this you need to use the [JPEXS Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) to patch the famitama_shell.swf;
 
-i have heard that it is also possible to use a relative URL for this, 
-which i am currently doing now 
+if you use the pre-patched one it'll just load from a relative path,
 
 
 - Tamagotchi Friends
@@ -94,7 +93,13 @@ Tamagotchi friends had a way more in-depth
 
 ## Dreamtown
 
-to get dreamtown to work, it requires modifying mmog.cebd; which is an encrypted XML file, 
-a decryptor is included in this repo, you can decrypt and change the server_url feild
+DreamTown has an encrypted XML config
+"mmog.cebd" that tells it what server to look for;
 
-however for some reason this does not work with DNS, so you have to connect to a direct IP address.
+which is an encrypted XML file,  a decryptor is included in this repo, 
+you can decrypt and change the server_url feild,
+
+in all my testing, it appeared that this did not work with DNS
+and had to be a direct IP, but recent tests i did later seem to contradict this
+the one included on our server also loads from a local path. 
+
