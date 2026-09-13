@@ -7,13 +7,9 @@ import json
 import sqlite3
 import hashlib
 
-print("Content-Type: application/json")
-print("")
-method = os.environ["REQUEST_METHOD"]
-if method != "POST":
-	print("Expected POST")
-	os._exit(1)
-	
+PrintHeaders()
+EnsurePost()
+
 
 content_len = int(os.environ["CONTENT_LENGTH"])
 post = sys.stdin.read(content_len)
@@ -47,7 +43,7 @@ try:
 	db.close()
 except Exception as e:
 	raise e
-	os._exit(1)
+	os._exit(0)
 
 #print(json.dumps(result))
 #For some reason, on this request only responding '{"status":1}' or any JSON with a string as a key, Crashes paper mario (erh dream town)

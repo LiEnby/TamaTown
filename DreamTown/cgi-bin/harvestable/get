@@ -8,13 +8,9 @@ import sqlite3
 import time
 import hashlib
 
-print("Content-Type: application/json")
-print("")
-method = os.environ["REQUEST_METHOD"]
-if method != "POST":
-	print("Expected POST")
-	os._exit(1)
-	
+PrintHeaders()
+EnsurePost()
+
 
 content_len = int(os.environ["CONTENT_LENGTH"])
 post = sys.stdin.read(content_len)
@@ -71,6 +67,6 @@ try:
 	db.close()
 except Exception as e:
 	raise e
-	os._exit(1)
+	os._exit(0)
 
 print(json.dumps(result))

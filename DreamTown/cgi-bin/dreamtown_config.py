@@ -7,15 +7,21 @@
 # ... see example config for more info 
 
 import mariadb
+import json
 import binascii
 import hashlib
 import os
+import sys
+
 
 SUCCESS = 1
 USER_DOES_NOT_EXIST = 2
 INVALID_PASSWORD = 3    
 NAME_ALREADY_USED = 4   
 ANSWER_INCORRECT = 5
+
+# custom errors
+INVALID_METHOD = 1020
 
 def DbConnect():
     return mariadb.connect(
@@ -25,8 +31,22 @@ def DbConnect():
             port=int(os.environ.get("DT_DATABASE_PORT")), 
             database=os.environ.get("DT_DATABASE_NAME") 
     )
-    
 db = DbConnect()
+   
+def PrintHeaders():
+    print("Content-Type: application/json")
+    print("Access-Control-Allow-Headers: *")
+    print("Access-Control-Allow-Origin: *")
+    print("")
+    
+
+def EnsurePost():
+    method = os.environ["REQUEST_METHOD"]
+    
+    if method != "POST":
+        result = {"status":INVALID_METHOD, "message": "Unexpected method: "+method+ " expecting: POST"}
+        print(json.dumps(result))
+        sys.quit()
 
 def xor(data, key):
     l = len(key)

@@ -7,13 +7,9 @@ import json
 import sqlite3
 import hashlib
 
-print("Content-Type: application/json")
-print("")
-method = os.environ["REQUEST_METHOD"]
-if method != "POST":
-	print("Expected POST")
-	os._exit(1)
-	
+PrintHeaders()
+EnsurePost()
+
 
 content_len = int(os.environ["CONTENT_LENGTH"])
 post = sys.stdin.read(content_len)

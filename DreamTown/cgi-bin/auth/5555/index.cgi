@@ -1,10 +1,10 @@
 #!/usr/bin/python3
+from dreamtown_config import *
 import os
 import binascii
 import json
 
-print("Content-Type: application/json")
-print("")
+PrintHeaders()
 
 uuid = binascii.hexlify(os.urandom(64)).decode('utf8')
 js = {"token":uuid}

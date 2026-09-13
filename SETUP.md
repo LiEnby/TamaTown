@@ -63,8 +63,6 @@ location ~ (cgi-bin|cgi)/ {
         include snippets/pythoncgi.conf;
         gzip off;
         root  /home/web/public_html/famitama.xyz;
-        add_header Access-Control-Allow-Headers *;
-        add_header Access-Control-Allow-Origin *;
 		
         fastcgi_pass unix:/var/run/fcgiwrap.socket;
         fastcgi_param DOCUMENT_ROOT /home/web/public_html/famitama.xyz;
